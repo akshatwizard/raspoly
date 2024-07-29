@@ -88,7 +88,7 @@ export default function Slider() {
           </div>
         </div>
         <button
-          className="carousel-control-prev"
+          className="carousel-control-prevs"
           type="button"
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="prev"
@@ -103,7 +103,7 @@ export default function Slider() {
           <span className="visually-hidden">Previous</span>
         </button>
         <button
-          className="carousel-control-next"
+          className="carousel-control-nexts"
           type="button"
           data-bs-target="#carouselExampleAutoplaying"
           data-bs-slide="next"
