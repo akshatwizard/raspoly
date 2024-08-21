@@ -8,7 +8,7 @@ export default function Footer() {
         <div class="footerContainerBx">
           <div class="container">
             <div class="row">
-              <div class="col-lg-3 pt-40">
+              <div class="col-lg-4 pt-40">
                 <div class="footer-widget-item">
                   <h3 class="footer-widget-title">Products</h3>
                   <ul class="footer-widget-list-item">
@@ -36,7 +36,7 @@ export default function Footer() {
                   </ul>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-4 pt-40">
+              <div class="col-lg-4 col-md-4 pt-40">
                 <div class="footer-widget-item">
                   <h3 class="footer-widget-title">Useful Links</h3>
                   <ul class="footer-widget-list-item">
@@ -58,7 +58,7 @@ export default function Footer() {
                   </ul>
                 </div>
               </div>
-              <div class="col-lg-3 col-md-4 pt-40">
+              {/* <div class="col-lg-3 col-md-4 pt-40">
                 <div class="footer-widget-item">
                   <h3 class="footer-widget-title">UK Address</h3>
                   <ul class="footer-widget-list-item">
@@ -71,8 +71,8 @@ export default function Footer() {
                     </li>
                   </ul>
                 </div>
-              </div>
-              <div class="col-lg-3 pt-40">
+              </div> */}
+              <div class="col-lg-4 pt-40">
                 <div class="footer-contact-info">
                   <h3 class="footer-widget-title">INDIA ADDRESS</h3>
                   <div class="address">
