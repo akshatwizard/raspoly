@@ -25,7 +25,7 @@ export default function page() {
     {/* <OurProducts/> */}
     <Card/>
     {/* <WhatWeDO/> */}
-    {/* <LocationMap/> */}
+    <LocationMap/>
     <Footer/>
     </>
   )
