@@ -1856,10 +1856,25 @@ blockquote p {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
+          width: 350px;
+}
+
+.logoName{
+  position: relative;
+  margin: 0;
+  margin-left: 10px;
+  line-height: 28px;
+  display: block;
+  font-size: 30px;
+  font-weight: 700;
 }
 @media (max-width: 479px) {
   .header-logo {
-    width: 140px;
+    width: 350px;
+  }
+  .logoName{
+    font-size: 20px;
+    line-height: 20px;
   }
 }
 
