@@ -15,7 +15,7 @@ export default function Header() {
                     className="logoImage"
                     alt="Header Logo"
                   />
-                  <p className="logoName">RAS Polytex PVT LTD. Since 1983</p>
+                  <p className="logoName">RAS Polytex Pvt. Ltd. <span>Since 1983</span></p>
                 </Link>
 
                 <div className="header-right">

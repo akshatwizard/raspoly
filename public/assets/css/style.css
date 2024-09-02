@@ -1863,10 +1863,15 @@ blockquote p {
   position: relative;
   margin: 0;
   margin-left: 10px;
-  line-height: 28px;
+  line-height: 20px;
   display: block;
-  font-size: 30px;
+  font-size: 21px;
   font-weight: 700;
+
+
+  span{
+    font-size: 15px;
+  }
 }
 @media (max-width: 479px) {
   .header-logo {
