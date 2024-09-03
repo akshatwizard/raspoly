@@ -9,22 +9,35 @@ export default function Header() {
           <div className="row align-items-center">
             <div className="col-lg-12">
               <div className="header-middle-wrap position-relative">
-                <div className="header-contact d-none d-lg-flex">
-                  <i className="pe-7s-call"></i>
-                  <Link href="tel://+91 542 - 2205300">+91 542 - 2205300</Link>
-                </div>
-
                 <Link href="/" className="header-logo">
                   <img
                     src="assets/images/logo/logo.png"
                     className="logoImage"
                     alt="Header Logo"
                   />
+                  <p className="logoName">RAS Polytex Pvt. Ltd. <span>Since 1983</span></p>
                 </Link>
 
                 <div className="header-right">
                   <ul>
                     <li></li>
+                    <li>
+                      <div className="main-menu position-relative">
+                        <nav className="main-nav">
+                          <ul>
+                            <li className="drop-holder d-none d-lg-block">
+                              <Link href="/">Home</Link>
+                            </li>
+                            <li className="d-none d-lg-block">
+                              <Link href="#">About Us</Link>
+                            </li>
+                            <li className="d-none d-lg-block">
+                              <Link href="#">Contact Us</Link>
+                            </li>
+                          </ul>
+                        </nav>
+                      </div>
+                    </li>
                     <li className="d-none d-lg-block">
                       <Link href="#">
                         <lord-icon
@@ -83,11 +96,8 @@ export default function Header() {
               <div className="main-menu position-relative">
                 <nav className="main-nav">
                   <ul>
-                    <li className="drop-holder">
-                      <Link href="/">Home</Link>
-                    </li>
                     <li className="megamenu-holder">
-                      <Link href="/">Woven Products</Link>
+                      <Link href="/">Big Bag/FIBC</Link>
                       <ul className="drop-menu megamenu">
                         <li>
                           <ul>
@@ -133,7 +143,7 @@ export default function Header() {
                       </ul>
                     </li>
                     <li className="drop-holder">
-                      <Link href="#">Webbing & Yarns</Link>
+                      <Link href="#">Small Bags/PPW Bags</Link>
                       <ul className="drop-menu">
                         <li>
                           <Link href="#">Multifilament Yarn</Link>
@@ -145,7 +155,7 @@ export default function Header() {
                     </li>
 
                     <li className="drop-holder">
-                      <Link href="#">Colour and Pigments</Link>
+                      <Link href="#">Technical Textile</Link>
                       <ul className="drop-menu">
                         <li>
                           <Link href="#">Ink and reducers</Link>
@@ -154,7 +164,7 @@ export default function Header() {
                     </li>
 
                     <li className="drop-holder">
-                      <Link href="#">Additives</Link>
+                      <Link href="#">MFY</Link>
                       <ul className="drop-menu">
                         <li>
                           <Link href="#">Colour Masterbatches</Link>
@@ -169,7 +179,7 @@ export default function Header() {
                     </li>
 
                     <li className="drop-holder">
-                      <Link href="#">CSR & Awards</Link>
+                      <Link href="#">100% Recycle Bag</Link>
                       <ul className="drop-menu">
                         <li>
                           <Link href="#">CSR</Link>
@@ -179,12 +189,16 @@ export default function Header() {
                         </li>
                       </ul>
                     </li>
-
-                    <li>
-                      <Link href="#">About Us</Link>
-                    </li>
-                    <li>
-                      <Link href="#">Contact Us</Link>
+                    <li className="drop-holder">
+                      <Link href="#">Sustanibility</Link>
+                      {/* <ul className="drop-menu">
+                        <li>
+                          <Link href="#">CSR</Link>
+                        </li>
+                        <li>
+                          <Link href="#">Awards &amp; Recognitions</Link>
+                        </li>
+                      </ul> */}
                     </li>
                   </ul>
                 </nav>
@@ -209,12 +223,12 @@ export default function Header() {
               <div className="col-lg-11 d-none d-lg-block">
                 <div className="main-menu">
                   <nav className="main-nav">
-                    <ul className="stick stickyUL" style={{gap:"30px"}}>
+                    <ul className="stick stickyUL" style={{ gap: "30px" }}>
                       <li className="drop-holder">
                         <Link href="/">Home</Link>
                       </li>
                       <li className="megamenu-holder">
-                        <Link href="/">Woven Products</Link>
+                        <Link href="/">Big Bag/FIBC</Link>
                         <ul className="drop-menu megamenu">
                           <li>
                             <ul>
@@ -260,7 +274,7 @@ export default function Header() {
                         </ul>
                       </li>
                       <li className="drop-holder">
-                        <Link href="#">Webbing & Yarns</Link>
+                        <Link href="#">Small Bags/PPW Bags</Link>
                         <ul className="drop-menu">
                           <li>
                             <Link href="#">Multifilament Yarn</Link>
@@ -272,7 +286,7 @@ export default function Header() {
                       </li>
 
                       <li className="drop-holder">
-                        <Link href="#">Colour and Pigments</Link>
+                        <Link href="#">Technical Textile</Link>
                         <ul className="drop-menu">
                           <li>
                             <Link href="#">Ink and reducers</Link>
@@ -281,7 +295,7 @@ export default function Header() {
                       </li>
 
                       <li className="drop-holder">
-                        <Link href="#">Additives</Link>
+                        <Link href="#">MFY</Link>
                         <ul className="drop-menu">
                           <li>
                             <Link href="#">Colour Masterbatches</Link>
@@ -296,7 +310,7 @@ export default function Header() {
                       </li>
 
                       <li className="drop-holder">
-                        <Link href="#">CSR & Awards</Link>
+                        <Link href="#">100% Recycle Bag</Link>
                         <ul className="drop-menu">
                           <li>
                             <Link href="#">CSR</Link>
@@ -306,12 +320,8 @@ export default function Header() {
                           </li>
                         </ul>
                       </li>
-
                       <li>
-                        <Link href="#">About Us</Link>
-                      </li>
-                      <li>
-                        <Link href="#">Contact Us</Link>
+                        <Link href="#">Sustanibility</Link>
                       </li>
                     </ul>
                   </nav>
@@ -347,8 +357,13 @@ export default function Header() {
               </a>
             </div>
             <div className="header-contact offcanvas-contact">
-              <i className="pe-7s-call"></i>
-              <Link href="tel://+91 542 - 2205300">+91 542 - 2205300</Link>
+              <Link href="/" className="header-logo">
+                <img
+                  src="assets/images/logo/logo.png"
+                  className="logoImage"
+                  alt="Header Logo"
+                />
+              </Link>
             </div>
             <div className="offcanvas-menu_area">
               <nav className="offcanvas-navigation">
@@ -361,7 +376,7 @@ export default function Header() {
                   <li className="menu-item-has-children">
                     <Link href="#">
                       <span className="mm-text">
-                        Woven Products
+                        Big Bags/FIBC
                         <i className="pe-7s-angle-down"></i>
                       </span>
                     </Link>
@@ -432,7 +447,7 @@ export default function Header() {
                   <li className="menu-item-has-children">
                     <Link href="#">
                       <span className="mm-text">
-                        Webbing & Yarns
+                        Small Bags/PPW Bags
                         <i className="pe-7s-angle-down"></i>
                       </span>
                     </Link>
@@ -455,7 +470,7 @@ export default function Header() {
                   <li className="menu-item-has-children">
                     <Link href="#">
                       <span className="mm-text">
-                        Colour and Pigments
+                        Technical Textile
                         <i className="pe-7s-angle-down"></i>
                       </span>
                     </Link>
@@ -471,7 +486,7 @@ export default function Header() {
                   <li className="menu-item-has-children">
                     <Link href="#">
                       <span className="mm-text">
-                        Additives
+                        MFY
                         <i className="pe-7s-angle-down"></i>
                       </span>
                     </Link>
@@ -497,7 +512,7 @@ export default function Header() {
                   <li className="menu-item-has-children">
                     <Link href="#">
                       <span className="mm-text">
-                        CSR & Awards
+                        100% Recycle Bag
                         <i className="pe-7s-angle-down"></i>
                       </span>
                     </Link>
@@ -517,6 +532,11 @@ export default function Header() {
                     </ul>
                   </li>
 
+                  <li>
+                    <Link href="#">
+                      <span className="mm-text">Sustanibility</span>
+                    </Link>
+                  </li>
                   <li>
                     <Link href="#">
                       <span className="mm-text">About Us</span>
