@@ -1584,9 +1584,10 @@ blockquote p {
 }
 
 /* ---Header Bottom--- */
-/* .header-bottom {
-  border-top: 1px solid #dee2e6;
-} */
+.header-bottom {
+  /* border-top: 1px solid #dee2e6; */
+  background-color: #abd373;
+}
 
 /* ---Main Header--- */
 .main-nav > ul {
@@ -1598,7 +1599,7 @@ blockquote p {
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-          gap: 49px;
+          gap: 30px;
 }
 
 
@@ -1632,6 +1633,26 @@ blockquote p {
   font-size: 14px;
   text-transform: uppercase;
   position: relative;
+  color: #000000;
+}
+
+.icon-i{
+  position: absolute;
+    right: 0px;
+    background-color: #abd373;
+    display: flex;
+    gap: 20px;
+    padding: 7px 14px;
+    bottom: -21px;
+    border-radius: 10px 10px 0 0;
+    justify-content: center;
+    width: 180px;
+}
+
+@media (max-width:992px) {
+  .icon-i{
+    display: none !important;
+  }
 }
 .main-nav > ul > li > a:before {
   -webkit-transition: all 0.3s ease 0s;
@@ -1646,7 +1667,7 @@ blockquote p {
   left: 0;
 }
 .main-nav > ul > li:hover > a {
-  color: #abd373;
+  color: #000000;
 }
 .main-nav > ul > li:hover > a:before {
   width: 100%;
@@ -1801,13 +1822,14 @@ blockquote p {
       -ms-flex-align: center;
           align-items: center;
   position: relative;
+  margin-bottom: 10px;
 }
 .header-right > ul > li {
   position: relative;
   cursor: pointer;
 }
 .header-right > ul > li:not(:last-child) {
-  padding-right: 15px;
+  /* padding-right: 15px; */
 }
 .header-right > ul > li > a i {
   font-size: 33px;
@@ -6538,4 +6560,50 @@ background: #abd373 !important;
   text-decoration: none;
   outline: 0;
   opacity: .9;
+}
+
+
+.content-container{
+  width: 100%;
+  position: relative;
+
+
+  .text-content{
+    width: 100%;
+    position: relative;
+    padding: 10px;
+  }
+
+  .image-content{
+    width: 100%;
+    position: relative;
+  }
+}
+
+.ppws-text-content{
+  float: left;
+  img{
+    width: 400px;
+    float: right;
+  }
+}
+.ppws-image-content{
+  float: right;
+  
+ 
+}
+.csr{
+  padding: 10px 50px;
+  font-size: 14px;
+  text-transform: uppercase;
+  background-color: #abd373;
+  border: none;
+
+  &:hover{
+    background-color:#b7f165 ;
+  }
+}
+.asd{
+  width: 100%;
+  height: 100% !important;
 }

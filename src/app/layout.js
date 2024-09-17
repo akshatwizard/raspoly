@@ -1,4 +1,6 @@
+import Header from "@/components/Header/Header";
 import "./globals.css";
+import Footer from "@/components/Footer/Footer";
 
 export const metadata = {
   title: "RAS Polytex PVT LTD",
@@ -9,7 +11,11 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link rel="shortcut icon" href="/assets/images/logo/logo.png" type="image/x-icon" />
+        <link
+          rel="shortcut icon"
+          href="/assets/images/logo/logo.png"
+          type="image/x-icon"
+        />
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
         <link rel="stylesheet" href="assets/css/Pe-icon-7-stroke.css" />
@@ -19,10 +25,12 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
         <link rel="stylesheet" href="assets/css/ion.rangeSlider.min.css" />
         <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/tutorials/timelines/timeline-3/assets/css/timeline-3.css"></link>
       </head>
       <body>
+        <Header />
         {children}
-
+        <Footer />
         <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
         <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
         <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
