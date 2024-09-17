@@ -15,7 +15,9 @@ export default function Header() {
                     className="logoImage"
                     alt="Header Logo"
                   />
-                  <p className="logoName">RAS Polytex Pvt. Ltd. <span>Since 1983</span></p>
+                  <p className="logoName">
+                    RAS Polytex Pvt. Ltd. <span>Since 1983</span>
+                  </p>
                 </Link>
 
                 <div className="header-right">
@@ -29,16 +31,16 @@ export default function Header() {
                               <Link href="/">Home</Link>
                             </li>
                             <li className="d-none d-lg-block">
-                              <Link href="#">About Us</Link>
+                              <Link href="about-us">About Us</Link>
                             </li>
                             <li className="d-none d-lg-block">
-                              <Link href="#">Contact Us</Link>
+                              <Link href="contact">Contact Us</Link>
                             </li>
                           </ul>
                         </nav>
                       </div>
                     </li>
-                    <li className="d-none d-lg-block">
+                    {/* <li className="d-none d-lg-block">
                       <Link href="#">
                         <lord-icon
                           src="https://cdn.lordicon.com/mdyiqybm.json"
@@ -73,7 +75,7 @@ export default function Header() {
                           style={{ width: "40px", height: "40px" }}
                         ></lord-icon>
                       </Link>
-                    </li>
+                    </li> */}
                     <li className="mobile-menu_wrap d-block d-lg-none">
                       <a
                         href="#mobileMenu"
@@ -83,6 +85,44 @@ export default function Header() {
                       </a>
                     </li>
                   </ul>
+                  <div className="icon-i">
+                    <li className="d-none d-lg-block">
+                      <Link href="#">
+                        <lord-icon
+                          src="https://cdn.lordicon.com/mdyiqybm.json"
+                          trigger="morph"
+                          stroke="bold"
+                          state="morph-circle"
+                          colors="primary:#ffffff,secondary:#ffffff"
+                          style={{ width: "30px", height: "30px" }}
+                        ></lord-icon>
+                      </Link>
+                    </li>
+                    <li className="d-none d-lg-block">
+                      <Link href="#">
+                        <lord-icon
+                          src="https://cdn.lordicon.com/iqagrlso.json"
+                          trigger="morph"
+                          stroke="bold"
+                          state="morph-circle"
+                          colors="primary:#ffffff,secondary:#ffffff"
+                          style={{ width: "30px", height: "30px" }}
+                        ></lord-icon>
+                      </Link>
+                    </li>
+                    <li className="d-none d-lg-block">
+                      <Link href="#">
+                        <lord-icon
+                          src="https://cdn.lordicon.com/gewhxiwb.json"
+                          trigger="morph"
+                          stroke="bold"
+                          state="morph-logotype"
+                          colors="primary:#ffffff,secondary:#ffffff"
+                          style={{ width: "30px", height: "30px" }}
+                        ></lord-icon>
+                      </Link>
+                    </li>
+                  </div>
                 </div>
               </div>
             </div>
@@ -102,54 +142,62 @@ export default function Header() {
                         <li>
                           <ul>
                             <li>
-                              <Link href="#">FIBC</Link>
+                              <Link href="fibc">FIBC</Link>
                             </li>
                             <li>
-                              <Link href="#">PPWS & Dunnage Bags</Link>
+                              <Link href="ppws">PPWS & Dunnage Bags</Link>
                             </li>
                             <li>
-                              <Link href="#">AD Star Block Bottom bags</Link>
+                              <Link href="adstar">
+                                AD Star Block Bottom bags
+                              </Link>
                             </li>
                             <li>
-                              <Link href="#">Leno bags</Link>
+                              <Link href="leno">Leno bags</Link>
                             </li>
                             <li>
-                              <Link href="#">
+                              <Link href="laminated-unlaminated">
                                 Laminated and Unlaminated Fabric
                               </Link>
                             </li>
                             <li>
-                              <Link href="#">Geotextiles</Link>
+                              <Link href="geotextiles">Geotextiles</Link>
                             </li>
                             <li>
-                              <Link href="#">
+                              <Link href="bopp">
                                 BOPP , Shopping bags and PET Food
                               </Link>
                             </li>
                             <li>
-                              <Link href="#">Pinch Bottom Bags</Link>
+                              <Link href="pinch">Pinch Bottom Bags</Link>
                             </li>
                             <li>
-                              <Link href="#">Tarpaulins</Link>
+                              <Link href="tarpauline">Tarpaulins</Link>
                             </li>
                             <li>
-                              <Link href="#">Roof Underlayment</Link>
+                              <Link href="roofunderlayment">
+                                Roof Underlayment
+                              </Link>
                             </li>
                             <li>
-                              <Link href="#">Pond Liners</Link>
+                              <Link href="pondlinear">Pond Liners</Link>
                             </li>
                           </ul>
                         </li>
                       </ul>
                     </li>
                     <li className="drop-holder">
-                      <Link href="#">Small Bags/PPW Bags</Link>
+                      <Link href="#">Small Bags/PPWB</Link>
                       <ul className="drop-menu">
                         <li>
-                          <Link href="#">Multifilament Yarn</Link>
+                          <Link href="multifilament-yarn">
+                            Multifilament Yarn
+                          </Link>
                         </li>
                         <li>
-                          <Link href="#">Webbings &amp; Handles</Link>
+                          <Link href="webbings-handles">
+                            Webbings &amp; Handles
+                          </Link>
                         </li>
                       </ul>
                     </li>
@@ -158,7 +206,7 @@ export default function Header() {
                       <Link href="#">Technical Textile</Link>
                       <ul className="drop-menu">
                         <li>
-                          <Link href="#">Ink and reducers</Link>
+                          <Link href="ink-reducers">Ink and reducers</Link>
                         </li>
                       </ul>
                     </li>
@@ -167,27 +215,19 @@ export default function Header() {
                       <Link href="#">MFY</Link>
                       <ul className="drop-menu">
                         <li>
-                          <Link href="#">Colour Masterbatches</Link>
+                          <Link href="masterbatch">Colour Masterbatches</Link>
                         </li>
                         <li>
-                          <Link href="#">UV Masterbatch</Link>
+                          <Link href="masterbatch">UV Masterbatch</Link>
                         </li>
                         <li>
-                          <Link href="#">Calcium Masterbatch</Link>
+                          <Link href="masterbatch">Calcium Masterbatch</Link>
                         </li>
                       </ul>
                     </li>
 
-                    <li className="drop-holder">
-                      <Link href="#">100% Recycle Bag</Link>
-                      <ul className="drop-menu">
-                        <li>
-                          <Link href="#">CSR</Link>
-                        </li>
-                        <li>
-                          <Link href="#">Awards &amp; Recognitions</Link>
-                        </li>
-                      </ul>
+                    <li>
+                      <Link href="#">100% Recycled PP Bag</Link>
                     </li>
                     <li className="drop-holder">
                       <Link href="#">Sustanibility</Link>
@@ -199,6 +239,12 @@ export default function Header() {
                           <Link href="#">Awards &amp; Recognitions</Link>
                         </li>
                       </ul> */}
+                    </li>
+                    <li>
+                      <Link href="csr">CSR</Link>
+                    </li>
+                    <li>
+                      <Link href="certification">Certification</Link>
                     </li>
                   </ul>
                 </nav>
@@ -224,9 +270,9 @@ export default function Header() {
                 <div className="main-menu">
                   <nav className="main-nav">
                     <ul className="stick stickyUL" style={{ gap: "30px" }}>
-                      <li className="drop-holder">
+                      {/* <li className="drop-holder">
                         <Link href="/">Home</Link>
-                      </li>
+                      </li> */}
                       <li className="megamenu-holder">
                         <Link href="/">Big Bag/FIBC</Link>
                         <ul className="drop-menu megamenu">
@@ -274,7 +320,7 @@ export default function Header() {
                         </ul>
                       </li>
                       <li className="drop-holder">
-                        <Link href="#">Small Bags/PPW Bags</Link>
+                        <Link href="#">Small Bags/PPWB</Link>
                         <ul className="drop-menu">
                           <li>
                             <Link href="#">Multifilament Yarn</Link>
@@ -310,7 +356,7 @@ export default function Header() {
                       </li>
 
                       <li className="drop-holder">
-                        <Link href="#">100% Recycle Bag</Link>
+                        <Link href="#">100% Recycled PP Bag</Link>
                         <ul className="drop-menu">
                           <li>
                             <Link href="#">CSR</Link>
@@ -322,6 +368,12 @@ export default function Header() {
                       </li>
                       <li>
                         <Link href="#">Sustanibility</Link>
+                      </li>
+                      <li>
+                        <Link href="#">Certification</Link>
+                      </li>
+                      <li>
+                        <Link href="#">CSR</Link>
                       </li>
                     </ul>
                   </nav>
@@ -512,7 +564,7 @@ export default function Header() {
                   <li className="menu-item-has-children">
                     <Link href="#">
                       <span className="mm-text">
-                        100% Recycle Bag
+                        100% PP Recycled Bag
                         <i className="pe-7s-angle-down"></i>
                       </span>
                     </Link>
@@ -536,6 +588,12 @@ export default function Header() {
                     <Link href="#">
                       <span className="mm-text">Sustanibility</span>
                     </Link>
+                  </li>
+                  <li>
+                    <Link href="#">Certification</Link>
+                  </li>
+                  <li>
+                    <Link href="#">CSR</Link>
                   </li>
                   <li>
                     <Link href="#">
