@@ -96,7 +96,7 @@ export default function Footer() {
         <div className="container">
           <div className="row">
             <div className="cpl-lg-12 d-flex justify-content-center">
-            <Link href="/" className="header-logo">
+            <Link href="/" className="header-logo justify-content-center">
                   <img
                     src="assets/images/logo/logo.png"
                     className="logoImage"

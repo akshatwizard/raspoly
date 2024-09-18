@@ -191,7 +191,7 @@ export default function Header() {
                       <ul className="drop-menu">
                         <li>
                           <Link href="multifilament-yarn">
-                            Multifilament Yarn
+                            MF Yarn
                           </Link>
                         </li>
                         <li>
@@ -279,41 +279,41 @@ export default function Header() {
                           <li>
                             <ul>
                               <li>
-                                <Link href="#">FIBC</Link>
+                                <Link href="fibc">FIBC</Link>
                               </li>
                               <li>
-                                <Link href="#">PPWS & Dunnage Bags</Link>
+                                <Link href="ppws">PPWS & Dunnage Bags</Link>
                               </li>
                               <li>
-                                <Link href="#">AD Star Block Bottom bags</Link>
+                                <Link href="adstar">AD Star Block Bottom bags</Link>
                               </li>
                               <li>
-                                <Link href="#">Leno bags</Link>
+                                <Link href="leon">Leno bags</Link>
                               </li>
                               <li>
-                                <Link href="#">
+                                <Link href="laminated-unlaminated">
                                   Laminated and Unlaminated Fabric
                                 </Link>
                               </li>
                               <li>
-                                <Link href="#">Geotextiles</Link>
+                                <Link href="geotextiles">Geotextiles</Link>
                               </li>
                               <li>
-                                <Link href="#">
+                                <Link href="bopp">
                                   BOPP , Shopping bags and PET Food
                                 </Link>
                               </li>
                               <li>
-                                <Link href="#">Pinch Bottom Bags</Link>
+                                <Link href="pinch">Pinch Bottom Bags</Link>
                               </li>
                               <li>
-                                <Link href="#">Tarpaulins</Link>
+                                <Link href="tarpauline">Tarpaulins</Link>
                               </li>
                               <li>
-                                <Link href="#">Roof Underlayment</Link>
+                                <Link href="roofunderlayment">Roof Underlayment</Link>
                               </li>
                               <li>
-                                <Link href="#">Pond Liners</Link>
+                                <Link href="pondlinear">Pond Liners</Link>
                               </li>
                             </ul>
                           </li>
@@ -323,19 +323,19 @@ export default function Header() {
                         <Link href="#">Small Bags/PPWB</Link>
                         <ul className="drop-menu">
                           <li>
-                            <Link href="#">Multifilament Yarn</Link>
+                            <Link href="multifilament-yarn">Multifilament Yarn</Link>
                           </li>
                           <li>
-                            <Link href="#">Webbings &amp; Handles</Link>
+                            <Link href="webbings-handles">Webbings &amp; Handles</Link>
                           </li>
                         </ul>
                       </li>
 
                       <li className="drop-holder">
-                        <Link href="#">Technical Textile</Link>
+                        <Link href="">Technical Textile</Link>
                         <ul className="drop-menu">
                           <li>
-                            <Link href="#">Ink and reducers</Link>
+                            <Link href="ink-reducers">Ink and reducers</Link>
                           </li>
                         </ul>
                       </li>
@@ -344,13 +344,13 @@ export default function Header() {
                         <Link href="#">MFY</Link>
                         <ul className="drop-menu">
                           <li>
-                            <Link href="#">Colour Masterbatches</Link>
+                            <Link href="masterbatch">Colour Masterbatches</Link>
                           </li>
                           <li>
-                            <Link href="#">UV Masterbatch</Link>
+                            <Link href="masterbatch">UV Masterbatch</Link>
                           </li>
                           <li>
-                            <Link href="#">Calcium Masterbatch</Link>
+                            <Link href="masterbatch">Calcium Masterbatch</Link>
                           </li>
                         </ul>
                       </li>
@@ -370,10 +370,10 @@ export default function Header() {
                         <Link href="#">Sustanibility</Link>
                       </li>
                       <li>
-                        <Link href="#">Certification</Link>
+                        <Link href="csr">CSR</Link>
                       </li>
                       <li>
-                        <Link href="#">CSR</Link>
+                        <Link href="certification">Certification</Link>
                       </li>
                     </ul>
                   </nav>
@@ -434,63 +434,63 @@ export default function Header() {
                     </Link>
                     <ul className="sub-menu">
                       <li className="menu-item-has-children">
-                        <Link href="#">
+                        <Link href="fibc">
                           <span className="mm-text">FIBC</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="#">
+                        <Link href="ppwc">
                           <span className="mm-text">PPWS & Dunnage Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="#">
+                        <Link href="adstar">
                           <span className="mm-text">
                             AD Star Block Bottom bags
                           </span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="#">
+                        <Link href="leno">
                           <span className="mm-text">Leno bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="#">
+                        <Link href="laminated-unlaminated">
                           <span className="mm-text">
                             Laminated and Unlaminated Fabric
                           </span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="#">
+                        <Link href="geotextiles">
                           <span className="mm-text">Geotextiles</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="#">
+                        <Link href="bopp">
                           <span className="mm-text">
                             BOPP , Shopping bags and PET Food
                           </span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="#">
+                        <Link href="pinch">
                           <span className="mm-text">Pinch Bottom Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="#">
+                        <Link href="tarpauline">
                           <span className="mm-text">Tarpaulins</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="#">
+                        <Link href="roof-underlayment">
                           <span className="mm-text">Roof Underlayment</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="#">
+                        <Link href="pondlinear">
                           <span className="mm-text">Pond Liners</span>
                         </Link>
                       </li>
@@ -505,12 +505,12 @@ export default function Header() {
                     </Link>
                     <ul className="sub-menu">
                       <li className="menu-item-has-children">
-                        <Link href="#">
+                        <Link href="multifilament-yarn">
                           <span className="mm-text">Multifilament Yarn</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="#">
+                        <Link href="webbings-handles">
                           <span className="mm-text">
                             Webbings &amp; Handles
                           </span>
@@ -528,7 +528,7 @@ export default function Header() {
                     </Link>
                     <ul className="sub-menu">
                       <li className="menu-item-has-children">
-                        <Link href="#">
+                        <Link href="ink-reducers">
                           <span className="mm-text">Ink and reducers</span>
                         </Link>
                       </li>
@@ -544,17 +544,17 @@ export default function Header() {
                     </Link>
                     <ul className="sub-menu">
                       <li className="menu-item-has-children">
-                        <Link href="#">
+                        <Link href="masterbatch">
                           <span className="mm-text">Colour Masterbatches</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="#">
+                        <Link href="masterbatch">
                           <span className="mm-text">UV Masterbatch</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="#">
+                        <Link href="masterbatch">
                           <span className="mm-text">Calcium Masterbatch</span>
                         </Link>
                       </li>
@@ -565,23 +565,8 @@ export default function Header() {
                     <Link href="#">
                       <span className="mm-text">
                         100% PP Recycled Bag
-                        <i className="pe-7s-angle-down"></i>
                       </span>
                     </Link>
-                    <ul className="sub-menu">
-                      <li className="menu-item-has-children">
-                        <Link href="#">
-                          <span className="mm-text">CSR</span>
-                        </Link>
-                      </li>
-                      <li className="menu-item-has-children">
-                        <Link href="#">
-                          <span className="mm-text">
-                            Awards &amp; Recognitions
-                          </span>
-                        </Link>
-                      </li>
-                    </ul>
                   </li>
 
                   <li>
@@ -590,18 +575,18 @@ export default function Header() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">Certification</Link>
+                    <Link href="certification">Certification</Link>
                   </li>
                   <li>
-                    <Link href="#">CSR</Link>
+                    <Link href="csr">CSR</Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link href="about-us">
                       <span className="mm-text">About Us</span>
                     </Link>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link href="contact">
                       <span className="mm-text">Contact</span>
                     </Link>
                   </li>

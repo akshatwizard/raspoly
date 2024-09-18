@@ -6204,6 +6204,12 @@ blockquote p {
 
 .contentBox{
   border-right: 2px dashed #abd373;
+  position: relative;
+
+  sup{
+    position: absolute;
+    top: 10px;
+  }
 }
 .contentBox:last-child {
   border-right: none; 
