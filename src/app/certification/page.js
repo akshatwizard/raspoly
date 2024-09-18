@@ -81,6 +81,24 @@ export default function page() {
               </p>
             </div>
           </div>
+          <div className="col-lg-4 col-md-6 col-12">
+            <div className="border rounded p-3 asd">
+              <img
+                src="/assets/images/certificate/01.jpg"
+                alt=""
+                className="rounded"
+              />
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-12">
+            <div className="border rounded p-3 asd">
+              <img
+                src="/assets/images/certificate/02.jpg"
+                alt=""
+                className="rounded"
+              />
+            </div>
+          </div>
         </div>
       </div>
     </section>
