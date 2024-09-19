@@ -6205,11 +6205,6 @@ blockquote p {
 .contentBox{
   border-right: 2px dashed #abd373;
   position: relative;
-
-  sup{
-    position: absolute;
-    top: 10px;
-  }
 }
 .contentBox:last-child {
   border-right: none; 
@@ -6237,6 +6232,15 @@ blockquote p {
   }
   .hide{
     display: none;
+  }
+  .contentBox{
+    border-right: none;
+    border-top: 2px solid #abd373;
+    /* box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px; */
+
+    p{
+      margin: 0;
+    }
   }
 }
 
