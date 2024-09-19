@@ -16,7 +16,7 @@ export default function Header() {
                     alt="Header Logo"
                   />
                   <p className="logoName">
-                    RAS Polytex Pvt. Ltd. <span>Since 1983</span>
+                    RAS Polytex Pvt. Ltd.
                   </p>
                 </Link>
 
@@ -323,7 +323,7 @@ export default function Header() {
                         <Link href="#">Small Bags/PPWB</Link>
                         <ul className="drop-menu">
                           <li>
-                            <Link href="multifilament-yarn">Multifilament Yarn</Link>
+                            <Link href="multifilament-yarn">MF Yarn</Link>
                           </li>
                           <li>
                             <Link href="webbings-handles">Webbings &amp; Handles</Link>
@@ -506,7 +506,7 @@ export default function Header() {
                     <ul className="sub-menu">
                       <li className="menu-item-has-children">
                         <Link href="multifilament-yarn">
-                          <span className="mm-text">Multifilament Yarn</span>
+                          <span className="mm-text">MF Yarn</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
@@ -643,136 +643,6 @@ export default function Header() {
                 </form>
               </div>
             </div>
-          </div>
-        </div>
-      </div>
-      <div className="offcanvas-minicart_wrapper" id="miniCart">
-        <div className="offcanvas-body">
-          <div className="minicart-content">
-            <div className="minicart-heading">
-              <h4 className="mb-0">Shopping Cart</h4>
-              <a href="#" className="button-close">
-                <i
-                  className="pe-7s-close"
-                  data-tippy="Close"
-                  data-tippy-inertia="true"
-                  data-tippy-animation="shift-away"
-                  data-tippy-delay="50"
-                  data-tippy-arrow="true"
-                  data-tippy-theme="sharpborder"
-                ></i>
-              </a>
-            </div>
-            <ul className="minicart-list">
-              <li className="minicart-product">
-                <a className="product-item_remove" href="#">
-                  <i
-                    className="pe-7s-close"
-                    data-tippy="Remove"
-                    data-tippy-inertia="true"
-                    data-tippy-animation="shift-away"
-                    data-tippy-delay="50"
-                    data-tippy-arrow="true"
-                    data-tippy-theme="sharpborder"
-                  ></i>
-                </a>
-                <a
-                  href="single-product-variable.html"
-                  className="product-item_img"
-                >
-                  <img
-                    className="img-full"
-                    src="assets/images/product/small-size/2-1-70x78.png"
-                    alt="Product Image"
-                  />
-                </a>
-                <div className="product-item_content">
-                  <a
-                    className="product-item_title"
-                    href="single-product-variable.html"
-                  >
-                    American Marigold
-                  </a>
-                  <span className="product-item_quantity">1 x $23.45</span>
-                </div>
-              </li>
-              <li className="minicart-product">
-                <a className="product-item_remove" href="#">
-                  <i
-                    className="pe-7s-close"
-                    data-tippy="Remove"
-                    data-tippy-inertia="true"
-                    data-tippy-animation="shift-away"
-                    data-tippy-delay="50"
-                    data-tippy-arrow="true"
-                    data-tippy-theme="sharpborder"
-                  ></i>
-                </a>
-                <a
-                  href="single-product-variable.html"
-                  className="product-item_img"
-                >
-                  <img
-                    className="img-full"
-                    src="assets/images/product/small-size/2-2-70x78.png"
-                    alt="Product Image"
-                  />
-                </a>
-                <div className="product-item_content">
-                  <a
-                    className="product-item_title"
-                    href="single-product-variable.html"
-                  >
-                    Black Eyed Susan
-                  </a>
-                  <span className="product-item_quantity">1 x $25.45</span>
-                </div>
-              </li>
-              <li className="minicart-product">
-                <a className="product-item_remove" href="#">
-                  <i
-                    className="pe-7s-close"
-                    data-tippy="Remove"
-                    data-tippy-inertia="true"
-                    data-tippy-animation="shift-away"
-                    data-tippy-delay="50"
-                    data-tippy-arrow="true"
-                    data-tippy-theme="sharpborder"
-                  ></i>
-                </a>
-                <a
-                  href="single-product-variable.html"
-                  className="product-item_img"
-                >
-                  <img
-                    className="img-full"
-                    src="assets/images/product/small-size/2-3-70x78.png"
-                    alt="Product Image"
-                  />
-                </a>
-                <div className="product-item_content">
-                  <a
-                    className="product-item_title"
-                    href="single-product-variable.html"
-                  >
-                    Bleeding Heart
-                  </a>
-                  <span className="product-item_quantity">1 x $30.45</span>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div className="minicart-item_total">
-            <span>Subtotal</span>
-            <span className="ammount">$79.35</span>
-          </div>
-          <div className="group-btn_wrap d-grid gap-2">
-            <a href="cart.html" className="btn btn-dark">
-              View Cart
-            </a>
-            <a href="checkout.html" className="btn btn-dark">
-              Checkout
-            </a>
           </div>
         </div>
       </div>
