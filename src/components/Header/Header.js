@@ -17,6 +17,11 @@ export default function Header() {
                   />
                   <p className="logoName">
                     RAS Polytex Pvt. Ltd.
+                    <br />
+                    <span className="line"></span>
+                    <span>An ISO 9001,14001,22000 Company</span>
+                    <br />
+                    <span>SINCE 1983</span>
                   </p>
                 </Link>
 
@@ -35,6 +40,24 @@ export default function Header() {
                             </li>
                             <li className="d-none d-lg-block">
                               <Link href="contact">Contact Us</Link>
+                            </li>
+                            <li>
+                              <Link href="#" className="d-none d-lg-block">
+                                Sustanibility
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="csr" className="d-none d-lg-block">
+                                CSR
+                              </Link>
+                            </li>
+                            <li>
+                              <Link
+                                href="certification"
+                                className="d-none d-lg-block"
+                              >
+                                Certification
+                              </Link>
                             </li>
                           </ul>
                         </nav>
@@ -160,9 +183,7 @@ export default function Header() {
                                 Laminated and Unlaminated Fabric
                               </Link>
                             </li>
-                            <li>
-                              <Link href="geotextiles">Geotextiles</Link>
-                            </li>
+
                             <li>
                               <Link href="bopp">
                                 BOPP , Shopping bags and PET Food
@@ -171,17 +192,6 @@ export default function Header() {
                             <li>
                               <Link href="pinch">Pinch Bottom Bags</Link>
                             </li>
-                            <li>
-                              <Link href="tarpauline">Tarpaulins</Link>
-                            </li>
-                            <li>
-                              <Link href="roofunderlayment">
-                                Roof Underlayment
-                              </Link>
-                            </li>
-                            <li>
-                              <Link href="pondlinear">Pond Liners</Link>
-                            </li>
                           </ul>
                         </li>
                       </ul>
@@ -189,11 +199,9 @@ export default function Header() {
                     <li className="drop-holder">
                       <Link href="#">Small Bags/PPWB</Link>
                       <ul className="drop-menu">
-                        <li>
-                          <Link href="multifilament-yarn">
-                            MF Yarn
-                          </Link>
-                        </li>
+                        {/* <li>
+                          <Link href="multifilament-yarn">MF Yarn</Link>
+                        </li> */}
                         <li>
                           <Link href="webbings-handles">
                             Webbings &amp; Handles
@@ -206,45 +214,43 @@ export default function Header() {
                       <Link href="#">Technical Textile</Link>
                       <ul className="drop-menu">
                         <li>
+                          <Link href="geotextiles">Geotextiles</Link>
+                        </li>
+                        <li>
+                          <Link href="pondlinear">Pond Liners</Link>
+                        </li>
+                        <li>
+                          <Link href="roofunderlayment">Roof Underlayment</Link>
+                        </li>
+                        <li>
+                          <Link href="">Lamber Wrap</Link>
+                        </li>
+                        <li>
+                          <Link href="tarpauline">Tarpaulins</Link>
+                        </li>
+                      </ul>
+                    </li>
+                    <li>
+                      <Link href="#">100% Recycled PP Bag</Link>
+                    </li>
+                    <li>
+                      <Link href="#">PP Fabric</Link>
+                    </li>
+
+                    <li>
+                      <Link href="multifilament-yarn">MF Yarn</Link>
+                    </li>
+
+                    <li className="drop-holder">
+                      <Link href="#">Printing INK</Link>
+                      <ul className="drop-menu">
+                        <li>
                           <Link href="ink-reducers">Ink and reducers</Link>
                         </li>
                       </ul>
                     </li>
-
-                    <li className="drop-holder">
-                      <Link href="#">MFY</Link>
-                      <ul className="drop-menu">
-                        <li>
-                          <Link href="masterbatch">Colour Masterbatches</Link>
-                        </li>
-                        <li>
-                          <Link href="masterbatch">UV Masterbatch</Link>
-                        </li>
-                        <li>
-                          <Link href="masterbatch">Calcium Masterbatch</Link>
-                        </li>
-                      </ul>
-                    </li>
-
                     <li>
-                      <Link href="#">100% Recycled PP Bag</Link>
-                    </li>
-                    <li className="drop-holder">
-                      <Link href="#">Sustanibility</Link>
-                      {/* <ul className="drop-menu">
-                        <li>
-                          <Link href="#">CSR</Link>
-                        </li>
-                        <li>
-                          <Link href="#">Awards &amp; Recognitions</Link>
-                        </li>
-                      </ul> */}
-                    </li>
-                    <li>
-                      <Link href="csr">CSR</Link>
-                    </li>
-                    <li>
-                      <Link href="certification">Certification</Link>
+                      <Link href="masterbatch">Masterbatch</Link>
                     </li>
                   </ul>
                 </nav>
@@ -269,10 +275,7 @@ export default function Header() {
               <div className="col-lg-11 d-none d-lg-block">
                 <div className="main-menu">
                   <nav className="main-nav">
-                    <ul className="stick stickyUL" style={{ gap: "30px" }}>
-                      {/* <li className="drop-holder">
-                        <Link href="/">Home</Link>
-                      </li> */}
+                    <ul className="stick stickyUL" style={{ gap: "20px" }}>
                       <li className="megamenu-holder">
                         <Link href="/">Big Bag/FIBC</Link>
                         <ul className="drop-menu megamenu">
@@ -285,7 +288,9 @@ export default function Header() {
                                 <Link href="ppws">PPWS & Dunnage Bags</Link>
                               </li>
                               <li>
-                                <Link href="adstar">AD Star Block Bottom bags</Link>
+                                <Link href="adstar">
+                                  AD Star Block Bottom bags
+                                </Link>
                               </li>
                               <li>
                                 <Link href="leon">Leno bags</Link>
@@ -296,24 +301,12 @@ export default function Header() {
                                 </Link>
                               </li>
                               <li>
-                                <Link href="geotextiles">Geotextiles</Link>
-                              </li>
-                              <li>
                                 <Link href="bopp">
                                   BOPP , Shopping bags and PET Food
                                 </Link>
                               </li>
                               <li>
                                 <Link href="pinch">Pinch Bottom Bags</Link>
-                              </li>
-                              <li>
-                                <Link href="tarpauline">Tarpaulins</Link>
-                              </li>
-                              <li>
-                                <Link href="roofunderlayment">Roof Underlayment</Link>
-                              </li>
-                              <li>
-                                <Link href="pondlinear">Pond Liners</Link>
                               </li>
                             </ul>
                           </li>
@@ -323,10 +316,9 @@ export default function Header() {
                         <Link href="#">Small Bags/PPWB</Link>
                         <ul className="drop-menu">
                           <li>
-                            <Link href="multifilament-yarn">MF Yarn</Link>
-                          </li>
-                          <li>
-                            <Link href="webbings-handles">Webbings &amp; Handles</Link>
+                            <Link href="webbings-handles">
+                              Webbings &amp; Handles
+                            </Link>
                           </li>
                         </ul>
                       </li>
@@ -335,45 +327,46 @@ export default function Header() {
                         <Link href="">Technical Textile</Link>
                         <ul className="drop-menu">
                           <li>
+                            <Link href="geotextiles">Geotextiles</Link>
+                          </li>
+                          <li>
+                            <Link href="pondlinear">Pond Liners</Link>
+                          </li>
+                          <li>
+                            <Link href="roofunderlayment">
+                              Roof Underlayment
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="">Lamber Wrap</Link>
+                          </li>
+                          <li>
+                            <Link href="tarpauline">Tarpaulins</Link>
+                          </li>
+                        </ul>
+                      </li>
+                      <li>
+                        <Link href="#">100% Recycled PP Bag</Link>
+                      </li>
+
+                      <li>
+                        <Link href="#">PP Fabric</Link>
+                      </li>
+
+                      <li>
+                        <Link href="multifilament-yarn">MF Yarn</Link>
+                      </li>
+
+                      <li className="drop-holder">
+                        <Link href="#">Printing INK</Link>
+                        <ul className="drop-menu">
+                          <li>
                             <Link href="ink-reducers">Ink and reducers</Link>
                           </li>
                         </ul>
                       </li>
-
-                      <li className="drop-holder">
-                        <Link href="#">MFY</Link>
-                        <ul className="drop-menu">
-                          <li>
-                            <Link href="masterbatch">Colour Masterbatches</Link>
-                          </li>
-                          <li>
-                            <Link href="masterbatch">UV Masterbatch</Link>
-                          </li>
-                          <li>
-                            <Link href="masterbatch">Calcium Masterbatch</Link>
-                          </li>
-                        </ul>
-                      </li>
-
-                      <li className="drop-holder">
-                        <Link href="#">100% Recycled PP Bag</Link>
-                        <ul className="drop-menu">
-                          <li>
-                            <Link href="#">CSR</Link>
-                          </li>
-                          <li>
-                            <Link href="#">Awards &amp; Recognitions</Link>
-                          </li>
-                        </ul>
-                      </li>
                       <li>
-                        <Link href="#">Sustanibility</Link>
-                      </li>
-                      <li>
-                        <Link href="csr">CSR</Link>
-                      </li>
-                      <li>
-                        <Link href="certification">Certification</Link>
+                        <Link href="masterbatch">Masterbatch</Link>
                       </li>
                     </ul>
                   </nav>
@@ -425,6 +418,16 @@ export default function Header() {
                       <span className="mm-text">Home</span>
                     </Link>
                   </li>
+                  <li>
+                    <Link href="about-us">
+                      <span className="mm-text">About Us</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="contact">
+                      <span className="mm-text">Contact</span>
+                    </Link>
+                  </li>
                   <li className="menu-item-has-children">
                     <Link href="#">
                       <span className="mm-text">
@@ -462,11 +465,7 @@ export default function Header() {
                           </span>
                         </Link>
                       </li>
-                      <li className="menu-item-has-children">
-                        <Link href="geotextiles">
-                          <span className="mm-text">Geotextiles</span>
-                        </Link>
-                      </li>
+
                       <li className="menu-item-has-children">
                         <Link href="bopp">
                           <span className="mm-text">
@@ -477,21 +476,6 @@ export default function Header() {
                       <li className="menu-item-has-children">
                         <Link href="pinch">
                           <span className="mm-text">Pinch Bottom Bags</span>
-                        </Link>
-                      </li>
-                      <li className="menu-item-has-children">
-                        <Link href="tarpauline">
-                          <span className="mm-text">Tarpaulins</span>
-                        </Link>
-                      </li>
-                      <li className="menu-item-has-children">
-                        <Link href="roof-underlayment">
-                          <span className="mm-text">Roof Underlayment</span>
-                        </Link>
-                      </li>
-                      <li className="menu-item-has-children">
-                        <Link href="pondlinear">
-                          <span className="mm-text">Pond Liners</span>
                         </Link>
                       </li>
                     </ul>
@@ -528,44 +512,72 @@ export default function Header() {
                     </Link>
                     <ul className="sub-menu">
                       <li className="menu-item-has-children">
+                        <Link href="geotextiles">
+                          <span className="mm-text">Geotextiles</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="pondlinear">
+                          <span className="mm-text">Pond Liners</span>
+                        </Link>
+                      </li>
+
+                      <li className="menu-item-has-children">
+                        <Link href="roof-underlayment">
+                          <span className="mm-text">Roof Underlayment</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="roof-underlayment">
+                          <span className="mm-text">Lumber Wrap</span>
+                        </Link>
+                      </li>
+
+                      <li className="menu-item-has-children">
+                        <Link href="tarpauline">
+                          <span className="mm-text">Tarpaulins</span>
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <Link href="#">
+                      <span className="mm-text">100% Recycled PP Bag</span>
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href="#">
+                      <span className="mm-text">PP Fabric</span>
+                    </Link>
+                  </li>
+
+                  <li className="menu-item-has-children">
+                    <Link href="multifilament-yarn">
+                      <span className="mm-text">
+                        MF Yarn
+                      </span>
+                    </Link>
+                  </li>
+
+                  <li className="menu-item-has-children">
+                    <Link href="#">
+                      <span className="mm-text">
+                        Printing INK
+                        <i className="pe-7s-angle-down"></i>
+                      </span>
+                    </Link>
+                    <ul className="sub-menu">
+                      <li className="menu-item-has-children">
                         <Link href="ink-reducers">
                           <span className="mm-text">Ink and reducers</span>
                         </Link>
                       </li>
                     </ul>
                   </li>
-
-                  <li className="menu-item-has-children">
-                    <Link href="#">
-                      <span className="mm-text">
-                        MFY
-                        <i className="pe-7s-angle-down"></i>
-                      </span>
-                    </Link>
-                    <ul className="sub-menu">
-                      <li className="menu-item-has-children">
-                        <Link href="masterbatch">
-                          <span className="mm-text">Colour Masterbatches</span>
-                        </Link>
-                      </li>
-                      <li className="menu-item-has-children">
-                        <Link href="masterbatch">
-                          <span className="mm-text">UV Masterbatch</span>
-                        </Link>
-                      </li>
-                      <li className="menu-item-has-children">
-                        <Link href="masterbatch">
-                          <span className="mm-text">Calcium Masterbatch</span>
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li className="menu-item-has-children">
-                    <Link href="#">
-                      <span className="mm-text">
-                        100% PP Recycled Bag
-                      </span>
+                  <li>
+                    <Link href="masterbatch">
+                      <span className="mm-text">Masterbatch</span>
                     </Link>
                   </li>
 
@@ -580,16 +592,7 @@ export default function Header() {
                   <li>
                     <Link href="csr">CSR</Link>
                   </li>
-                  <li>
-                    <Link href="about-us">
-                      <span className="mm-text">About Us</span>
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="contact">
-                      <span className="mm-text">Contact</span>
-                    </Link>
-                  </li>
+                  
                 </ul>
               </nav>
             </div>

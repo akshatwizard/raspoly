@@ -12,7 +12,7 @@ import React from 'react'
 export default function page() {
   return (
     <>
-    <PreLoader/>
+    {/* <PreLoader/> */}
     <Slider/>
     <Exprience/>
     <Details/>

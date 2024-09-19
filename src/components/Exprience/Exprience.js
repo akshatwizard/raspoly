@@ -5,25 +5,25 @@ export default function Exprience() {
     <section className=" mt-5 py-5 expContainer">
       <div className="container">
         <div className="row row-gap-4">
-          <div className="col-lg-4 col-md-6 col-12 col-xs-12 text-center contentBox my-2">
+          <div className="col-lg-3 col-md-6 col-12 col-xs-12 text-center contentBox my-2">
             <h1 className="year">40+</h1>
             <p>Years of Experience</p>
           </div>
-          <div className="col-lg-4 col-md-6 col-12 col-xs-12 text-center contentBox my-2">
+          <div className="col-lg-3 col-md-6 col-12 col-xs-12 text-center contentBox my-2">
             <h1 className="year">40K+</h1>
-            <p> Metric Tons</p>
+            <p> Metric Tons of Annual Capacity</p>
           </div>
-          <div className="col-lg-4 col-md-6 col-12 col-xs-12 text-center contentBox my-2">
-            <h1>4mW</h1>
-            <p>Of captive solar energy production</p>
+          <div className="col-lg-3 col-md-6 col-12 col-xs-12 text-center contentBox my-2">
+            <h1>4MW</h1>
+            <p>Of Captive Solar Energy Production</p>
           </div>
-          <div className="col-lg-4 col-md-6 col-12 col-xs-12 text-center contentBox my-2">
+          {/* <div className="col-lg-4 col-md-6 col-12 col-xs-12 text-center contentBox my-2">
             <h1> 5 </h1>
             <p>Presence in continents </p>
-          </div>
-          <div className="col-lg-4 col-md-6 col-12 col-xs-12 text-center contentBox my-2">
-            <h1> 5 </h1>
-            <p>Presence in locations of India </p>
+          </div> */}
+          <div className="col-lg-3 col-md-6 col-12 col-xs-12 text-center contentBox my-2">
+            <h1> 4 </h1>
+            <p>Manufacturing Locations in India </p>
           </div>
           
         </div>
