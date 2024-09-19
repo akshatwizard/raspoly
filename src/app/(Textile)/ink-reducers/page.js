@@ -6,7 +6,7 @@ export default function page() {
       <div className="container">
         <div className="row">
             <div className="col-12">
-                <h1>Colours and Pigments</h1>
+                <h1 className='inkH1'>Colours and Pigments</h1>
                 <p>
                     <img src="https://www.raspoly.com/wp-content/uploads/2018/11/color&pigment.jpeg" alt="" style={{ width: "450px", float: "right", borderRadius: "15px" }}/>
                     Our Woven Sacks Inks are mainly low viscosity and alcohol based. These Inks can be formulated for treated or untreated Woven Sack fabrication. It can be printed by Flexographic printing technology. These Inks are formulated for different resistant properties such as Urea resistant, Alkali resistant, Rub resistant etc. Woven Sacks bags are mainly used for outer packaging of products.

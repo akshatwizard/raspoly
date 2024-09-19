@@ -84,7 +84,7 @@ export default function Footer() {
                       </li>
                       <li><i class="fa fa-whatsapp"></i> +91 830 3172 315</li>
                       <li><i class="fa fa-phone"></i>+91 830 3172 315</li>
-                      <li><i class="fa fa-tty"></i> +91 542 - 2205300</li>
+                      <li><i class="fa fa-tty"></i> +91 542 - 2205200</li>
                     </ul>
                   </div>
                 </div>

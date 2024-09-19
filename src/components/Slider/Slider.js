@@ -12,7 +12,7 @@ export default function Slider() {
               <div className="slide-inner style-2" style={{ height: "435px" }}>
                 <div className="slide-content text-black">
                   <h2 className="title hide">
-                    Art <br /> Machinery
+                    State of Art <br /> Machinery
                   </h2>
                   <h2 className="title show">Art Machinery</h2>
                   <p className="short-desc">
@@ -33,9 +33,9 @@ export default function Slider() {
               <div className="slide-inner style-2 " style={{ height: "435px" }}>
                 <div className="slide-content text-black">
                   <h2 className="title hide">
-                    Yarn <br /> Handles
+                   <img src="/assets/images/logo/logo2.jpeg" alt="" className="logo2"/>
                   </h2>
-                  <h2 className="title show">Yarn Handles</h2>
+                  <h2 className="title show">Yarn's</h2>
                   <p className="short-desc">
                     Achieving Sustainability and Circular Economy
                   </p>
@@ -52,9 +52,9 @@ export default function Slider() {
               <div className="slide-inner style-2" style={{ height: "435px" }}>
                 <div className="slide-content text-black">
                   <h2 className="title hide">
-                    Art of <br /> Webbing
+                    Art of <br /> Stiching
                   </h2>
-                  <h2 className="title show">Art of Webbing</h2>
+                  <h2 className="title show">Art of Stiching</h2>
                   <p className="short-desc">Focused Team With Common Vision</p>
                 </div>
                 <div className="slide-img">
