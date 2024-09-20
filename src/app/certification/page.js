@@ -5,13 +5,17 @@ export default function page() {
     <section className="sectionContainer">
       <div className="container">
         <div className="row row-gap-5">
-        <div className="col-lg-4 col-md-6 col-12">
+          <div className="section-title-wrap without-tab">
+            <h2 className="section-title mb-3">Certificate</h2>
+          </div>
+          <div className="col-lg-4 col-md-6 col-12">
             <div className="border rounded p-3 asd">
               <img
                 src="/assets/images/certificate/01.jpg"
                 alt=""
                 className="rounded"
               />
+              <p className="w-100 text-center mt-3 fs-5">ISO 9001</p>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-12">
@@ -21,6 +25,7 @@ export default function page() {
                 alt=""
                 className="rounded"
               />
+              <p className="w-100 text-center mt-3 fs-5">ISO 14001</p>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-12">
@@ -30,6 +35,7 @@ export default function page() {
                 alt=""
                 className="rounded"
               />
+              <p className="w-100 text-center mt-3 fs-5">ISO 22000</p>
             </div>
           </div>
           <div className="col-lg-4 col-md-6 col-12 ">
@@ -44,7 +50,38 @@ export default function page() {
               </p>
             </div>
           </div>
-          <div className="col-lg-4 col-md-6 col-12">
+          <div className="col-lg-4 col-md-6 col-12 ">
+            <div className="border rounded p-3 asd">
+              <img
+                src="/assets/images/certificate/AEO.jpg"
+                alt=""
+                className="rounded"
+              />
+              <p className="w-100 text-center mt-3 fs-5">
+                AEO Certificate
+              </p>
+            </div>
+          </div>
+          <div className="col-lg-4 col-md-6 col-12 ">
+            <div className="border rounded p-3 asd">
+              <img
+                src="/assets/images/certificate/replast-100.jpg"
+                alt=""
+                className="rounded"
+              />
+              <p className="w-100 text-center mt-3 fs-5">
+                100% Replast Certificate
+              </p>
+            </div>
+          </div>
+
+        </div>
+
+        <div className="row row-gap-5 mt-5">
+        <div className="section-title-wrap without-tab">
+            <h2 className="section-title mb-3">Awards</h2>
+          </div>
+        <div className="col-lg-4 col-md-6 col-12">
             <div className="border rounded p-3 asd">
               <img
                 src="https://www.raspoly.com/awards-achievements/Niryat-Bandhu-Award.jpg"
@@ -108,7 +145,6 @@ export default function page() {
               </p>
             </div>
           </div>
-
         </div>
       </div>
     </section>

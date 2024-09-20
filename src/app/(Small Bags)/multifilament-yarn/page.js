@@ -20,14 +20,26 @@ export default function page() {
                 <p>Sewing, slings, industrial, braid ropes, webbing, nets, belts, filtration.</p>
                 <h4>Seam Variants</h4>
                 <p>Single Chain , Heracles ( Overlock ), Double Chain Stitch , Heracles ( Overlock ) + Chain Stitch ( Safety Stitch ) There are several options of seams. During the production it is determined which seams are used, depending on the capacity of the big bag.</p>
+                <br />
+                <br />
                 <h4>AIM YARN</h4>
-                <p>Air Intermingled Yarns are produced through a process where air pressure creates nips at regular intervals, causing the flat yarn filaments to become entangled. This results in the yarns being intermingled along their length with evenly spaced nips. These yarns are ideal for use in high-speed fabric conversion machines, including those for narrow and wide fabrics, belts, and cords. The yarns are precision-wound with a stepped approach, ensuring smooth operation in high-speed processes such as stitching, weaving, and braiding.</p>
+                <p>
+                  <img className='aimsImg' src="assets/images/product/aim.jpeg" />
+                  Air Intermingled Yarns are produced through a process where air pressure creates nips at regular intervals, causing the flat yarn filaments to become entangled. This results in the yarns being intermingled along their length with evenly spaced nips. These yarns are ideal for use in high-speed fabric conversion machines, including those for narrow and wide fabrics, belts, and cords. The yarns are precision-wound with a stepped approach, ensuring smooth operation in high-speed processes such as stitching, weaving, and braiding.</p>
+                  <br />
+                  <br />
                 <h4>TWISTED YARN </h4>
                 <p>
+                <img className='aimsImg' src="assets/images/product/twisted.jpeg" style={{float:"left"}}/>
                 Twisted yarns are produced by twisting flat yarns according to specific application requirements. These yarns are commonly used in fabrics, webbings, sack stitching, FIBCs (Flexible Intermediate Bulk Containers), flexible luggage, tarpaulins, and other similar products.
                 </p>
+                <br />
+                <br />
+                <br />
                 <h4>FLAT YARN</h4>
-                <p>Flat yarns are simple, fully drawn yarns without any additional processing. They are commonly used in applications such as weft yarns in narrow webbings, various types of ropes, specialized woven fabrics, and webbings.</p>
+                <p>
+                <img className='aimsImg' src="assets/images/product/flat.jpeg"/>
+                  Flat yarns are simple, fully drawn yarns without any additional processing. They are commonly used in applications such as weft yarns in narrow webbings, various types of ropes, specialized woven fabrics, and webbings.</p>
                 
             </div>
         </div>

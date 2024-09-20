@@ -82,8 +82,8 @@ export default function Footer() {
                         B-Block, 8th Floor, Vinayak Plaza Maldahiya Crossing,
                         Varanasi - 221002 UP, INDIA
                       </li>
-                      <li><i class="fa fa-whatsapp"></i> +91 830 3172 315</li>
-                      <li><i class="fa fa-phone"></i>+91 830 3172 315</li>
+                      <li><i class="fa fa-phone"></i>+91 92369 92823</li>
+                      <li><i class="fa fa-whatsapp"></i> +91 92369 92823</li>
                       <li><i class="fa fa-tty"></i> +91 542 - 2205200</li>
                     </ul>
                   </div>
@@ -110,14 +110,14 @@ export default function Footer() {
                   <li>
                     <a
                       href="#"
-                      data-tippy="Facebook"
+                      data-tippy="Whatsapp"
                       data-tippy-inertia="true"
                       data-tippy-animation="shift-away"
                       data-tippy-delay="50"
                       data-tippy-arrow="true"
                       data-tippy-theme="sharpborder"
                     >
-                      <i class="fa fa-facebook"></i>
+                      <i class="fa fa-whatsapp"></i>
                     </a>
                   </li>
                   <li>

@@ -19,7 +19,7 @@ export default function Header() {
                     RAS Polytex Pvt. Ltd.
                     <br />
                     <span className="line"></span>
-                    <span>An ISO 9001,14001,22000 Company</span>
+                    <span>An ISO 9001, 14001, 22000 Company</span>
                     <br />
                     <span>SINCE 1983</span>
                   </p>
@@ -35,12 +35,18 @@ export default function Header() {
                             <li className="drop-holder d-none d-lg-block">
                               <Link href="/">Home</Link>
                             </li>
-                            <li className="d-none d-lg-block">
-                              <Link href="about-us">About Us</Link>
+                            <li className="d-none d-lg-block drop-holder">
+                              <Link href="">About Us</Link>
+                              <ul className="drop-menu">
+                                <li>
+                                  <Link href="#">Who are we</Link>
+                                </li>
+                                <li>
+                                  <Link href="#">Company History</Link>
+                                </li>
+                              </ul>
                             </li>
-                            <li className="d-none d-lg-block">
-                              <Link href="contact">Contact Us</Link>
-                            </li>
+
                             <li>
                               <Link href="#" className="d-none d-lg-block">
                                 Sustanibility
@@ -58,6 +64,9 @@ export default function Header() {
                               >
                                 Certification
                               </Link>
+                            </li>
+                            <li className="d-none d-lg-block">
+                              <Link href="contact">Contact Us</Link>
                             </li>
                           </ul>
                         </nav>
@@ -124,12 +133,11 @@ export default function Header() {
                     <li className="d-none d-lg-block">
                       <Link href="#">
                         <lord-icon
-                          src="https://cdn.lordicon.com/iqagrlso.json"
+                          src="https://cdn.lordicon.com/cywksamr.json"
                           trigger="morph"
-                          stroke="bold"
                           state="morph-circle"
-                          colors="primary:#ffffff,secondary:#ffffff"
                           style={{ width: "30px", height: "30px" }}
+                          colors="primary:#ffffff,secondary:#ffffff"
                         ></lord-icon>
                       </Link>
                     </li>
@@ -160,7 +168,7 @@ export default function Header() {
                 <nav className="main-nav">
                   <ul>
                     <li className="megamenu-holder">
-                      <Link href="/">Big Bag/FIBC</Link>
+                      <Link href="/">Big Bags/FIBC</Link>
                       <ul className="drop-menu megamenu">
                         <li>
                           <ul>
@@ -168,29 +176,50 @@ export default function Header() {
                               <Link href="fibc">FIBC</Link>
                             </li>
                             <li>
-                              <Link href="ppws">PPWS & Dunnage Bags</Link>
+                              <Link href="u-panel-bags">U Panel Bags</Link>
                             </li>
                             <li>
-                              <Link href="adstar">
-                                AD Star Block Bottom bags
+                              <Link href="four-panel-bags">
+                                Four Panel Bags
                               </Link>
                             </li>
                             <li>
-                              <Link href="leno">Leno bags</Link>
-                            </li>
-                            <li>
-                              <Link href="laminated-unlaminated">
-                                Laminated and Unlaminated Fabric
-                              </Link>
-                            </li>
-
-                            <li>
-                              <Link href="bopp">
-                                BOPP , Shopping bags and PET Food
+                              <Link href="circular-bags">
+                                Circular/Tubular Bags
                               </Link>
                             </li>
                             <li>
-                              <Link href="pinch">Pinch Bottom Bags</Link>
+                              <Link href="conical-bags">Conical Bags</Link>
+                            </li>
+                            <li>
+                              <Link href="tunnel-bags">Tunnel Bags</Link>
+                            </li>
+                            <li>
+                              <Link href="baffle-bags">Baffle Bags</Link>
+                            </li>
+                            <li>
+                              <Link href="ventilated-bags">
+                                Ventilated Bags
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="loop-bags">One/Two Loop Bags</Link>
+                            </li>
+                            <li>
+                              <Link href="food-grade-bags">
+                                Food Grade Bags
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="types-bags">
+                                Types - B , C and D Bags
+                              </Link>
+                            </li>
+                            <li>
+                              <Link href="flexi-bags">Flexi Tanks</Link>
+                            </li>
+                            <li>
+                              <Link href="un-bags">UN certified Bags</Link>
                             </li>
                           </ul>
                         </li>
@@ -199,19 +228,61 @@ export default function Header() {
                     <li className="drop-holder">
                       <Link href="#">Small Bags/PPWB</Link>
                       <ul className="drop-menu">
-                        {/* <li>
-                          <Link href="multifilament-yarn">MF Yarn</Link>
-                        </li> */}
                         <li>
                           <Link href="webbings-handles">
                             Webbings &amp; Handles
                           </Link>
                         </li>
+                        <li>
+                          <Link href="ppws">PP Woven Bags</Link>
+                        </li>
+                        <li>
+                          <Link href="adstar">Block Bottom bags</Link>
+                        </li>
+                        <li>
+                          <Link href="leno">Leno bags</Link>
+                        </li>
+
+                        <li>
+                          <Link href="bopp">BOPP Printed Bags</Link>
+                        </li>
+
+                        <li>
+                          <Link href="pinch">Pinch Bottom Bags</Link>
+                        </li>
+
+                        <li>
+                          <Link href="dunnage-bags">Dunnage Bags</Link>
+                        </li>
+                        <li>
+                          <Link href="laminated-unlaminated">
+                            Laminated Bags
+                          </Link>
+                        </li>
+                        <li>
+                          <Link href="shopping-bags">Shopping Bags</Link>
+                        </li>
+
+                        <li>
+                          <Link href="cargo-bags">Cargo Bags</Link>
+                        </li>
+                        <li>
+                          <Link href="garden-bags">Garden bags</Link>
+                        </li>
+                        <li>
+                          <Link href="insect-bags">Insect Repellent Bags</Link>
+                        </li>
+                        <li>
+                          <Link href="flame-bags">Flame Retardant Bags</Link>
+                        </li>
+                        <li>
+                          <Link href="asbestos-bags">Asbestos Bags</Link>
+                        </li>
                       </ul>
                     </li>
 
                     <li className="drop-holder">
-                      <Link href="#">Technical Textile</Link>
+                      <Link href="#">Technical Textiles</Link>
                       <ul className="drop-menu">
                         <li>
                           <Link href="geotextiles">Geotextiles</Link>
@@ -231,10 +302,10 @@ export default function Header() {
                       </ul>
                     </li>
                     <li>
-                      <Link href="#">100% Recycled PP Bag</Link>
+                      <Link href="#">100% Recycled PP Bags</Link>
                     </li>
                     <li>
-                      <Link href="#">PP Fabric</Link>
+                      <Link href="#">PP Fabrics</Link>
                     </li>
 
                     <li>
@@ -277,7 +348,7 @@ export default function Header() {
                   <nav className="main-nav">
                     <ul className="stick stickyUL" style={{ gap: "20px" }}>
                       <li className="megamenu-holder">
-                        <Link href="/">Big Bag/FIBC</Link>
+                        <Link href="/">Big Bags/FIBC</Link>
                         <ul className="drop-menu megamenu">
                           <li>
                             <ul>
@@ -285,28 +356,50 @@ export default function Header() {
                                 <Link href="fibc">FIBC</Link>
                               </li>
                               <li>
-                                <Link href="ppws">PPWS & Dunnage Bags</Link>
+                                <Link href="u-panel-bags">U Panel Bags</Link>
                               </li>
                               <li>
-                                <Link href="adstar">
-                                  AD Star Block Bottom bags
+                                <Link href="four-panel-bags">
+                                  Four Panel Bags
                                 </Link>
                               </li>
                               <li>
-                                <Link href="leon">Leno bags</Link>
-                              </li>
-                              <li>
-                                <Link href="laminated-unlaminated">
-                                  Laminated and Unlaminated Fabric
+                                <Link href="circular-bags">
+                                  Circular/Tubular Bags
                                 </Link>
                               </li>
                               <li>
-                                <Link href="bopp">
-                                  BOPP , Shopping bags and PET Food
+                                <Link href="conical-bags">Conical Bags</Link>
+                              </li>
+                              <li>
+                                <Link href="tunnel-bags">Tunnel Bags</Link>
+                              </li>
+                              <li>
+                                <Link href="baffle-bags">Baffle Bags</Link>
+                              </li>
+                              <li>
+                                <Link href="ventilated-bags">
+                                  Ventilated Bags
                                 </Link>
                               </li>
                               <li>
-                                <Link href="pinch">Pinch Bottom Bags</Link>
+                                <Link href="loop-bags">One/Two Loop Bags</Link>
+                              </li>
+                              <li>
+                                <Link href="food-grade-bags">
+                                  Food Grade Bags
+                                </Link>
+                              </li>
+                              <li>
+                                <Link href="types-bags">
+                                  Types - B , C and D Bags
+                                </Link>
+                              </li>
+                              <li>
+                                <Link href="flexi-bags">Flexi Tanks</Link>
+                              </li>
+                              <li>
+                                <Link href="un-bags">UN certified Bags</Link>
                               </li>
                             </ul>
                           </li>
@@ -320,11 +413,58 @@ export default function Header() {
                               Webbings &amp; Handles
                             </Link>
                           </li>
+                          <li>
+                            <Link href="ppws">PP Woven Bags</Link>
+                          </li>
+                          <li>
+                            <Link href="adstar">Block Bottom bags</Link>
+                          </li>
+                          <li>
+                            <Link href="leno">Leno bags</Link>
+                          </li>
+
+                          <li>
+                            <Link href="bopp">BOPP Printed Bags</Link>
+                          </li>
+
+                          <li>
+                            <Link href="pinch">Pinch Bottom Bags</Link>
+                          </li>
+
+                          <li>
+                            <Link href="dunnage-bags">Dunnage Bags</Link>
+                          </li>
+                          <li>
+                            <Link href="laminated-unlaminated">
+                              Laminated Bags
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="shopping-bags">Shopping Bags</Link>
+                          </li>
+
+                          <li>
+                            <Link href="cargo-bags">Cargo Bags</Link>
+                          </li>
+                          <li>
+                            <Link href="garden-bags">Garden bags</Link>
+                          </li>
+                          <li>
+                            <Link href="insect-bags">
+                              Insect Repellent Bags
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="flame-bags">Flame Retardant Bags</Link>
+                          </li>
+                          <li>
+                            <Link href="asbestos-bags">Asbestos Bags</Link>
+                          </li>
                         </ul>
                       </li>
 
                       <li className="drop-holder">
-                        <Link href="">Technical Textile</Link>
+                        <Link href="">Technical Textiles</Link>
                         <ul className="drop-menu">
                           <li>
                             <Link href="geotextiles">Geotextiles</Link>
@@ -346,11 +486,11 @@ export default function Header() {
                         </ul>
                       </li>
                       <li>
-                        <Link href="#">100% Recycled PP Bag</Link>
+                        <Link href="#">100% Recycled PP Bags</Link>
                       </li>
 
                       <li>
-                        <Link href="#">PP Fabric</Link>
+                        <Link href="#">PP Fabrics</Link>
                       </li>
 
                       <li>
@@ -442,40 +582,65 @@ export default function Header() {
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="ppwc">
-                          <span className="mm-text">PPWS & Dunnage Bags</span>
+                        <Link href="u-panel-bags">
+                          <span className="mm-text">U Panel Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="adstar">
+                        <Link href="four-panel-bags">
+                          <span className="mm-text">Four Panel Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="circular-bags">
+                          <span className="mm-text">Circular/Tubular Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="conical-bags">
+                          <span className="mm-text">Conical Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="tunnel-bags">
+                          <span className="mm-text">Tunnel Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="baffle-bags">
+                          <span className="mm-text">Baffle Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="ventilated-bags">
+                          <span className="mm-text">Ventilated Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="loop-bags">
+                          <span className="mm-text">One/Two Loop Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="food-grade-bags">
+                          <span className="mm-text">Food Grade Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="types-bags">
                           <span className="mm-text">
-                            AD Star Block Bottom bags
+                            Types - B, C and D Bags
                           </span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="leno">
-                          <span className="mm-text">Leno bags</span>
+                        <Link href="flexi-bags">
+                          <span className="mm-text">Flexi Tanks</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="laminated-unlaminated">
-                          <span className="mm-text">
-                            Laminated and Unlaminated Fabric
-                          </span>
-                        </Link>
-                      </li>
-
-                      <li className="menu-item-has-children">
-                        <Link href="bopp">
-                          <span className="mm-text">
-                            BOPP , Shopping bags and PET Food
-                          </span>
-                        </Link>
-                      </li>
-                      <li className="menu-item-has-children">
-                        <Link href="pinch">
-                          <span className="mm-text">Pinch Bottom Bags</span>
+                        <Link href="un-bags">
+                          <span className="mm-text">UN Certified Bags</span>
                         </Link>
                       </li>
                     </ul>
@@ -489,15 +654,73 @@ export default function Header() {
                     </Link>
                     <ul className="sub-menu">
                       <li className="menu-item-has-children">
-                        <Link href="multifilament-yarn">
-                          <span className="mm-text">MF Yarn</span>
+                        <Link href="webbings-handles">
+                          <span className="mm-text">Webbings & Handles</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="webbings-handles">
-                          <span className="mm-text">
-                            Webbings &amp; Handles
-                          </span>
+                        <Link href="ppws">
+                          <span className="mm-text">PP Woven Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="adstar">
+                          <span className="mm-text">Block Bottom Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="leno">
+                          <span className="mm-text">Leno Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="bopp">
+                          <span className="mm-text">BOPP Printed Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="pinch">
+                          <span className="mm-text">Pinch Bottom Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="dunnage-bags">
+                          <span className="mm-text">Dunnage Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="laminated-unlaminated">
+                          <span className="mm-text">Laminated Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="shopping-bags">
+                          <span className="mm-text">Shopping Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="cargo-bags">
+                          <span className="mm-text">Cargo Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="garden-bags">
+                          <span className="mm-text">Garden Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="insect-bags">
+                          <span className="mm-text">Insect Repellent Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="flame-bags">
+                          <span className="mm-text">Flame Retardant Bags</span>
+                        </Link>
+                      </li>
+                      <li className="menu-item-has-children">
+                        <Link href="asbestos-bags">
+                          <span className="mm-text">Asbestos Bags</span>
                         </Link>
                       </li>
                     </ul>
@@ -506,7 +729,7 @@ export default function Header() {
                   <li className="menu-item-has-children">
                     <Link href="#">
                       <span className="mm-text">
-                        Technical Textile
+                        Technical Textiles
                         <i className="pe-7s-angle-down"></i>
                       </span>
                     </Link>
@@ -543,20 +766,18 @@ export default function Header() {
 
                   <li>
                     <Link href="#">
-                      <span className="mm-text">100% Recycled PP Bag</span>
+                      <span className="mm-text">100% Recycled PP Bags</span>
                     </Link>
                   </li>
                   <li>
                     <Link href="#">
-                      <span className="mm-text">PP Fabric</span>
+                      <span className="mm-text">PP Fabrics</span>
                     </Link>
                   </li>
 
                   <li className="menu-item-has-children">
                     <Link href="multifilament-yarn">
-                      <span className="mm-text">
-                        MF Yarn
-                      </span>
+                      <span className="mm-text">MF Yarn</span>
                     </Link>
                   </li>
 
@@ -592,7 +813,6 @@ export default function Header() {
                   <li>
                     <Link href="csr">CSR</Link>
                   </li>
-                  
                 </ul>
               </nav>
             </div>
