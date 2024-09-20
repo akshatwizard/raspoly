@@ -124,12 +124,11 @@ export default function Header() {
                     <li className="d-none d-lg-block">
                       <Link href="#">
                         <lord-icon
-                          src="https://cdn.lordicon.com/iqagrlso.json"
+                          src="https://cdn.lordicon.com/cywksamr.json"
                           trigger="morph"
-                          stroke="bold"
                           state="morph-circle"
-                          colors="primary:#ffffff,secondary:#ffffff"
                           style={{ width: "30px", height: "30px" }}
+                          colors="primary:#ffffff,secondary:#ffffff"
                         ></lord-icon>
                       </Link>
                     </li>
@@ -554,9 +553,7 @@ export default function Header() {
 
                   <li className="menu-item-has-children">
                     <Link href="multifilament-yarn">
-                      <span className="mm-text">
-                        MF Yarn
-                      </span>
+                      <span className="mm-text">MF Yarn</span>
                     </Link>
                   </li>
 
@@ -592,7 +589,6 @@ export default function Header() {
                   <li>
                     <Link href="csr">CSR</Link>
                   </li>
-                  
                 </ul>
               </nav>
             </div>

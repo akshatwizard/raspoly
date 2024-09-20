@@ -8,7 +8,7 @@ export default function LocationMap() {
           <div className="section-title-wrap without-tab">
             <h2 className="section-title mb-3">Raspoly Worldwide</h2>
             <p className="section-desc">
-              Sourcing from Best Packaging Solutions Companies Across the Globe
+              Manufacturing in India - Supplying to the World
             </p>
           </div>
           <div className="col-lg-12">

@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function Card() {
@@ -9,7 +10,9 @@ export default function Card() {
             <div className="detsCard">
               <img src="assets/images/banner/engineer.jpg" alt="" />
               <h1>Industries</h1>
-              <button className="Cardbtn">Choose your industry</button>
+              <Link href="/industry">
+                <button className="Cardbtn">Choose your industry</button>
+              </Link>
             </div>
           </div>
 
@@ -17,7 +20,9 @@ export default function Card() {
             <div className="detsCard">
               <img src="assets/images/banner/products.jpg" alt="" />
               <h1>Products</h1>
-              <button className="Cardbtn">Choose our Product</button>
+              <Link href="/products">
+                <button className="Cardbtn">Choose our Product</button>
+              </Link>
             </div>
           </div>
         </div>
