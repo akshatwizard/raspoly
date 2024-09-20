@@ -20,6 +20,8 @@ export default function page() {
                 <p>Sewing, slings, industrial, braid ropes, webbing, nets, belts, filtration.</p>
                 <h4>Seam Variants</h4>
                 <p>Single Chain , Heracles ( Overlock ), Double Chain Stitch , Heracles ( Overlock ) + Chain Stitch ( Safety Stitch ) There are several options of seams. During the production it is determined which seams are used, depending on the capacity of the big bag.</p>
+                <br />
+                <br />
                 <h4>AIM YARN</h4>
                 <p>
                   <img className='aimsImg' src="assets/images/product/aim.jpeg" />
@@ -28,9 +30,10 @@ export default function page() {
                   <br />
                 <h4>TWISTED YARN </h4>
                 <p>
-                <img className='aimsImg' src="assets/images/product/twisted.jpeg"/>
+                <img className='aimsImg' src="assets/images/product/twisted.jpeg" style={{float:"left"}}/>
                 Twisted yarns are produced by twisting flat yarns according to specific application requirements. These yarns are commonly used in fabrics, webbings, sack stitching, FIBCs (Flexible Intermediate Bulk Containers), flexible luggage, tarpaulins, and other similar products.
                 </p>
+                <br />
                 <br />
                 <br />
                 <h4>FLAT YARN</h4>
