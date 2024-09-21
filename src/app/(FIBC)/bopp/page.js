@@ -4,9 +4,12 @@ export default function page() {
   return (
     <section className="sectionContainer">
       <div className="container">
+      <div className="section-title-wrap without-tab">
+            <h2 className="section-title mb-3">BOPP Printed Bags</h2>
+          </div>
         <div className="row">
           <div className="col-lg-12">
-            <h3>BOPP Laminated Bags</h3>
+            <h3>BOPP Printed Bags</h3>
             <p>
               <img
                 src="https://www.raspoly.com/wp-content/uploads/2018/11/bopp.jpeg"

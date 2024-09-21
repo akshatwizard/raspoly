@@ -4,8 +4,11 @@ export default function page() {
   return (
     <section className="sectionContainer">
       <div className="container">
+        <div className="section-title-wrap without-tab">
+          <h2 className="section-title mb-3">Block Bottom Bags</h2>
+        </div>
         <div className="row">
-          <div className="col-12 col-lg-4 col-md-5 d-flex justify-content-center align-items-center">
+          <div className="col-12 col-lg-8 col-md-5 d-flex justify-content-center align-items-center">
             <p>
               These are square bottom bags which provide an ideal base for
               standing displays. They combine the benefits of a traditional side
@@ -15,7 +18,7 @@ export default function page() {
               other bulk packaging.
             </p>
           </div>
-          <div className="col-lg-8 col-md-7  col-12">
+          <div className="col-lg-4 col-md-7  col-12 mt-5">
             <img
               src="https://www.raspoly.com/wp-content/uploads/2019/02/Block-Bottom-bags-1.jpg"
               alt=""

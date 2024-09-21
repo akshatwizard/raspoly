@@ -5,6 +5,9 @@ export default function page() {
     <section className="sectionContainer">
       <div className="container">
         <div className="row row-gap-5">
+          <div className="section-title-wrap without-tab">
+            <h2 className="section-title mb-3">PP Woven Bags</h2>
+          </div>
           <div className="col-lg-12">
             <div className="content-container">
               <div className="ppws-text-content">
@@ -68,8 +71,6 @@ export default function page() {
               </div>
             </div>
           </div>
-
-          
         </div>
       </div>
     </section>

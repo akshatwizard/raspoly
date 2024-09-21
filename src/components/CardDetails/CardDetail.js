@@ -11,7 +11,7 @@ export default function CardDetail() {
                 src="https://cdn.lordicon.com/trkmlure.json"
                 trigger="hover"
                 state="hover-rotate-up-to-down"
-                colors="primary:#abd373,secondary:#abd373"
+                colors="primary:#233382,secondary:#233382"
                 style={{ width: "130px", height: "130px" }}
                 //   style="width:250px;height:250px"
               ></lord-icon>
@@ -29,7 +29,7 @@ export default function CardDetail() {
               <lord-icon
                 src="https://cdn.lordicon.com/nzdmwlbv.json"
                 trigger="hover"
-                colors="primary:#abd373,secondary:#abd373"
+                colors="primary:#233382,secondary:#233382"
                 style={{ width: "130px", height: "130px" }}
               ></lord-icon>
               <h4>ALL UNDER ONE ROOF</h4>
@@ -48,7 +48,7 @@ export default function CardDetail() {
                 src="https://cdn.lordicon.com/wzrwaorf.json"
                 trigger="hover"
                 state="hover-conversation-alt"
-                colors="primary:#abd373,secondary:#abd373"
+                colors="primary:#233382,secondary:#233382"
                 style={{ width: "130px", height: "130px" }}
               ></lord-icon>
               <h4>WE BELIEVE IN RELATIONSHIPS</h4>

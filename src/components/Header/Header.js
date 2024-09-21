@@ -31,7 +31,7 @@ export default function Header() {
                     <li>
                       <div className="main-menu position-relative">
                         <nav className="main-nav">
-                          <ul>
+                          <ul className="upper-nav">
                             <li className="drop-holder d-none d-lg-block">
                               <Link href="/">Home</Link>
                             </li>
@@ -228,11 +228,11 @@ export default function Header() {
                     <li className="drop-holder">
                       <Link href="#">Small Bags/PPWB</Link>
                       <ul className="drop-menu">
-                        <li>
+                        {/* <li>
                           <Link href="webbings-handles">
                             Webbings &amp; Handles
                           </Link>
-                        </li>
+                        </li> */}
                         <li>
                           <Link href="ppws">PP Woven Bags</Link>
                         </li>
@@ -341,6 +341,16 @@ export default function Header() {
                     className="stickylogoImage"
                     alt="Header Logo"
                   />
+                  <div className="company-name">
+                    <p className="logoName">
+                      RAS Polytex Pvt. Ltd.
+                      <br />
+                      <span className="line"></span>
+                      <span>An ISO 9001, 14001, 22000 Company</span>
+                      <br />
+                      <span>SINCE 1983</span>
+                    </p>
+                  </div>
                 </Link>
               </div>
               <div className="col-lg-11 d-none d-lg-block">
@@ -408,11 +418,11 @@ export default function Header() {
                       <li className="drop-holder">
                         <Link href="#">Small Bags/PPWB</Link>
                         <ul className="drop-menu">
-                          <li>
+                          {/* <li>
                             <Link href="webbings-handles">
                               Webbings &amp; Handles
                             </Link>
-                          </li>
+                          </li> */}
                           <li>
                             <Link href="ppws">PP Woven Bags</Link>
                           </li>
@@ -653,11 +663,11 @@ export default function Header() {
                       </span>
                     </Link>
                     <ul className="sub-menu">
-                      <li className="menu-item-has-children">
+                      {/* <li className="menu-item-has-children">
                         <Link href="webbings-handles">
                           <span className="mm-text">Webbings & Handles</span>
                         </Link>
-                      </li>
+                      </li> */}
                       <li className="menu-item-has-children">
                         <Link href="ppws">
                           <span className="mm-text">PP Woven Bags</span>

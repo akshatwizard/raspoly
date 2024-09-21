@@ -4,6 +4,9 @@ export default function page() {
   return (
     <section className="sectionContainer">
       <div className="container">
+        <div className="section-title-wrap without-tab mb-4">
+          <h2 className="section-title mb-3">Roof Underlayment</h2>
+        </div>
         <div className="row">
           <div className="col-12">
             <p>
@@ -27,56 +30,56 @@ export default function page() {
             </p>
 
             <div className="row">
-            <div className="col-lg-4">
-              <h4>Features</h4>
-              <ol>
-                <li>Stop water infiltration</li>
-                <li>Extended UV Exposure</li>
-                <li>Capture less heat</li>
-                <li>Good resistance to water and vapor</li>
-                <li>Tear and puncture resistance</li>
-                <li>Slip-resistant walking surface</li>
-                <li>ISO authorized</li>
-                <li>Tough and Durable Material</li>
-                <li>Extreme weather protection</li>
-                <li>Prevents skidding during installation</li>
-                <li>High temperature tolerance</li>
-                <li>Water and fire-resistant</li>
-                <li>Wrinkle-free when exposed to the elements</li>
-              </ol>
-            </div>
+              <div className="col-lg-4">
+                <h4>Features</h4>
+                <ol>
+                  <li>Stop water infiltration</li>
+                  <li>Extended UV Exposure</li>
+                  <li>Capture less heat</li>
+                  <li>Good resistance to water and vapor</li>
+                  <li>Tear and puncture resistance</li>
+                  <li>Slip-resistant walking surface</li>
+                  <li>ISO authorized</li>
+                  <li>Tough and Durable Material</li>
+                  <li>Extreme weather protection</li>
+                  <li>Prevents skidding during installation</li>
+                  <li>High temperature tolerance</li>
+                  <li>Water and fire-resistant</li>
+                  <li>Wrinkle-free when exposed to the elements</li>
+                </ol>
+              </div>
 
-            <div className="col-lg-4">
-              <h4>Advantages</h4>
-              <ol>
-                <li>Simple and Quick Installation</li>
-                <li>It won’t absorb water</li>
-                <li>Increase job site productivity due to lighter rolls</li>
-                <li>Does not require extra equipment</li>
-                <li>Better leak protection</li>
-                <li>More flexible in the cold</li>
-                <li>Clean and easier to handle</li>
-                <li>
-                  Enhance walkability and the life of the roof due to unique
-                  textured fabric
-                </li>
-                <li>More coverage per roll</li>
-              </ol>
-            </div>
+              <div className="col-lg-4">
+                <h4>Advantages</h4>
+                <ol>
+                  <li>Simple and Quick Installation</li>
+                  <li>It won’t absorb water</li>
+                  <li>Increase job site productivity due to lighter rolls</li>
+                  <li>Does not require extra equipment</li>
+                  <li>Better leak protection</li>
+                  <li>More flexible in the cold</li>
+                  <li>Clean and easier to handle</li>
+                  <li>
+                    Enhance walkability and the life of the roof due to unique
+                    textured fabric
+                  </li>
+                  <li>More coverage per roll</li>
+                </ol>
+              </div>
 
-            <div className="col-lg-4">
-              <h4>Applications</h4>
-              <ol>
-                <li>Metal roof applications</li>
-                <li>Cement concrete</li>
-                <li>Wood</li>
-                <li>Mild steel</li>
-                <li>Clay</li>
-                <li>Slate</li>
-                <li>Plastic</li>
-                <li>Steep slope roof applications</li>
-              </ol>
-            </div>
+              <div className="col-lg-4">
+                <h4>Applications</h4>
+                <ol>
+                  <li>Metal roof applications</li>
+                  <li>Cement concrete</li>
+                  <li>Wood</li>
+                  <li>Mild steel</li>
+                  <li>Clay</li>
+                  <li>Slate</li>
+                  <li>Plastic</li>
+                  <li>Steep slope roof applications</li>
+                </ol>
+              </div>
             </div>
           </div>
         </div>
