@@ -29,7 +29,7 @@ export default function Slider() {
     <div className="container">
       <div className="row">
         <div className="col-lg-12">
-          <div id="carouselExampleAutoplaying" className="carousel slide">
+          <div id="carouselExampleAutoplaying" className="carousel slide" data-bs-ride="carousel">
             <div className="carousel-inner">
               {texts.map((text, index) => (
                 <div
