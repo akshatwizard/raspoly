@@ -5,7 +5,7 @@ export default function page() {
     <section className="sectionContainer">
       <div className="container">
         <div className="section-title-wrap without-tab mb-5">
-          <h2 className="section-title mb-3">sustanibility</h2>
+          <h2 className="section-title mb-3">Sustainability</h2>
         </div>
         <div className="row row-gap-4">
           <div className="col-12">
