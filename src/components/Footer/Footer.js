@@ -120,7 +120,7 @@ export default function Footer() {
                       <i class="fa fa-whatsapp"></i>
                     </a>
                   </li>
-                  <li>
+                  {/* <li>
                     <a
                       href="#"
                       data-tippy="Twitter"
@@ -132,7 +132,7 @@ export default function Footer() {
                     >
                       <i class="fa fa-twitter"></i>
                     </a>
-                  </li>
+                  </li> */}
                   <li>
                     <a
                       href="#"

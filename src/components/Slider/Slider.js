@@ -42,14 +42,14 @@ export default function Slider() {
                       <div className="slide-content text-black">
                         <h2 className="title hide">
                           {index === 0 && 'State of Art Machinery'}
-                          {index === 1 && 'Yarn\'s'}
+                          {index === 1 && <img src="/assets/images/logo/logo2.jpeg" alt="" srcset="" style={{width:"300px"}} /> }
                           {index === 2 && 'Art of Stitching'}
                           {index === 3 && '100% Green Bags'}
                           {index === 4 && 'Giving back to Society'}
                         </h2>
                         <h2 className="title show">
                           {index === 0 && 'Art Machinery'}
-                          {index === 1 && 'Yarn\'s'}
+                          {index === 1 && <img src="/assets/images/logo/logo2.jpeg" alt="" srcset="" style={{width:"300px"}} /> }
                           {index === 2 && 'Art of Stitching'}
                           {index === 3 && '100% Green Bags'}
                           {index === 4 && 'Giving back to Society'}

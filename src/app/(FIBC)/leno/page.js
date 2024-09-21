@@ -4,6 +4,9 @@ export default function page() {
   return (
     <section className="sectionContainer">
       <div className="container">
+      <div className="section-title-wrap without-tab">
+            <h2 className="section-title mb-3">Leno Bags</h2>
+          </div>
         <div className="row">
           <div className="col-lg-8 col-md-6 col-12">
             <h1>Leno Bags</h1>

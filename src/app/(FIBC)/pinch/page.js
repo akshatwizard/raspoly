@@ -4,9 +4,12 @@ export default function page() {
   return (
     <section className='sectionContainer'>
       <div className="container">
+      <div className="section-title-wrap without-tab">
+            <h2 className="section-title mb-3">Pinch Bottom Bags</h2>
+          </div>
         <div className="row">
             <div className="col-lg-12">
-            <h1>Pinch woven polypropylene</h1>
+            <h1>Pinch Bottom Bags</h1>
             <p>
               <img
                 src="https://www.raspoly.com/wp-content/uploads/2018/11/pinch.jpeg"
