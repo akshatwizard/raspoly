@@ -39,16 +39,19 @@ export default function Header() {
                               <Link href="">About Us</Link>
                               <ul className="drop-menu">
                                 <li>
-                                  <Link href="#">Who are we</Link>
+                                  <Link href="about-us">Who are we</Link>
                                 </li>
                                 <li>
-                                  <Link href="#">Company History</Link>
+                                  <Link href="history">Company History</Link>
+                                </li>
+                                <li>
+                                  <Link href="product-policy">Product Safety & Quality Policy</Link>
                                 </li>
                               </ul>
                             </li>
 
                             <li>
-                              <Link href="#" className="d-none d-lg-block">
+                              <Link href="sustanibility" className="d-none d-lg-block">
                                 Sustanibility
                               </Link>
                             </li>

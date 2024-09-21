@@ -4,6 +4,9 @@ export default function page() {
   return (
     <section className="sectionContainer">
       <div className="container">
+      <div className="section-title-wrap without-tab mb-5">
+          <h2 className="section-title mb-3">Multifilament Yarn's</h2>
+        </div>
         <div className="row">
           <div className="col-12">
             <h1>MULTIFILAMENT YARNS</h1>
@@ -12,6 +15,7 @@ export default function page() {
                 src="assets/images/banner/thread.jpeg"
                 alt=""
                 style={{ width: "400px", float: "right", borderRadius: "15px" }}
+                className="mb-3"
               />
               Polypropylene Multifilament Yarns of high and medium tenacity.
               They come in three different types (Intermingled, Twisted,

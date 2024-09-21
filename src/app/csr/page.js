@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 export default function page() {
@@ -63,7 +64,7 @@ export default function page() {
                 />
               </div>
               <div className="col-12 d-flex align-items-center justify-content-center mt-5">
-                <button className="csr">Download CSR policy</button>
+                <Link href='/assets/CSR-POLICY-RAS.pdf' download={true} target="_blank"><button className="csr">Download CSR policy</button></Link>
               </div>
             </div>
           </div>
