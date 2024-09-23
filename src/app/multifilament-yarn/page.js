@@ -9,7 +9,7 @@ export default function page() {
         </div>
         <div className="row">
           <div className="col-12">
-            <h1>MULTIFILAMENT YARNS</h1>
+            {/* <h1>MULTIFILAMENT YARNS</h1> */}
             <p>
               <img
                 src="assets/images/banner/thread.jpeg"

@@ -37,7 +37,9 @@ export default function page() {
               To ensure safety, bags used for packaging hazardous goods must be manufactured only after obtaining a <strong>UN certificate</strong> from an authorized and notified laboratory. This certification ensures that the bags meet the necessary standards to handle and transport dangerous materials safely.
             </p>
           </div>
-          <div className="col-lg-4 col-md-5 col-12"></div>
+          <div className="col-lg-4 col-md-5 col-12">
+            <img src="/assets/images/FIBC/un-fibc-bags-1.jpg" alt="" className="rounded-2" />
+          </div>
         </div>
       </div>
     </section>

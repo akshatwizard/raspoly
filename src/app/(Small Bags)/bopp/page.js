@@ -7,7 +7,7 @@ export default function page() {
       <div className="section-title-wrap without-tab">
             <h2 className="section-title mb-3">BOPP Printed Bags</h2>
           </div>
-        <div className="row">
+        <div className="row bg-light p-4 rounded-4">
           <div className="col-lg-12">
             <h3>BOPP Printed Bags</h3>
             <p>

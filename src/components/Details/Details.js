@@ -4,7 +4,7 @@ export default function Details() {
   return (
     <section
       className=" my-5 detailsContainer"
-      style={{ backgroundImage: 'url("assets/images/banner/background.jpg")' }}
+      style={{ backgroundImage: 'url("assets/images/banner/background.png")' }}
     >
       <div className="container">
         <div className="row">

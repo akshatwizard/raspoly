@@ -25,7 +25,9 @@ export default function page() {
               Food-grade bags play a crucial role in maintaining the quality, safety, and freshness of food products throughout the supply chain.
             </p>
           </div>
-          <div className="col-lg-4 col-md-5 col-12"></div>
+          <div className="col-lg-4 col-md-5 col-12">
+          <img src="/assets/images/FIBC/food-grade.avif" alt="" className="rounded-2" />
+          </div>
         </div>
       </div>
     </section>
