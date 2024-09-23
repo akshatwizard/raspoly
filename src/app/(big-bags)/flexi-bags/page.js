@@ -36,7 +36,9 @@ export default function page() {
               However, one drawback is that they are usually designed for single-use and may need to be properly disposed of or recycled after use.
             </p>
           </div>
-          <div className="col-lg-4 col-md-5 col-12"></div>
+          <div className="col-lg-4 col-md-5 col-12">
+          <img src="/assets/images/FIBC/flexi.jfif" alt="" className="rounded-2 w-100" />
+          </div>
         </div>
       </div>
     </section>

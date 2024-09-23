@@ -30,7 +30,9 @@ export default function page() {
               Ventilated FIBC bags offer an effective solution for industries that need to protect products from moisture while still ensuring proper airflow.
             </p>
           </div>
-          <div className="col-lg-4 col-md-5 col-12"></div>
+          <div className="col-lg-4 col-md-5 col-12">
+          <img src="/assets/images/FIBC/images.jfif" alt="" className="rounded-2 w-100" />
+          </div>
         </div>
       </div>
     </section>

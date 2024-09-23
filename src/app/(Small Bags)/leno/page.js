@@ -7,9 +7,9 @@ export default function page() {
       <div className="section-title-wrap without-tab">
             <h2 className="section-title mb-3">Leno Bags</h2>
           </div>
-        <div className="row">
+        <div className="row bg-light p-4 rounded-4">
           <div className="col-lg-8 col-md-6 col-12">
-            <h1>Leno Bags</h1>
+            {/* <h1>Leno Bags</h1> */}
             <p>
               Leno is a kind of weaving technique. The manufacturers twist
               adjacent wrap tapes around consecutive weft tapes that offer these

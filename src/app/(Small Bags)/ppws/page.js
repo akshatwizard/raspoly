@@ -4,14 +4,14 @@ export default function page() {
   return (
     <section className="sectionContainer">
       <div className="container">
-        <div className="row row-gap-5">
           <div className="section-title-wrap without-tab">
             <h2 className="section-title mb-3">PP Woven Bags</h2>
           </div>
+        <div className="row row-gap-5 bg-light p-4 rounded-4">
           <div className="col-lg-12">
             <div className="content-container">
               <div className="ppws-text-content">
-                <h1>PP Woven Sacks</h1>
+                {/* <h1>PP Woven Sacks</h1> */}
                 <p>
                   <img
                     src="https://www.raspoly.com/wp-content/uploads/2019/02/ppws.jpeg"
