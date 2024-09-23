@@ -297,7 +297,7 @@ export default function Header() {
                           <Link href="roofunderlayment">Roof Underlayment</Link>
                         </li>
                         <li>
-                          <Link href="">Lamber Wrap</Link>
+                          <Link href="lumber-wrap">Lumber Wrap</Link>
                         </li>
                         <li>
                           <Link href="tarpauline">Tarpaulins</Link>
@@ -305,7 +305,7 @@ export default function Header() {
                       </ul>
                     </li>
                     <li>
-                      <Link href="#">100% Recycled PP Bags</Link>
+                      <Link href="recycle-bags">100% Recycled PP Bags</Link>
                     </li>
                     <li>
                       <Link href="#">PP Fabrics</Link>
@@ -491,7 +491,7 @@ export default function Header() {
                             </Link>
                           </li>
                           <li>
-                            <Link href="">Lamber Wrap</Link>
+                            <Link href="lumber-wrap">Lamber Wrap</Link>
                           </li>
                           <li>
                             <Link href="tarpauline">Tarpaulins</Link>
@@ -499,7 +499,7 @@ export default function Header() {
                         </ul>
                       </li>
                       <li>
-                        <Link href="#">100% Recycled PP Bags</Link>
+                        <Link href="recycle-bags">100% Recycled PP Bags</Link>
                       </li>
 
                       <li>
@@ -764,7 +764,7 @@ export default function Header() {
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="roof-underlayment">
+                        <Link href="lumber-wrap">
                           <span className="mm-text">Lumber Wrap</span>
                         </Link>
                       </li>
@@ -778,7 +778,7 @@ export default function Header() {
                   </li>
 
                   <li>
-                    <Link href="#">
+                    <Link href="recycle-bags">
                       <span className="mm-text">100% Recycled PP Bags</span>
                     </Link>
                   </li>

@@ -74,7 +74,9 @@ export default function page() {
             </ol>
             <p>The conical bag's ability to ensure quick and easy discharge makes it an economical and customizable solution for these industries</p>
           </div>
-          <div className="col-lg-4 col-md-5 col-12"></div>
+          <div className="col-lg-4 col-md-5 col-12">
+            <img src="/assets/images/FIBC/conical-bag.png" alt="" />
+          </div>
         </div>
       </div>
     </section>

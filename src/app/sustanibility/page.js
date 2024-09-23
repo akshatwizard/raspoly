@@ -7,9 +7,11 @@ export default function page() {
         <div className="section-title-wrap without-tab mb-5">
           <h2 className="section-title mb-3">Sustainability</h2>
         </div>
-        <div className="row row-gap-4">
-          <div className="col-12">
-            <h1>Sustainability</h1>
+        <div className="row row-gap-4 bg-light p-4 rounded-4">
+        <div className="col-lg-4 col-md-5 col-12">
+            <img src="/assets/images/about/sustanibility.jpeg" alt="" className="rounded-3" />
+          </div>
+          <div className="col-lg-8 col-md-7 col-12">
             <span
               style={{
                 fontWeight: "600",
@@ -30,6 +32,7 @@ export default function page() {
               recycled or renewable resources.
             </p>
           </div>
+
         </div>
 
         <div className="row mt-5 row-gap-3 bg-light p-4 rounded-4">

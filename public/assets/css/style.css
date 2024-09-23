@@ -1674,10 +1674,10 @@ blockquote p {
   bottom: 0;
   left: 0;
 }
-.upper-nav li a{
+.upper-nav li a {
   color: #000000 !important;
 }
-.stick.stickyUL li a{
+.stick.stickyUL li a {
   color: #233382;
 }
 .main-nav > ul > li:hover > a {
@@ -2051,7 +2051,7 @@ blockquote p {
     text-align: center;
     padding-top: 25px;
     width: 100% !important;
-    max-width: 100% ;
+    max-width: 100%;
   }
 }
 .slide-inner.style-2 .slide-content .title {
@@ -2129,7 +2129,7 @@ blockquote p {
 }
 .slide-content .short-desc {
   /* text-transform: capitalize; */
-  font-size: 22px;
+  font-size: 17px;
   line-height: 23px;
   margin-bottom: 50px;
 }
@@ -6664,7 +6664,7 @@ blockquote p {
   width: 85px !important;
 }
 
-@media (max-width:480px) {
+@media (max-width: 480px) {
   .logoImage {
     width: 60px !important;
   }
@@ -6751,9 +6751,9 @@ blockquote p {
 
 .detailxBox {
   max-width: 450px;
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(15px);
   border-radius: 10px;
-  background-color: #e2e2e24f;
+  background-color: #e2e2e2ad;
   padding: 20px 30px;
   text-align: center;
   z-index: 2;
@@ -7114,7 +7114,7 @@ blockquote p {
   }
 }
 
-.indImg{
+.indImg {
   width: 100%;
   padding: 20px;
   position: relative;
@@ -7123,49 +7123,47 @@ blockquote p {
   height: 100%;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
-  img{
+  img {
     border-radius: 5px;
     margin-bottom: 15px;
   }
-  h4{
-    color:#b7f165 ;
+  h4 {
+    color: #b7f165;
 
-    &:hover{
+    &:hover {
       text-decoration: underline;
     }
   }
 }
 
-.rdmore{
+.rdmore {
   color: royalblue;
   cursor: pointer;
 }
 
-.company-name{
+.company-name {
   display: none;
 }
 
-@media (max-width:991px) {
-  .company-name{
+@media (max-width: 991px) {
+  .company-name {
     display: block;
 
-    p{
+    p {
       font-size: 14px;
       line-height: 9px;
     }
-    span{
+    span {
       font-size: 9px;
     }
   }
 }
 
-@media (max-width:992px) {
-  
-  .msterbatchRow{
+@media (max-width: 992px) {
+  .msterbatchRow {
     flex-direction: column-reverse;
   }
 }
-
 
 :root {
   --primary-color: #b9ff66;
@@ -7200,4 +7198,29 @@ blockquote p {
 
 input[type="radio"] {
   accent-color: var(--primary-color);
+}
+
+.next,
+.prev {
+  position: absolute;
+  bottom: 0 !important;
+  z-index: 1;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: 0 0;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+
+  &:hover{
+    opacity: 1;
+  }
+}
+
+.prev{
+  left: 0;
+}
+.next{
+  right: 0;
 }

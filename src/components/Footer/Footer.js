@@ -50,9 +50,6 @@ export default function Footer() {
                       <Link href="#">CSR</Link>
                     </li>
                     <li>
-                      <Link href="#">Replast</Link>
-                    </li>
-                    <li>
                       <Link href="#">Contact</Link>
                     </li>
                   </ul>

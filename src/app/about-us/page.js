@@ -6,11 +6,21 @@ export default function page() {
       <section className="sectionContainer">
         <div className="container">
         <div className="section-title-wrap without-tab mb-5">
-          <h2 className="section-title mb-3">About-US</h2>
+          <h2 className="section-title mb-3">We at raspoly</h2>
         </div>
           <div className="row">
             <div className="col-lg-8 col-md-6 col-12">
-              <h1>About US</h1>
+              {/* <h1>About US</h1> */}
+              <span
+                style={{
+                  display: "block",
+                  margin: "10px 0",
+                  fontWeight: "600",
+                }}
+              >
+                "We are large in size, richer in experience, and boundless in
+                our thinking."
+              </span>
               <p>
                 At RAS Polytex Pvt. Ltd., we started with a mission to provide
                 fully integrated, world-class packaging solutions globally. With
@@ -24,17 +34,6 @@ export default function page() {
                 us toward ongoing advancements in both techniques and product
                 delivery.
               </p>
-
-              <span
-                style={{
-                  display: "block",
-                  margin: "10px 0",
-                  fontWeight: "600",
-                }}
-              >
-                "We are large in size, richer in experience, and boundless in
-                our thinking."
-              </span>
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <img
@@ -49,7 +48,7 @@ export default function page() {
 
       <section className="sectionContainer bg-light">
         <div className="container">
-          <div className="row row-gap-5">
+          <div className="row row-gap-5 justify-content-between">
             <div className="col-lg-8 col-md-6 col-12">
               <h1>Visionary Leadership</h1>
               <span
@@ -88,13 +87,13 @@ export default function page() {
               />
             </div>
 
-            <div className="col-lg-3 col-md-6 col-12">
+            {/* <div className="col-lg-3 col-md-6 col-12">
               <img
                 src="https://www.raspoly.com/image/new/3.jpg"
                 alt=""
                 className="rounded"
               />
-            </div>
+            </div> */}
             <div className="col-lg-3 col-md-6 col-12">
               <img
                 src="https://www.raspoly.com/image/new/4.jpg"
