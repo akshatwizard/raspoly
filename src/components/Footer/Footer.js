@@ -19,13 +19,15 @@ export default function Footer() {
                       <Link href="ppws">PP Woven Bags</Link>
                     </li>
                     <li>
-                      <Link href="bopp">BOPP Bagss</Link>
+                      <Link href="">PP Fabric</Link>
                     </li>
                     <li>
-                      <Link href="adstar">Block Bottoms</Link>
+                      <Link href="ink-reducers">Ink and Reducers</Link>
                     </li>
                     <li>
-                      <Link href="laminated-unlaminated">Laminated/Unlaminated</Link>
+                      <Link href="laminated-unlaminated">
+                        Laminated/Unlaminated
+                      </Link>
                     </li>
                     <li>
                       <Link href="multifilament-yarn">Multi Filament Yarn</Link>
@@ -41,10 +43,14 @@ export default function Footer() {
                   <h3 class="footer-widget-title">Useful Links</h3>
                   <ul class="footer-widget-list-item">
                     <li>
-                      <Link href="https://www.littleleaf.one/">Little Leaf</Link>
+                      <Link href="https://www.littleleaf.one/">
+                        Little Leaf
+                      </Link>
                     </li>
                     <li>
-                      <Link href="certification">Certificate and Achivements</Link>
+                      <Link href="certification">
+                        Certificate and Achivements
+                      </Link>
                     </li>
                     <li>
                       <Link href="about-us">Team</Link>
@@ -77,14 +83,23 @@ export default function Footer() {
                   <h3 class="footer-widget-title">INDIA ADDRESS</h3>
                   <div class="address">
                     <ul>
-                      <li className="mb-0"><a href="#"><i class="fa fa-at"></i> sales@raspoly.com</a></li>
-                      <li>
-                        B-Block, 8th Floor, Vinayak Plaza Maldahiya Crossing,
-                        Varanasi - 221002 UP, INDIA
+                      <li className="mb-0">
+                        <a href="#">Email:- sales@raspoly.com</a>
                       </li>
-                      <li><i class="fa fa-phone"></i>+91 92369 92823</li>
-                      <li><i class="fa fa-whatsapp"></i> +91 92369 92823</li>
-                      <li><i class="fa fa-tty"></i> +91 542 - 2205200</li>
+                      <li>
+                      <i class="fa fa-location-arrow"></i> B-Block, 8th Floor,
+                        Vinayak Plaza Maldahiya Crossing, Varanasi - 221002 UP,
+                        INDIA
+                      </li>
+                      <li>
+                        <i class="fa fa-phone"></i>+91 92369 92823
+                      </li>
+                      <li>
+                        <i class="fa fa-whatsapp"></i> +91 92369 92823
+                      </li>
+                      <li>
+                        <i class="fa fa-tty"></i> +91 542 - 2205200
+                      </li>
                     </ul>
                   </div>
                 </div>
@@ -96,13 +111,13 @@ export default function Footer() {
         <div className="container">
           <div className="row">
             <div className="cpl-lg-12 d-flex justify-content-center">
-            <Link href="/" className="header-logo justify-content-center">
-                  <img
-                    src="assets/images/logo/logo.png"
-                    className="logoImage"
-                    alt="Header Logo"
-                  />
-                </Link>
+              <Link href="/" className="header-logo justify-content-center">
+                <img
+                  src="assets/images/logo/logo.png"
+                  className="logoImage"
+                  alt="Header Logo"
+                />
+              </Link>
             </div>
             <div className="col-lg-12 py-4 d-flex justify-content-center">
               <div class="social-link with-border">

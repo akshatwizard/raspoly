@@ -12,7 +12,7 @@ export default function LocationMap() {
             </p>
           </div>
           <div className="col-lg-12">
-            <img src="/assets/images/map.png" alt="" />
+            <img src="/assets/images/map.jpeg" alt="" />
           </div>
         </div>
       </div>
