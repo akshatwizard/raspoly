@@ -46,7 +46,7 @@ export default function page() {
               </div>
               <div className="col-lg-4 col-md-3 col-12">
                 <img
-                  src="https://www.raspoly.com/wp-content/uploads/2019/02/dunnage.jpeg"
+                  src="/assets/images/small/dunnage.jpeg"
                   alt=""
                 />
               </div>

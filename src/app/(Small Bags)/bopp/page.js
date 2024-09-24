@@ -12,7 +12,7 @@ export default function page() {
             <h3>BOPP Printed Bags</h3>
             <p>
               <img
-                src="https://www.raspoly.com/wp-content/uploads/2018/11/bopp.jpeg"
+                src="/assets/images/small/bopp.jpeg"
                 alt=""
                 style={{ width: "400px", float: "right" }}
               />

@@ -44,7 +44,7 @@ export default function page() {
             <div className="row msterbatchRow">
               <div className="col-lg-4 col-md-6 col-12 mb-5 d-flex align-items-center justify-content-center">
                 <img
-                  src="https://www.raspoly.com/image/masterbatch/color.jpeg"
+                  src="/assets/images/small/color.jpeg"
                   className="w-100"
                 />
               </div>
@@ -72,7 +72,7 @@ export default function page() {
               </div>
               <div className="col-lg-4 col-md-6 col-12 d-flex align-items-center justify-content-center">
                 <img
-                  src="https://www.raspoly.com/image/masterbatch/uv.jpeg"
+                  src="/assets/images/small/uv.jpeg"
                   alt=""
                   className="w-100"
                 />
@@ -82,7 +82,7 @@ export default function page() {
             <div className="row msterbatchRow ">
               <div className="col-lg-4 col-md-6 col-12 mb-5 d-flex align-items-center justify-content-center">
                 <img
-                  src="https://www.raspoly.com/image/masterbatch/calcium.jpeg"
+                  src="/assets/images/small/calcium.jpeg"
                   className="w-100"
                 />
               </div>

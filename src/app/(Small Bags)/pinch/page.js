@@ -12,7 +12,7 @@ export default function page() {
             {/* <h1>Pinch Bottom Bags</h1> */}
             <p>
               <img
-                src="https://www.raspoly.com/wp-content/uploads/2018/11/pinch.jpeg"
+                src="/assets/images/small/pinch.jpeg"
                 alt=""
                 style={{ width: "400px", float: "right" }}
               />

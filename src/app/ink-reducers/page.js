@@ -7,14 +7,14 @@ export default function page() {
         <div className="section-title-wrap without-tab mb-5">
           <h2 className="section-title mb-3">Colours and Pigments</h2>
         </div>
-        <div className="row">
+        <div className="row bg-light p-4 rounded-4">
           <div className="col-12">
             {/* <h1 className='inkH1'></h1> */}
             <p>
               <img
-                src="https://www.raspoly.com/wp-content/uploads/2018/11/color&pigment.jpeg"
+                src="/assets/images/small/color&pigment.jpeg"
                 alt=""
-                style={{ width: "450px", float: "right", borderRadius: "15px" }}
+                style={{ width: "450px", float: "right", borderRadius: "15px",margin:"0 0 10px 20px " }}
               />
               Our Woven Sacks Inks are mainly low viscosity and alcohol based.
               These Inks can be formulated for treated or untreated Woven Sack

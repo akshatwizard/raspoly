@@ -20,7 +20,7 @@ export default function page() {
           </div>
           <div className="col-lg-4 col-md-7  col-12 mt-5">
             <img
-              src="https://www.raspoly.com/wp-content/uploads/2019/02/Block-Bottom-bags-1.jpg"
+              src="/assets/images/small/Block-Bottom-bags-1.jpg"
               alt=""
             />
           </div>

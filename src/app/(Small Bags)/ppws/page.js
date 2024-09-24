@@ -14,7 +14,7 @@ export default function page() {
                 {/* <h1>PP Woven Sacks</h1> */}
                 <p>
                   <img
-                    src="https://www.raspoly.com/wp-content/uploads/2019/02/ppws.jpeg"
+                    src="/assets/images/small/ppws.jpeg"
                     alt=""
                   />
                   PP woven bags are PP plastic bags produced by the weaving

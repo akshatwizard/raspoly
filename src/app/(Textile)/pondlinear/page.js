@@ -7,14 +7,15 @@ export default function pondlinear() {
       <div className="section-title-wrap without-tab mb-4">
             <h2 className="section-title mb-3">Pond Liners</h2>
           </div>
-        <div className="row">
+        <div className="row bg-light p-4 rounded-4">
           <div className="col-lg-12">
             <h1>What is HDPE Pond Liner?</h1>
             <p>
               <img
-                src="https://www.raspoly.com/wp-content/uploads/2018/11/pondliners.jpeg"
+                src="/assets/images/small/pondliners.jpeg"
                 alt=""
                 style={{ width: "400px", float: "right" }}
+                className="rounded-2"
               />
               HDPE Pond Liner is a type of pond liner made from high-density
               polyethylene, and it is often used for applications like pond

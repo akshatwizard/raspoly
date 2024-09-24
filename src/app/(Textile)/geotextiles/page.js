@@ -7,7 +7,7 @@ export default function page() {
       <div className="section-title-wrap without-tab mb-4">
             <h2 className="section-title mb-3">Geotextiles</h2>
           </div>
-        <div className="row">
+        <div className="row row-gap-4 bg-light p-4 rounded-4">
           <div className="col-lg-7 col-md-6 col-12">
             <p>
               Geotextile is manufactured with an aim to improve and maintain
@@ -42,9 +42,9 @@ export default function page() {
 
           <div className="col-lg-5 col-md-6 col-12">
             <img
-              src="https://www.raspoly.com/wp-content/uploads/2018/11/Geotextile.jpeg"
+              src="/assets/images/small/Geotextile.jpeg"
               alt=""
-              className="w-100"
+              className="w-100 rounded-3"
             />
           </div>
 

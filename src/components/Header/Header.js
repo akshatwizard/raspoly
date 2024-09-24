@@ -122,7 +122,7 @@ export default function Header() {
                   </ul>
                   <div className="icon-i">
                     <li className="d-none d-lg-block">
-                      <Link href="#">
+                      <Link href="https://www.linkedin.com/company/ras-polytex-private-limited/posts/?feedView=all">
                         <lord-icon
                           src="https://cdn.lordicon.com/mdyiqybm.json"
                           trigger="morph"
@@ -134,7 +134,7 @@ export default function Header() {
                       </Link>
                     </li>
                     <li className="d-none d-lg-block">
-                      <Link href="#">
+                      <Link href="https://wa.me/+919236992823?text=">
                         <lord-icon
                           src="https://cdn.lordicon.com/cywksamr.json"
                           trigger="morph"
@@ -145,7 +145,7 @@ export default function Header() {
                       </Link>
                     </li>
                     <li className="d-none d-lg-block">
-                      <Link href="#">
+                      <Link href="https://www.youtube.com/channel/UCsupekTL8hixCx72qs2Ay7g">
                         <lord-icon
                           src="https://cdn.lordicon.com/gewhxiwb.json"
                           trigger="morph"

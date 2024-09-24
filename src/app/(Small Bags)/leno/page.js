@@ -4,9 +4,9 @@ export default function page() {
   return (
     <section className="sectionContainer">
       <div className="container">
-      <div className="section-title-wrap without-tab">
-            <h2 className="section-title mb-3">Leno Bags</h2>
-          </div>
+        <div className="section-title-wrap without-tab">
+          <h2 className="section-title mb-3">Leno Bags</h2>
+        </div>
         <div className="row bg-light p-4 rounded-4">
           <div className="col-lg-8 col-md-6 col-12">
             {/* <h1>Leno Bags</h1> */}
@@ -63,31 +63,29 @@ export default function page() {
             </ol>
           </div>
           <div className="col-lg-4 col-md-6 col-12">
+            <img className="mb-5" src="/assets/images/small/leno.jpeg" alt="" />
             <img
-            className="mb-5"
-              src="https://www.raspoly.com/wp-content/uploads/2018/11/leno.jpeg"
-              alt=""
-            />
-            <img
-            className="mt-5"
-              src="https://www.raspoly.com/wp-content/uploads/2018/11/leno2.jpeg"
+              className="mt-5"
+              src="/assets/images/small/leno2.jpeg"
               alt=""
             />
           </div>
           <div className="col-12">
             <h4>PP Leno Bags: Applications</h4>
-            <p>Primarily, PP Leno bags are ideal for packing, storing, and transporting a variety of products, including
-                <ol type="a">
-                    <li>Firewood logs and kindling.</li>
-                    <li>Fruits like pineapples and oranges.</li>
-                    <li>Vegetables like onions, garlic, ginger, and potatoes.</li>
-                    <li>Animal feed.</li>
-                    <li>Groundnuts and coconuts.</li>
-                    <li>Flowers.</li>
-                    <li>Shellfish.</li>
-                    <li>Several varieties of non-durable products.</li>
-                </ol>
+            <p>
+              Primarily, PP Leno bags are ideal for packing, storing, and
+              transporting a variety of products, including
             </p>
+            <ol type="a">
+              <li>Firewood logs and kindling.</li>
+              <li>Fruits like pineapples and oranges.</li>
+              <li>Vegetables like onions, garlic, ginger, and potatoes.</li>
+              <li>Animal feed.</li>
+              <li>Groundnuts and coconuts.</li>
+              <li>Flowers.</li>
+              <li>Shellfish.</li>
+              <li>Several varieties of non-durable products.</li>
+            </ol>
           </div>
         </div>
       </div>
