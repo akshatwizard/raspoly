@@ -42,7 +42,7 @@ export default function page() {
           <div className="col-lg-4 d-flex align-items-center justify-content-center">
             <div className="image-content d-flex align-items-center justify-content-center">
               <img
-                src="https://www.raspoly.com/image/fibc/U-panel.jpeg"
+                src="/assets/images/FIBC/U-panel.jpeg"
                 alt=""
               />
             </div>

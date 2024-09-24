@@ -76,7 +76,7 @@ export default function page() {
           <div className="col-lg-4 col-md-6 col-12 ">
             <div className="border rounded p-3 asd">
               <img
-                src="https://www.raspoly.com/awards-achievements/IFIBCA-Certficate-2023-24.jpg"
+                src="/assets/images/certificate/IFIBCA-Certficate-2023-24.jpg"
                 alt=""
                 className="rounded"
               />
@@ -94,7 +94,7 @@ export default function page() {
           <div className="col-lg-4 col-md-6 col-12">
             <div className="border rounded p-3 asd">
               <img
-                src="https://www.raspoly.com/awards-achievements/Niryat-Bandhu-Award.jpg"
+                src="/assets/images/certificate/Niryat-Bandhu-Award.jpg"
                 alt=""
                 className="rounded"
               />
@@ -104,7 +104,7 @@ export default function page() {
           <div className="col-lg-4 col-md-6 col-12">
             <div className="border rounded p-3 asd">
               <img
-                src="https://www.raspoly.com/awards-achievements/State-Export-Award.jpg"
+                src="/assets/images/certificate/State-Export-Award.jpg"
                 alt=""
                 className="rounded"
               />
@@ -114,7 +114,7 @@ export default function page() {
           <div className="col-lg-4 col-md-6 col-12">
             <div className="border rounded p-3 asd">
               <img
-                src="https://www.raspoly.com/awards-achievements/PlastVision.jpg"
+                src="/assets/images/certificate/PlastVision.jpg"
                 alt=""
                 className="rounded"
               />
@@ -124,7 +124,7 @@ export default function page() {
           <div className="col-lg-4 col-md-6 col-12">
             <div className="border rounded p-3 asd">
               <img
-                src="https://www.raspoly.com/awards-achievements/Certificate-of-Appreciation.jpg"
+                src="/assets/images/certificate/Certificate-of-Appreciation.jpg"
                 alt=""
                 className="rounded"
               />
@@ -136,7 +136,7 @@ export default function page() {
           <div className="col-lg-4 col-md-6 col-12">
             <div className="border rounded p-3 asd">
               <img
-                src="https://www.raspoly.com/awards-achievements/MSME-Forum.jpg"
+                src="/assets/images/certificate/MSME-Forum.jpg"
                 alt=""
                 className="rounded"
               />
@@ -146,7 +146,7 @@ export default function page() {
           <div className="col-lg-4 col-md-6 col-12">
             <div className="border rounded p-3 asd">
               <img
-                src="https://www.raspoly.com/awards-achievements/Export-Promotion-Bureau.jpg"
+                src="/assets/images/certificate/Export-Promotion-Bureau.jpg"
                 alt=""
                 className="rounded"
               />

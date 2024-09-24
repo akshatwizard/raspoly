@@ -5,10 +5,10 @@ export default function Slider() {
   const texts = [
     "We are a four-decade-old company that employs the latest machines to ensure the best quality at the best price.",
     "Bag making needs human hands and we take care of our people so that our customers get flawless stitched bags.",
-    "Promoting a circular economy and sustainability through creating systems that minimize waste and make the most of resources. Here’s a detailed overview:",
     "We have expertise and required certifications for making up to 100% recycled PP bags, with minimum impact on the strength as compared to virgin bags. We have improved the processes and technology with our focus in this area since the last 15 years. Replast is our trademark and motto.",
     "Whatever colour it looks, our bags are always green as they are made by taking care of the environment. We harness the energy of the sun to generate electricity, process water is recycled, rainwater is harvested, and waste is minimised and recycled.",
     '"One-stop solution for all your packaging needs."',
+    "Promoting a circular economy and sustainability through creating systems that minimize waste and make the most of resources. Here’s a detailed overview:",
     "Little leaf is our unique initiative which promotes recycling and invests 100% proceeds in education of children and tree plantation. Visit www.littleleaf.one to know more about this.",
   ];
 
@@ -49,8 +49,7 @@ export default function Slider() {
                         <h2 className="title hide">
                           {index === 0 && "State of Art Machinery"}
                           {index === 1 && "Art of Stitching"}
-                          {index === 2 && "Resilience"}
-                          {index === 3 && (
+                          {index === 2 && (
                             <img
                               src="/assets/images/logo/logo2.jpeg"
                               alt=""
@@ -58,15 +57,15 @@ export default function Slider() {
                               style={{ width: "300px" }}
                             />
                           )}
-                          {index === 4 && "100% Green Bags"}
-                          {index === 5 && "Broad spectrum"}
+                          {index === 3 && "100% Green Bags"}
+                          {index === 4 && "Broad spectrum"}
+                          {index === 5 && "Resilience"}
                           {index === 6 && "Giving back to Society"}
                         </h2>
                         <h2 className="title show">
                           {index === 0 && "Art Machinery"}
                           {index === 1 && "Art of Stitching"}
-                          {index === 2 && "Resilience"}
-                          {index === 3 && (
+                          {index === 2 && (
                             <img
                               src="/assets/images/logo/logo2.jpeg"
                               alt=""
@@ -74,8 +73,9 @@ export default function Slider() {
                               style={{ width: "300px" }}
                             />
                           )}
-                          {index === 4 && "100% Green Bags"}
-                          {index === 5 && "Broad spectrum"}
+                          {index === 3 && "100% Green Bags"}
+                          {index === 4 && "Broad spectrum"}
+                          {index === 5 && "Resilience"}
                           {index === 6 && "Giving back to Society"}
                         </h2>
                         <p className="short-desc">
@@ -84,7 +84,7 @@ export default function Slider() {
                       </div>
                       <div className="slide-img">
                         <img
-                          src={`assets/images/banner/slide-${index + 1}.jpg`}
+                          src={`assets/images/banner/slider-${index + 1}.jpg`}
                           alt={`Slide Image ${index + 1}`}
                         />
                       </div>

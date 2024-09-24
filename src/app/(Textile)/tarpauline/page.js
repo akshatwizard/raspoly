@@ -7,7 +7,7 @@ export default function page() {
       <div className="section-title-wrap without-tab mb-4">
           <h2 className="section-title mb-3">Tarpaulins</h2>
         </div>
-        <div className="row">
+        <div className="row row-gap-4 bg-light p-4 rounded-4">
           <div className="col-lg-8 col-md-6 col-12">
             <p>
               HDPE tarpaulins are made from premium quality woven HDPE fabric
@@ -31,8 +31,9 @@ export default function page() {
           </div>
           <div className="col-lg-4 col-md-6 col-12">
             <img
-              src="https://www.raspoly.com/wp-content/uploads/2018/11/trampauline.jpeg"
+              src="/assets/images/small/trampauline.jpeg"
               alt=""
+              className="rounded-2"
             />
           </div>
         </div>

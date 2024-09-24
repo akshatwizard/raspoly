@@ -13,25 +13,25 @@ export default function Footer() {
                   <h3 class="footer-widget-title">Products</h3>
                   <ul class="footer-widget-list-item">
                     <li>
-                      <Link href="#">FIBC</Link>
+                      <Link href="fibc">FIBC</Link>
                     </li>
                     <li>
-                      <Link href="#">PP Woven Bags</Link>
+                      <Link href="ppws">PP Woven Bags</Link>
                     </li>
                     <li>
-                      <Link href="#">BOPP Bagss</Link>
+                      <Link href="bopp">BOPP Bagss</Link>
                     </li>
                     <li>
-                      <Link href="#">AD Star Block Bottoms</Link>
+                      <Link href="adstar">Block Bottoms</Link>
                     </li>
                     <li>
-                      <Link href="#">Fabric (Laminated/Unlaminated)</Link>
+                      <Link href="laminated-unlaminated">Laminated/Unlaminated</Link>
                     </li>
                     <li>
-                      <Link href="#">Multi Filament Yarn</Link>
+                      <Link href="multifilament-yarn">Multi Filament Yarn</Link>
                     </li>
                     <li>
-                      <Link href="#">Masterbatches</Link>
+                      <Link href="masterbatch">Masterbatches</Link>
                     </li>
                   </ul>
                 </div>
@@ -41,16 +41,19 @@ export default function Footer() {
                   <h3 class="footer-widget-title">Useful Links</h3>
                   <ul class="footer-widget-list-item">
                     <li>
-                      <Link href="#">Certificate and Achivements</Link>
+                      <Link href="https://www.littleleaf.one/">Little Leaf</Link>
                     </li>
                     <li>
-                      <Link href="#">Team</Link>
+                      <Link href="certification">Certificate and Achivements</Link>
                     </li>
                     <li>
-                      <Link href="#">CSR</Link>
+                      <Link href="about-us">Team</Link>
                     </li>
                     <li>
-                      <Link href="#">Contact</Link>
+                      <Link href="csr">CSR</Link>
+                    </li>
+                    <li>
+                      <Link href="contact">Contact</Link>
                     </li>
                   </ul>
                 </div>
@@ -106,7 +109,7 @@ export default function Footer() {
                 <ul>
                   <li>
                     <a
-                      href="#"
+                      href="https://wa.me/+919236992823?text="
                       data-tippy="Whatsapp"
                       data-tippy-inertia="true"
                       data-tippy-animation="shift-away"
@@ -132,7 +135,7 @@ export default function Footer() {
                   </li> */}
                   <li>
                     <a
-                      href="#"
+                      href="https://www.linkedin.com/company/ras-polytex-private-limited/posts/?feedView=all"
                       data-tippy="Linkedin"
                       data-tippy-inertia="true"
                       data-tippy-animation="shift-away"
@@ -145,7 +148,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <a
-                      href="#"
+                      href="https://www.youtube.com/channel/UCsupekTL8hixCx72qs2Ay7g"
                       data-tippy="Youtube"
                       data-tippy-inertia="true"
                       data-tippy-animation="shift-away"

@@ -9,16 +9,16 @@ export default function Certificate() {
             <h2 className="section-title mb-3">Certificates and Memberships</h2>
           </div>
           <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-            <img src="https://www.raspoly.com/image/raspoly-aenor.jpeg" alt="" />
+            <img src="/assets/images/certificate/raspoly-aenor.jpeg" alt="" />
           </div>
           <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-            <img src="https://www.raspoly.com/image/raspoly-iso9001.jpg" alt="" />
+            <img src="/assets/images/certificate/raspoly-iso9001.jpg" alt="" />
           </div>
           <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-            <img src="https://www.raspoly.com/image/raspoly-ifibca.png" alt="" />
+            <img src="/assets/images/certificate/raspoly-ifibca.png" alt="" />
           </div>
           <div className="col-lg-3 col-md-4 col-sm-6 col-6">
-            <img src="https://www.raspoly.com/image/raspoly-aeo.jpg" alt="" />
+            <img src="/assets/images/certificate/raspoly-aeo.jpg" alt="" />
           </div>
         </div>
       </div>

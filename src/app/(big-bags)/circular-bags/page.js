@@ -38,7 +38,7 @@ export default function page() {
           <div className="col-lg-4 col-md-5 col-12 d-flex align-items-center justify-content-center">
             <div className="image-content d-flex align-items-center justify-content-center">
               <img
-                src="https://www.raspoly.com/image/fibc/circular.jpeg"
+                src="/assets/images/FIBC/circular.jpeg"
                 alt=""
               />
             </div>

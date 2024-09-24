@@ -40,7 +40,7 @@ export default function page() {
                 <div className="col-lg-5 col-md-4 col-12 d-flex align-items-center">
                   <div className="image-content">
                     <img
-                      src="https://www.raspoly.com/wp-content/uploads/2018/11/1-1024x635.jpg"
+                      src="/assets/images/FIBC/01.jpg"
                       alt=""
                     />
                   </div>

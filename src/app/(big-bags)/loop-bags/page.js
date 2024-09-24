@@ -27,11 +27,11 @@ export default function page() {
           <div className="col-lg-4 d-flex mt-5 align-items-center justify-content-center">
             <div className="image-content d-flex align-items-center justify-content-center">
               <img
-                src="https://www.raspoly.com/image/fibc/oneloop.jpeg"
+                src="/assets/images/FIBC/oneloop.jpeg"
                 alt=""
               />
               <img
-                src="https://www.raspoly.com/image/fibc/twoloop.jpeg"
+                src="/assets/images/FIBC/twoloop.jpeg"
                 alt=""
               />
             </div>

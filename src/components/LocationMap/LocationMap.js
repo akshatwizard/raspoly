@@ -12,7 +12,7 @@ export default function LocationMap() {
             </p>
           </div>
           <div className="col-lg-12">
-            <img src="https://www.raspoly.com/image/RAS-Poly-Global-map.jpg" alt="" />
+            <img src="/assets/images/map.png" alt="" />
           </div>
         </div>
       </div>
