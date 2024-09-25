@@ -17,7 +17,7 @@ export default function page() {
     <Exprience/>
     <Details/>
     <CardDetail/>
-    <FounderWords/>
+    {/* <FounderWords/> */}
     {/* <Card/> */}
     <Certificate/>
     <LocationMap/>
