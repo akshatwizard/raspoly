@@ -25,9 +25,7 @@ export default function Footer() {
                       <Link href="ink-reducers">Ink and Reducers</Link>
                     </li>
                     <li>
-                      <Link href="laminated-unlaminated">
-                        Laminated/Unlaminated
-                      </Link>
+                      <Link href="recycle-bags">100% Recycled PP Bags</Link>
                     </li>
                     <li>
                       <Link href="multifilament-yarn">Multi Filament Yarn</Link>
@@ -86,19 +84,23 @@ export default function Footer() {
                       <li className="mb-0">
                         <a href="#">Email:- sales@raspoly.com</a>
                       </li>
-                      <li>
-                      <i class="fa fa-location-arrow"></i> B-Block, 8th Floor,
-                        Vinayak Plaza Maldahiya Crossing, Varanasi - 221002 UP,
-                        INDIA
+                      <li className="d-flex align-items-center">
+                        <img
+                          src="/assets/images/pin.png"
+                          alt=""
+                          style={{ width: "30px",height:"30px",display:"block" }}
+                        />{" "}
+                        <p className="m-0">B-Block, 8th Floor, Vinayak Plaza Maldahiya Crossing,
+                        Varanasi - 221002 UP, INDIA</p>
                       </li>
                       <li>
-                        <i class="fa fa-phone"></i>+91 92369 92823
+                        <i class="fa fa-phone fs-3 mx-2"></i> +91 92369 92823
                       </li>
                       <li>
-                        <i class="fa fa-whatsapp"></i> +91 92369 92823
+                        <i class="fa fa-whatsapp fs-3 mx-2"></i> +91 92369 92823
                       </li>
                       <li>
-                        <i class="fa fa-tty"></i> +91 542 - 2205200
+                        <i class="fa fa-tty fs-3 mx-2"></i> +91 542 - 2205200
                       </li>
                     </ul>
                   </div>

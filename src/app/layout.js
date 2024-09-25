@@ -26,6 +26,7 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="assets/css/ion.rangeSlider.min.css" />
         <link rel="stylesheet" href="assets/css/style.css" />
         <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/tutorials/timelines/timeline-3/assets/css/timeline-3.css"></link>
+        
       </head>
       <body>
         <Header />

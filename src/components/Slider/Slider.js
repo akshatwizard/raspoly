@@ -3,12 +3,12 @@ import React, { useState } from "react";
 
 export default function Slider() {
   const texts = [
-    "We are a four-decade-old company that employs the latest machines to ensure the best quality at the best price.",
+    "We are a four-decade-old company that employs the latest techonology machines to ensure the best quality at the best price.",
     "Bag making needs human hands and we take care of our people so that our customers get flawless stitched bags.",
     "We have expertise and required certifications for making up to 100% recycled PP bags, with minimum impact on the strength as compared to virgin bags. We have improved the processes and technology with our focus in this area since the last 15 years. Replast is our trademark and motto.",
     "Whatever colour it looks, our bags are always green as they are made by taking care of the environment. We harness the energy of the sun to generate electricity, process water is recycled, rainwater is harvested, and waste is minimised and recycled.",
     '"One-stop solution for all your packaging needs."',
-    "Promoting a circular economy and sustainability through creating systems that minimize waste and make the most of resources. Here’s a detailed overview:",
+    "Promoting a circular economy and sustainability through creating systems that minimize waste and make the most of resources.",
     "Little leaf is our unique initiative which promotes recycling and invests 100% proceeds in education of children and tree plantation. Visit www.littleleaf.one to know more about this.",
   ];
 
@@ -47,7 +47,7 @@ export default function Slider() {
                     <div className="slide-inner style-2">
                       <div className="slide-content text-black">
                         <h2 className="title hide">
-                          {index === 0 && "State of Art Machinery"}
+                          {index === 0 && "State of Art Techonology"}
                           {index === 1 && "Art of Stitching"}
                           {index === 2 && (
                             <img
@@ -63,7 +63,7 @@ export default function Slider() {
                           {index === 6 && "Giving back to Society"}
                         </h2>
                         <h2 className="title show">
-                          {index === 0 && "Art Machinery"}
+                          {index === 0 && "Art Techonology"}
                           {index === 1 && "Art of Stitching"}
                           {index === 2 && (
                             <img
