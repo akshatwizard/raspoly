@@ -817,7 +817,7 @@ export default function Header() {
 
                   <li>
                     <Link href="#">
-                      <span className="mm-text">Sustanibility</span>
+                      <span className="mm-text">Sustainability</span>
                     </Link>
                   </li>
                   <li>
