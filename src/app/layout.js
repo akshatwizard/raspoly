@@ -1,6 +1,7 @@
 import Header from "@/components/Header/Header";
 import "./globals.css";
 import Footer from "@/components/Footer/Footer";
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 export const metadata = {
   title: "RAS Polytex PVT LTD",
@@ -25,13 +26,16 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
         <link rel="stylesheet" href="assets/css/ion.rangeSlider.min.css" />
         <link rel="stylesheet" href="assets/css/style.css" />
-        <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/tutorials/timelines/timeline-3/assets/css/timeline-3.css"></link>
-        
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/bs-brain@2.0.4/tutorials/timelines/timeline-3/assets/css/timeline-3.css"
+        ></link>
       </head>
       <body>
         <Header />
         {children}
         <Footer />
+        <GoogleAnalytics gaId="G-064ZQKMCLZ" />
         <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
         <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
         <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>

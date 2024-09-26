@@ -67,17 +67,17 @@ export default function page() {
               INDIA
             </p>
             <p style={{ margin: "0" }}>
-              <span style={{ fontWeight: "700" }}>Email:</span>sales@raspoly.com
+              <span style={{ fontWeight: "700" }}>Email:-</span> sales@raspoly.com
             </p>
             <p style={{ margin: "0" }}>
-              <span style={{ fontWeight: "700" }}>Phone/Whatsapp:</span>+91
+              <span style={{ fontWeight: "700" }}>Phone/Whatsapp:-</span> +91
               92369 92823
             </p>
             <p style={{ margin: "0" }}>
-              <span style={{ fontWeight: "700" }}>Tel:</span>0542-2205200
+              <span style={{ fontWeight: "700" }}>Tel:-</span> 0542-2205200
             </p>
             <p style={{ margin: "0" }}>
-              <span style={{ fontWeight: "700" }}>Works:</span>D-4, Industrial
+              <span style={{ fontWeight: "700" }}>Works:-</span> D-4, Industrial
               Area, Ramnagar Chanduali – 221110, UP, INDIA
             </p>
           </div>

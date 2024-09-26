@@ -101,7 +101,7 @@ export default function page() {
 
         <div className="row row-gap-5 mt-5">
           <div className="section-title-wrap without-tab">
-            <h2 className="section-title mb-3">Awards's</h2>
+            <h2 className="section-title mb-3">Awards</h2>
           </div>
           <div className="col-lg-4 col-md-6 col-12">
             <div className="border rounded p-3 asd">
