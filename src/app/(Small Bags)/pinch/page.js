@@ -1,14 +1,14 @@
-import React from 'react'
+import React from "react";
 
 export default function page() {
   return (
-    <section className='sectionContainer'>
+    <section className="sectionContainer">
       <div className="container">
-      <div className="section-title-wrap without-tab">
-            <h2 className="section-title mb-3">Pinch Bottom Bags</h2>
-          </div>
+        <div className="section-title-wrap without-tab">
+          <h2 className="section-title mb-3">Pinch Bottom Bags</h2>
+        </div>
         <div className="row bg-light p-4 rounded-4">
-            <div className="col-lg-12">
+          <div className="col-lg-12">
             {/* <h1>Pinch Bottom Bags</h1> */}
             <p>
               <img
@@ -16,18 +16,51 @@ export default function page() {
                 alt=""
                 style={{ width: "400px", float: "right" }}
               />
-              pinch bottom bags are designed for dry bulk goods such as dry pet food, feedstuff, seed, and fertiliser. With their attractive appearance and superior strength to weight ratio, Pinch bags are the best choice for those products where bag strength and superior brand presentation are a must.
-              <br/>
-              <br/>
-              Pinch bags are made of high strength Woven Poly Propylene tape that has been combined with a printed Biaxially oriented polypropylene (BOPP). The final product is a high strength lightweight bag with superior tear & puncture resistance and first-class appearance.
+              Pinch bottom bags are specifically designed for dry bulk goods
+              such as pet food, feed, seed, and fertilizer. Known for their
+              superior strength-to-weight ratio and attractive appearance, they
+              are the ideal choice for products that require both durability and
+              premium brand presentation
+              <br />
+              <br />
+              Constructed from high-strength woven polypropylene tape combined
+              with printed Biaxially Oriented Polypropylene (BOPP), these bags
+              offer lightweight yet robust packaging with excellent tear and
+              puncture resistance, along with a high-quality visual appeal.
             </p>
             <h4>Features :</h4>
-            <p>Hi-resolution 8 colour printing for outstanding product presentation and brand recognition Woven polypropylene with a BOPP film construction for improved strength and reduced raw material use Strong pinch bottom design for improved handling and less risk of breakage Easy open feature Suitable for automatic filling systems 100% recyclable</p>
+            <ol>
+              <li>
+                High-resolution 8-color printing for exceptional product
+                presentation and brand visibility.
+              </li>
+              <li>
+                Woven polypropylene with BOPP film for enhanced strength and
+                reduced material usage.
+              </li>
+              <li>
+                Strong pinch bottom design for better handling and minimized
+                breakage risk.
+              </li>
+              <li>Easy-open feature.</li>
+              <li>Compatible with automatic filling systems.</li>
+              <li>100% recyclable.</li>
+            </ol>
             <h4>Usage :</h4>
-            <p>The use of BOPP film and Hi-res 8 colour printing of the entire bag, including the bottom, allows brands to be displayed even when the product is presented on a transport pallet. Furthermore, the BOPP film is reverse printed ensuring it is protected against scratches and abrasions during handling, delivering a lasting eye-catching appearance. The pinch bottom design prevents leaks and moisture penetration.The pinch bottom closure is glued and seals better than a sewn seam. Also, the BOPP film provides a sound moisture barrier, removing the need for a polyethylene inner liner. Mainly use to avoid Duplication & gives strong branding to the product.</p>
-            </div>
+            <p>
+              BOPP film and high-resolution 8-color printing on the entire bag,
+              including the bottom, ensure that brands remain visible even when
+              stacked on pallets. The reverse printing on the BOPP film protects
+              against scratches and abrasions, maintaining a long-lasting,
+              vibrant appearance. The pinch bottom design prevents leaks and
+              moisture intrusion, offering a better seal than sewn seams. The
+              BOPP film also acts as a moisture barrier, eliminating the need
+              for an inner polyethylene liner. These bags are primarily used to
+              prevent product duplication and enhance strong brand identity.
+            </p>
+          </div>
         </div>
       </div>
     </section>
-  )
+  );
 }

@@ -8,9 +8,13 @@ export default function page() {
           <h2 className="section-title mb-3">To start from where it ends……</h2>
         </div>
         <div className="row mb-3">
-            <div className="col-12">
-                <strong>Ensuring reduced carbon print on mother Earth, RAS is emerging as a recycler faciliting the post consumer recyclate. Reuse your past, recycle your present to save your future</strong>
-            </div>
+          <div className="col-12">
+            <strong>
+              "Embracing a sustainable future, RAS leads the way in recycling
+              post-consumer materials, reminding us: 'Reuse your past, recycle
+              your present to save your future.'"
+            </strong>
+          </div>
         </div>
 
         <div className="row row-gap-4 bg-light p-4 rounded-4">
@@ -32,7 +36,10 @@ export default function page() {
               Step 1 - Separating
             </span>
             <p>
-            We first feed plastics rich shredder residue into process for size reduction. Then we’re removing non-plastics like metal, rubber, wood, glass, fluff, foam, textiles or dirt.
+              We begin by feeding plastics-rich shredder residue into the
+              process for size reduction. Next, we meticulously remove
+              non-plastic materials such as metal, rubber, wood, glass, fluff,
+              foam, textiles, and dirt.
             </p>
           </div>
         </div>
@@ -41,7 +48,11 @@ export default function page() {
           <div className="col-lg-8 col-md-6 col-12">
             <h3>Step 2 - Cleaning</h3>
             <p>
-            During washing and preparation, we’re removing non-target plastics. Polyolefin purification cleans and sorts PP and PE polymers. Styrenics purification cleans and sorts ABS & HIPS polymers.
+              In the washing and preparation stage, we eliminate non-target
+              plastics. Our polyolefin purification process effectively cleans
+              and sorts polypropylene (PP) and polyethylene (PE) polymers, while
+              our styrenics purification targets and separates ABS and HIPS
+              polymers.
             </p>
           </div>
           <div className="col-lg-2 col-md-6 col-12">
@@ -64,7 +75,10 @@ export default function page() {
           <div className="col-lg-7 col-md-6 col-12">
             <h3>Step 3 - Finishing</h3>
             <p>
-            After we cleaned the waste, we’re formulating, blending and compounding the granulates. After quality checks, certification and packaging, our customers receive our clean and sustainable product.
+              Once the waste is cleaned, we proceed to formulate, blend, and
+              compound the granulates. Following thorough quality checks,
+              certification, and packaging, our customers receive a clean and
+              sustainable product.
             </p>
           </div>
         </div>

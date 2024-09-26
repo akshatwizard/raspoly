@@ -17,9 +17,10 @@ export default function CardDetail() {
               ></lord-icon>
               <h4>WORLD CLASS INFRASTRUCTURE</h4>
               <p>
-                We have world class facility of constructed area of over one
-                million square feet and most modern machinery, it helps us
-                deliver best and timely service to our customers at all times.
+                Our state-of-the-art facility spans over one million square feet
+                and is equipped with the most advanced machinery, enabling us to
+                consistently provide top-quality and timely service to our
+                customers
               </p>
             </div>
           </div>
@@ -34,10 +35,10 @@ export default function CardDetail() {
               ></lord-icon>
               <h4>ALL UNDER ONE ROOF</h4>
               <p>
-                We offer end-to-end processing facility which optimizes the
-                performance and also strengthens the quality control. Except
-                polymer resin, everything required to produce the bag is made
-                within our facility.
+                We provide an end-to-end processing facility that enhances
+                performance and reinforces quality control. Everything needed to
+                produce the bags is manufactured in-house, except for the
+                polymer resin.
               </p>
             </div>
           </div>

@@ -25,36 +25,31 @@ export default function page() {
                       borderRadius: "5px",
                     }}
                   />
-                  A Masterbatch (MB) is a mixture of solid additive used for
-                  coloring (color masterbatch) or imparting other properties
-                  (additive masterbatch) to plastics.
-                  <br />
-                  A concentrated mixture obtained by the distribution of colours
-                  and additives into a polymer carrier by heat treatment and
-                  in-particularly a high shear mixing extruder is called
-                  masterbatch. The mixture is then cooled, cut and formed into
-                  granules via a pelletiser.
-                  <br />
-                  Masterbatch allows the processor to colour raw polymer
-                  economically during the plastics manufacturing process.
+                  A Masterbatch (MB) is a concentrated blend of solid additives
+                  used for coloring (color masterbatch) or enhancing specific
+                  properties (additive masterbatch) in plastics. This mixture is
+                  created by incorporating colors and additives into a polymer
+                  carrier through heat treatment, typically using a high shear
+                  mixing extruder. Afterward, the mixture is cooled, cut, and
+                  formed into granules using a pelletizer. Masterbatch enables
+                  manufacturers to economically color raw polymer during the
+                  plastic production process
                 </p>
               </div>
             </div>
 
             <div className="row msterbatchRow">
               <div className="col-lg-4 col-md-6 col-12 mb-5 d-flex align-items-center justify-content-center">
-                <img
-                  src="/assets/images/small/color.jpeg"
-                  className="w-100"
-                />
+                <img src="/assets/images/small/color.jpeg" className="w-100" />
               </div>
               <div className="col-lg-8 col-md-6 col-12">
                 <h3>Color Masterbatch</h3>
                 <p>
-                  A color masterbatch, or color concentrate, is a granule used
-                  for coloring thermoplastics. It consists of one or more
-                  colorants and a polymer-specific carrier resin. The
-                  composition of a color masterbatch is called its recipe.
+                  A color masterbatch, also known as a color concentrate, is a
+                  granule designed for coloring thermoplastics. It comprises one
+                  or more colorants combined with a polymer-specific carrier
+                  resin. The formulation of a color masterbatch is referred to
+                  as its recipe.
                 </p>
               </div>
             </div>
@@ -63,11 +58,11 @@ export default function page() {
               <div className="col-lg-8 col-md-6 col-12 ">
                 <h3>UV Masterbatch</h3>
                 <p>
-                  UV Masterbatches protects the polymers against UV-degradation,
-                  avoid discolouration and improves the processibility. UV
-                  Stabilizer Masterbatches do not absorb the harmful UV
-                  radiations, thus assures excellent performance and stabilized
-                  the mechanical properties and elongation.
+                  UV masterbatches safeguard polymers from UV degradation,
+                  prevent discoloration, and enhance processability. UV
+                  stabilizer masterbatches do not absorb harmful UV radiation,
+                  ensuring excellent performance while stabilizing mechanical
+                  properties and elongation.
                 </p>
               </div>
               <div className="col-lg-4 col-md-6 col-12 d-flex align-items-center justify-content-center">
@@ -89,12 +84,11 @@ export default function page() {
               <div className="col-lg-8 col-md-6 col-12">
                 <h3>Calcium Masterbatch</h3>
                 <p>
-                  Application of Calcium Carbonate masterbatch – Filler
-                  masterbatch. Filler masterbatch is a compound of calcium
-                  carbonate, primary Polyethylene resin and other dispersing
-                  plastic additives. This product is used as a filler – filler
-                  masterbatch to reduce costs, increase productivity and shape
-                  the end product.
+                  Calcium carbonate masterbatch, also known as filler
+                  masterbatch, is a compound made from calcium carbonate,
+                  primary polyethylene resin, and various dispersing plastic
+                  additives. This product serves as a filler to help reduce
+                  costs, enhance productivity, and shape the final product.
                 </p>
               </div>
             </div>
