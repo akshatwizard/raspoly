@@ -9,116 +9,109 @@ export default function page() {
         </div>
         <div className="row bg-light p-4 rounded-4">
           <div className="col-12">
-            {/* <h1 className='inkH1'></h1> */}
+            <h4>Woven Sack Inks</h4>
             <p>
               <img
                 src="/assets/images/small/color&pigment.jpeg"
                 alt=""
-                style={{ width: "450px", float: "right", borderRadius: "15px",margin:"0 0 10px 20px " }}
+                style={{
+                  width: "450px",
+                  float: "right",
+                  borderRadius: "15px",
+                  margin: "0 0 10px 20px ",
+                }}
               />
-              Our Woven Sacks Inks are mainly low viscosity and alcohol based.
-              These Inks can be formulated for treated or untreated Woven Sack
-              fabrication. It can be printed by Flexographic printing
-              technology. These Inks are formulated for different resistant
-              properties such as Urea resistant, Alkali resistant, Rub resistant
-              etc. Woven Sacks bags are mainly used for outer packaging of
-              products.
+              Our woven sack inks are primarily low-viscosity and alcohol-based,
+              designed for both treated and untreated woven sack fabrication.
+              These inks can be printed using flexographic printing technology
+              and are formulated with various resistant properties, including
+              urea resistance, alkali resistance, and rub resistance. Woven
+              sacks are primarily used for outer packaging of products.
             </p>
+            <h4>HDPE Woven Sack Fabrics Printing Inks</h4>
             <p>
-              HDPE Woven Sack Fabrics Printing Inks is superior in quality and
-              gives utmost satisfaction for the requirements of our customers.
-              Finding its application for printing and fine line printing at
-              high speed on polyethylene film, the gravure inks has created a
-              wide market in the industry. Our collection features excellent
-              adhesion properties, excellent gloss and depthness, excellent
-              print finish and high print density.
+              Our HDPE woven sack printing inks are of superior quality, meeting
+              our customers' highest standards. They are ideal for high-speed
+              printing and fine line applications on polyethylene film. Our
+              gravure inks boast excellent adhesion, gloss, depth, print finish,
+              and high print density.
             </p>
-            <h3>Features:</h3>
+            <h4>Features:</h4>
             <ol>
               <li>Sharp Print ability</li>
               <li>High Strength</li>
               <li>Good scratch Resistance</li>
-              <li>Confirms to Global Standards and specifications</li>
+              <li>Compliance with global standards and specifications.</li>
               <li>
-                Suitable for Printing on Untreated and treated HDPE / PP Woven
-                sacks
+                Suitable for printing on both untreated and treated HDPE/PP
+                woven sacks.
               </li>
-              <li>Resistance to Alakli and Urea</li>
+              <li>Resistance to alkali and urea.</li>
+              <li>
+                Ultra-gloss inks available for domestic and international
+                markets
+              </li>
             </ol>
             <p>
-              <strong>Ultragloss Inks</strong> which is offered to domestic as
-              well as international market. Our highly efficient inks are used
-              for both polyester and BOPP film. Featured with high print
-              density, excellent print finish and excellent adhesion properties,
-              these printing lamination inks are widely accepted by our clients.
-              It finds versatile application on various substrates such as pan ,
-              oil and vanaspati, soap wrappers and many others.
+              Our highly efficient inks can be used on both polyester and BOPP
+              films, featuring high print density, excellent print finish, and
+              adhesion properties. They find versatile applications on various
+              substrates, including pan, oil and vanaspati, soap wrappers, and
+              more.
             </p>
-            <h3>Substrates:</h3>
+            <h4>Substrates:</h4>
             <p>
-              Can be printed on all types of polyethylene. For polyethylene the
-              treatment should be 38 dynes per / cm for good adhesion and
-              optimum resistance properties
+              These inks can be printed on all types of polyethylene, requiring
+              a treatment level of 38 dynes/cm for optimal adhesion and
+              resistance properties.
             </p>
             <h4>Ink Preparation:</h4>
             <p>
-              5 % of catalyst (Hardner A) and 5 % of catalyst (Hardner B) to be
-              mixed with AR Ink at the time of printing and stirred well Lower
-              proportion of catalyst will lead to inferior resistance property
+              Mix 5% of catalyst (Hardener A) and 5% of catalyst (Hardener B)
+              with AR ink at the time of printing, stirring well. A lower
+              proportion of catalyst may lead to inferior resistance properties
             </p>
             <h4>Press Returns:</h4>
             <p>
-              Press returns are mixed with the fresh inks in the ratio of 1:4.
-              Amount of catalyst should correspond to the quantity of fresh ink
+              Press returns should be mixed with fresh inks in a ratio of 1:4,
+              ensuring that the amount of catalyst corresponds to the quantity
+              of fresh ink.
             </p>
             <h4>Diluents:</h4>
             <p>
-              The inks have a tolerance with a wide range of solvents to
-              accommodate variation in press speed and conditions. Recommended
-              diluents are Toluene or blend of Isopropyl Alcohol. Butyl Alcohol
-              is recommended as Retarded
+              Our inks tolerate a wide range of solvents to accommodate
+              variations in press speed and conditions. Recommended diluents
+              include toluene or a blend of isopropyl alcohol, with butyl
+              alcohol suggested as a retarder.
             </p>
-            <h4>Resistance:</h4>
+            <h4> Resistance Testing:</h4>
             <>
               <img
                 src="https://www.raspoly.com/wp-content/uploads/2018/11/color&pigment2.jpeg"
                 alt=""
                 style={{ width: "450px", float: "right", borderRadius: "15px" }}
               />
-              <ol>
-                <li>
-                  He prints after a minimum of 48 hours of curing are kept
-                  immersed in 2% aqueous sodium hydroxide for 24 hours
-                </li>
-                <li>
-                  The print are then rinsed under tap water and rubbed gently
-                  with cotton soaked in water. The prints must not come off. Two
-                  pack ultra Gloss AR inks are used for detergent packing,
-                  washing powder packing, oil / ghee packing, spices and all
-                  food packing containing oils and spices. Inferior resistance
-                  property could be as a result of:
-                  <ol type="I">
-                    <li>
-                      Lower treatment level than recommended (38 dynes/cm)
-                    </li>
-                    <li>
-                      Improper ratio of catalyst of catalyst not mixed property
-                    </li>
-                  </ol>
-                </li>
-              </ol>
-              The prints after a minimum of 48 hours of curing are kept immersed
-              in 2% aqueous sodium hydroxide for 24 hours.The print are then
-              rinsed under tap water and rubbed gently with cotton soaked in
-              water. The prints must not come off. Two pack ultra Gloss AR inks
-              are used for detergent packing, washing powder packing, oil / ghee
-              packing, spices and all food packing containing oils and spices.
-              Inferior resistance property could be as a result of:
+              <p>
+                After a minimum of 48 hours of curing, prints should be immersed
+                in a 2% aqueous sodium hydroxide solution for 24 hours.
+                Following this, the prints should be rinsed under tap water and
+                gently rubbed with cotton soaked in water; the prints must not
+                come off. Our two-pack ultra-gloss AR inks are ideal for
+                detergent, washing powder, oil/ghee, spice packaging, and all
+                food packaging containing oils and spices. Inferior resistance
+                properties may result from:
+              </p>
+              <strong>
+                A treatment level lower than the recommended 38 dynes/cm
+              </strong>
+              <br />
+              <br />
+              <strong>Improper catalyst ratio or mixing</strong>
             </>
-            <h4>Colour Range:</h4>
+            <h4 className="mt-3">Colour Range:</h4>
             <p>
-              Full range of Pantone basic shades including Metallic and ARSR and
-              Light Fast Shades.
+              We offer a full range of Pantone basic shades, including metallic
+              and ARSR shades, as well as lightfast shades.
             </p>
           </div>
         </div>

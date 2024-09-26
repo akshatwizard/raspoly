@@ -12,10 +12,10 @@ export default function Details() {
             <div className="detailxBox ">
               <h1>Tradition</h1>
               <p>
-                With a history of more than four decades. It's a much bigger and
-                broader organization in term of innovation and developing new
-                products. A commitment with quality and services towards our
-                customers has made a journey successful over the year.
+                With a history spanning over four decades, our organization has
+                grown significantly in size, innovation, and product
+                development. Our commitment to quality and customer service has
+                been key to our success throughout the years.
               </p>
             </div>
           </div>

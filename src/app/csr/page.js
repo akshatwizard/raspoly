@@ -96,7 +96,7 @@ export default function page() {
                 </p>
               </div>
               <div className="col-lg-4 col-md-5 col-12">
-                <img src="/assets/images/banner/slide-7.jpg" alt="" style={{mixBlendMode:"multiply"}} />
+                <img src="/assets/images/little.png" alt="" style={{mixBlendMode:"multiply"}} />
               </div>
             </div>
             <div className="row row-gap-3 mt-5 bg-light p-4 rounded-4">
