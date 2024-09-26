@@ -37,7 +37,7 @@ export default function page() {
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <img
-                src="https://www.raspoly.com/image/new/6.jpg"
+                src="/assets/images/about/6.jpg"
                 alt=""
                 className="rounded"
               />
@@ -81,7 +81,7 @@ export default function page() {
             </div>
             <div className="col-lg-4 col-md-6 col-12">
               <img
-                src="https://www.raspoly.com/image/new/3.jpg"
+                src="/assets/images/about/3.jpg"
                 alt=""
                 className="rounded"
               />
@@ -96,14 +96,14 @@ export default function page() {
             </div> */}
             <div className="col-lg-3 col-md-6 col-12">
               <img
-                src="https://www.raspoly.com/image/new/4.jpg"
+                src="/assets/images/about/4.jpg"
                 alt=""
                 className="rounded"
               />
             </div>
             <div className="col-lg-3 col-md-6 col-12">
               <img
-                src="https://www.raspoly.com/image/new/5.jpg"
+                src="/assets/images/about/5.jpg"
                 alt=""
                 className="rounded"
               />

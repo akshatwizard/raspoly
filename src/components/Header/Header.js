@@ -52,7 +52,7 @@ export default function Header() {
 
                             <li>
                               <Link href="sustanibility" className="d-none d-lg-block">
-                                Sustanibility
+                              Sustainability
                               </Link>
                             </li>
                             <li>
