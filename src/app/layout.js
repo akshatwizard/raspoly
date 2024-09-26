@@ -1,6 +1,7 @@
 import Header from "@/components/Header/Header";
 import "./globals.css";
 import Footer from "@/components/Footer/Footer";
+import { GoogleAnalytics } from '@next/third-parties/google';
 
 export const metadata = {
   title: "RAS Polytex PVT LTD",
@@ -34,6 +35,7 @@ export default function RootLayout({ children }) {
         <Header />
         {children}
         <Footer />
+        <GoogleAnalytics gaId="G-064ZQKMCLZ" />
         <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
         <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
         <script src="assets/js/vendor/jquery-migrate-3.3.2.min.js"></script>
@@ -50,15 +52,6 @@ export default function RootLayout({ children }) {
         <script src="assets/js/plugins/jquery.counterup.js"></script>
         <script src="assets/js/main.js"></script>
         <script src="https://cdn.lordicon.com/lordicon.js"></script>
-        <script
-          async
-          src="https://www.googletagmanager.com/gtag/js?id=G-064ZQKMCLZ"
-        ></script>
-        <script>
-          window.dataLayer = window.dataLayer || []; function gtag()
-          {dataLayer.push(arguments)}
-          gtag('js', new Date()); gtag('config', 'G-064ZQKMCLZ');
-        </script>
       </body>
     </html>
   );
