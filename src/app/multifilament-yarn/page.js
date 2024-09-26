@@ -50,7 +50,7 @@ export default function page() {
             <br />
             <br />
 
-            {/* <h4>AIM YARN</h4>
+            <h4>AIM YARN</h4>
             <p>
               <img className="aimsImg" src="assets/images/product/aim.jpeg" />
               Air Intermingled Yarns are produced through a process where air
@@ -93,7 +93,7 @@ export default function page() {
               processing. They are commonly used in applications such as weft
               yarns in narrow webbings, various types of ropes, specialized
               woven fabrics, and webbings.
-            </p> */}
+            </p>
           </div>
         </div>
       </div>

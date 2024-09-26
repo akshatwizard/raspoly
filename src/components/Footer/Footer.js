@@ -88,10 +88,16 @@ export default function Footer() {
                         <img
                           src="/assets/images/pin.png"
                           alt=""
-                          style={{ width: "30px",height:"30px",display:"block" }}
+                          style={{
+                            width: "30px",
+                            height: "30px",
+                            display: "block",
+                          }}
                         />{" "}
-                        <p className="m-0">B-Block, 8th Floor, Vinayak Plaza Maldahiya Crossing,
-                        Varanasi - 221002 UP, INDIA</p>
+                        <p className="m-0">
+                          B-Block, 8th Floor, Vinayak Plaza Maldahiya Crossing,
+                          Varanasi - 221002 UP, INDIA
+                        </p>
                       </li>
                       <li>
                         <i class="fa fa-phone fs-3 mx-2"></i> +91 92369 92823
@@ -188,12 +194,15 @@ export default function Footer() {
               <div class="col-lg-12">
                 <div class="copyright">
                   <span class="copyright-text">
-                    © 2024 RAS Polytex PVT LTD Made with{" "}
-                    <i class="fa fa-heart text-danger"></i> by
-                    <a href="#" rel="noopener" target="_blank">
-                      {" "}
-                      Wizards{" "}
-                    </a>{" "}
+                    © 2024 RAS Polytex PVT LTD Made with &nbsp;
+                    <i class="fa fa-heart text-danger"></i> &nbsp; by  &nbsp;
+                    <a
+                      href=" https://www.wizards.co.in"
+                      rel="noopener"
+                      target="_blank"
+                    >
+                       Wizards Next
+                    </a>
                   </span>
                 </div>
               </div>

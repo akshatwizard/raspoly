@@ -25,8 +25,10 @@ export default function RootLayout({ children }) {
         <link rel="stylesheet" href="assets/css/magnific-popup.min.css" />
         <link rel="stylesheet" href="assets/css/ion.rangeSlider.min.css" />
         <link rel="stylesheet" href="assets/css/style.css" />
-        <link rel="stylesheet" href="https://unpkg.com/bs-brain@2.0.4/tutorials/timelines/timeline-3/assets/css/timeline-3.css"></link>
-        
+        <link
+          rel="stylesheet"
+          href="https://unpkg.com/bs-brain@2.0.4/tutorials/timelines/timeline-3/assets/css/timeline-3.css"
+        ></link>
       </head>
       <body>
         <Header />
@@ -48,6 +50,15 @@ export default function RootLayout({ children }) {
         <script src="assets/js/plugins/jquery.counterup.js"></script>
         <script src="assets/js/main.js"></script>
         <script src="https://cdn.lordicon.com/lordicon.js"></script>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-064ZQKMCLZ"
+        ></script>
+        <script>
+          window.dataLayer = window.dataLayer || []; function gtag()
+          {dataLayer.push(arguments)}
+          gtag('js', new Date()); gtag('config', 'G-064ZQKMCLZ');
+        </script>
       </body>
     </html>
   );
