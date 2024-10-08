@@ -34,7 +34,7 @@ export default function Slider() {
           <div
             id="carouselExampleAutoplaying"
             className="carousel slide"
-            data-bs-ride="carousel"
+            // data-bs-ride="carousel"
           >
             <div className="carousel-inner">
               {texts.map((text, index) => (
@@ -51,7 +51,7 @@ export default function Slider() {
                           {index === 1 && "Art of Stitching"}
                           {index === 2 && (
                             <img
-                              src="/assets/images/logo/logo2.jpeg"
+                              src="/assets/images/logo/replast.png"
                               alt=""
                               srcset=""
                               style={{ width: "300px" }}
@@ -63,11 +63,11 @@ export default function Slider() {
                           {index === 6 && "Giving back to Society"}
                         </h2>
                         <h2 className="title show">
-                          {index === 0 && "Art Techonology"}
+                          {index === 0 && "State of Art Techonology"}
                           {index === 1 && "Art of Stitching"}
                           {index === 2 && (
                             <img
-                              src="/assets/images/logo/logo2.jpeg"
+                              src="/assets/images/logo/replast.png"
                               alt=""
                               srcset=""
                               style={{ width: "300px" }}

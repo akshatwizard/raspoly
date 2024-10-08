@@ -6709,7 +6709,7 @@ blockquote p {
 @media (max-width: 768px) {
   .show {
     display: block;
-    white-space: nowrap;
+    /* white-space: nowrap; */
   }
   .hide {
     display: none;
