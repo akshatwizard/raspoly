@@ -5,42 +5,66 @@ export default function page() {
     <>
       <section className="sectionContainer">
         <div className="container">
-        <div className="section-title-wrap without-tab mb-5">
-          <h2 className="section-title mb-3">We at raspoly</h2>
-        </div>
+          <div className="section-title-wrap without-tab mb-5">
+            <h2 className="section-title mb-3">We at raspoly</h2>
+          </div>
           <div className="row">
-            <div className="col-lg-8 col-md-6 col-12">
-              {/* <h1>About US</h1> */}
-              <span
-                style={{
-                  display: "block",
-                  margin: "10px 0",
-                  fontWeight: "600",
-                }}
-              >
-                "We are large in size, richer in experience, and boundless in
-                our thinking."
-              </span>
+            <div className="col-lg-12 col-md-12 col-12">
               <p>
-                At RAS Polytex Pvt. Ltd., we started with a mission to provide
-                fully integrated, world-class packaging solutions globally. With
-                over four plus decades of experience, we are not merely a
-                manufacturer of FIBCs (Flexible Intermediate Bulk Containers)
-                but a broader, forward-thinking organization driven by
-                innovation and research. Our management's visionary approach
-                fuels continuous innovation, ensuring we deliver superior
-                quality products to clients worldwide. The synergy of
-                experienced professionals and young, enthusiastic talent drives
-                us toward ongoing advancements in both techniques and product
-                delivery.
+                Shri Ramesh Chaudhary, our founder, began the journey of the RAS
+                Group in 1983 with a single stitching machine for making jute
+                bags. Over time, we grew organically, constantly adapting to
+                changes. In 1994, recognizing the rise of polypropylene, we
+                expanded into this segment with one 100Kg/hr Tape Line and 10
+                looms, driven by the vision of becoming a trusted provider of
+                diverse flexible packaging solutions.
               </p>
-            </div>
-            <div className="col-lg-4 col-md-6 col-12">
-              <img
-                src="/assets/images/about/6.jpg"
-                alt=""
-                className="rounded"
-              />
+              <p>
+                Each year, we invested in the latest technologies, broadened our
+                product portfolio, and expanded our production capacities to
+                stay competitive and remain a company with youthful energy and
+                rich experience. We diversified our locations and integrated
+                backward processes, helping us control costs and improve
+                management. These efforts have shaped the successful company we
+                are today, and our journey continues as we embrace necessary
+                changes to better serve the global market.
+              </p>
+              <p>
+                As an environmentally conscious organization, we believe in
+                giving back to society. All our economic decisions are guided by
+                this principle. We are committed to sustainability and the
+                circular economy, investing in recycling initiatives long before
+                countries introduced regulations for recycled products. Today,
+                we are certified to manufacture products using up to 100%
+                recycled materials, achieved through state-of-the-art recycling
+                equipment and in-house research. Our trademark 'Replast'
+                distinguishes our recycled products, and we are currently
+                applying for patents on several innovations. All our products
+                are manufactured using green electricity generated from our
+                solar plants.
+              </p>
+
+              <p>
+                In 2014, on the birth anniversary of Mahatma Gandhi, we launched
+                'Little Leaf,' an initiative aimed at promoting recycling and
+                supporting education. This not-for-profit endeavor reinvests all
+                proceeds into its mission. We truly believe that the purpose of
+                business is to make society a better place to live.
+              </p>
+
+              <p>
+                Our customers are our driving force, echoing Mahatma Gandhi’s
+                words:{" "}
+                <strong>
+                  {" "}
+                  "A customer is the most important visitor on our premises. He
+                  is not dependent on us, we are dependent on him. He is not an
+                  interruption in our work, he is the purpose of it. He is not
+                  an outsider in our business, he is part of it. We are not
+                  doing him a favor by serving him, he is doing us a favor by
+                  giving us the opportunity to do so."
+                </strong>
+              </p>
             </div>
           </div>
         </div>
@@ -48,60 +72,8 @@ export default function page() {
 
       <section className="sectionContainer bg-light">
         <div className="container">
-          <div className="row row-gap-5 justify-content-between">
-            <div className="col-lg-8 col-md-6 col-12">
-              <h1>Visionary Leadership</h1>
-              <span
-                style={{
-                  display: "block",
-                  margin: "10px 0",
-                  fontWeight: "600",
-                }}
-              >
-                "The best way to predict the future is to create it."
-              </span>
-              <p>
-                Our management's visionary leadership consistently drives
-                innovation to ensure the delivery of top-quality products to
-                customers across the globe. RAS Group holds the Export House and is recognized as a
-                government-certified ISO 9001, 14001 & 22000 company. As a certified
-                manufacturer of high-quality FIBCs, we meet the evolving needs
-                of industries worldwide.
-              </p>
-              <p style={{ fontWeight: "600" }}>
-                "Visionary leaders have a clear, long-term vision for the future
-                and inspire their followers to embrace it."
-              </p>
-              <p>
-                By keeping this philosophy at the core of our operations and
-                working diligently, RAS Group has set benchmarks not only in
-                business but also in its social initiatives. We have received
-                numerous awards in recognition of our contributions to society.
-              </p>
-            </div>
-            <div className="col-lg-4 col-md-6 col-12">
-              <img
-                src="/assets/images/about/3.jpg"
-                alt=""
-                className="rounded"
-              />
-            </div>
-
-            {/* <div className="col-lg-3 col-md-6 col-12">
-              <img
-                src="https://www.raspoly.com/image/new/3.jpg"
-                alt=""
-                className="rounded"
-              />
-            </div> */}
-            <div className="col-lg-3 col-md-6 col-12">
-              <img
-                src="/assets/images/about/4.jpg"
-                alt=""
-                className="rounded"
-              />
-            </div>
-            <div className="col-lg-3 col-md-6 col-12">
+          <div className="row row-gap-5 ">
+            <div className="col-lg-6 col-md-6 col-12">
               <img
                 src="/assets/images/about/5.jpg"
                 alt=""
