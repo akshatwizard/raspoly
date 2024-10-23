@@ -39,13 +39,22 @@ export default function Header() {
                               <Link href="">About Us</Link>
                               <ul className="drop-menu">
                                 <li>
-                                  <Link href="about-us">Who are we</Link>
+                                  <Link href="about-us">Who We Are</Link>
                                 </li>
                                 <li>
-                                  <Link href="history">Company History</Link>
+                                  <Link href="">What We Do</Link>
                                 </li>
                                 <li>
-                                  <Link href="product-policy">Product Safety & Quality Policy</Link>
+                                  <Link href="">Why Us</Link>
+                                </li>
+                                <li>
+                                  <Link href="">Our Vision</Link>
+                                </li>
+                                <li>
+                                  <Link href="">Our Mission</Link>
+                                </li>
+                                <li>
+                                  <Link href="product-policy">Our Policies</Link>
                                 </li>
                               </ul>
                             </li>

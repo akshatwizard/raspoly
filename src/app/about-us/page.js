@@ -44,13 +44,13 @@ export default function page() {
                 solar plants.
               </p>
 
-              <p>
+              {/* <p>
                 In 2014, on the birth anniversary of Mahatma Gandhi, we launched
                 'Little Leaf,' an initiative aimed at promoting recycling and
                 supporting education. This not-for-profit endeavor reinvests all
                 proceeds into its mission. We truly believe that the purpose of
                 business is to make society a better place to live.
-              </p>
+              </p> */}
 
               <p>
                 Our customers are our driving force, echoing Mahatma Gandhi’s
@@ -73,6 +73,8 @@ export default function page() {
       <section className="sectionContainer bg-light">
         <div className="container">
           <div className="row row-gap-5 ">
+            <div className="col-lg-3 col-md-3"></div>
+            
             <div className="col-lg-6 col-md-6 col-12">
               <img
                 src="/assets/images/about/5.jpg"
@@ -80,6 +82,7 @@ export default function page() {
                 className="rounded"
               />
             </div>
+            <div className="col-lg-3 col-md-3"></div>
           </div>
         </div>
       </section>
