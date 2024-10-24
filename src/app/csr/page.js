@@ -86,6 +86,7 @@ export default function page() {
                 <h4 className="text-center">
                   Ekal Shiksha Abhiyan- empowerment through education
                 </h4>
+                <img src="assets/images/ekal.jpeg" alt="" style={{margin:"20px 0", display:"inline-block",borderRadius:"7px"}} />
                 <p>
                   RAS Group's Contribution to Ekal Shiksha Abhiyan The RAS
                   Group’s involvement with the Ekal Shiksha Abhiyan is an
