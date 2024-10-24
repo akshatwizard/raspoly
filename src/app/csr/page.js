@@ -49,9 +49,23 @@ export default function page() {
                 />
               </div>
             </div>
-            <div className="row row-gap-3">
+            <div className="row row-gap-3 mt-4">
+            <div className="col-lg-6 col-md-6 col-12">
+                <img
+                  src="/assets/images/about/oxygen.jpg"
+                  alt=""
+                  className="rounded-4"
+                />
+              </div>
               <div className="col-lg-6 col-md-6 col-12">
-                <ol>
+                <p>
+                  <strong>Oxygen Plant</strong> – During the first wave of
+                  Corona Virus pandemic, the severe oxygen crisis led to the
+                  dire need of it. A small contribution of an Oxygen Plant at a
+                  district hospital in Varanasi definitely proved to be life
+                  saving.
+                </p>
+                {/* <ol>
                   <li>
                     <strong>Oxygen Plant</strong> – During the first wave of
                     Corona Virus pandemic, the severe oxygen crisis led to the
@@ -59,18 +73,56 @@ export default function page() {
                     a district hospital in Varanasi definitely proved to be life
                     saving.
                   </li>
-                </ol>
+                </ol> */}
               </div>
-              <div className="col-lg-6 col-md-6 col-12">
-                <img
-                  src="/assets/images/about/oxygen.jpg"
-                  alt=""
-                  className="rounded-4"
-                />
-              </div>
+              
               {/* <div className="col-12 d-flex align-items-center justify-content-center mt-5">
                 <Link href='/assets/CSR-POLICY-RAS.pdf' download={true} target="_blank"><button className="csr">Download CSR policy</button></Link>
               </div> */}
+            </div>
+
+            <div className="row row-gap-3 mt-5 bg-light p-4 rounded-4">
+              <div className="col-lg-12 col-md-7 col-12">
+                <h4 className="text-center">
+                  Ekal Shiksha Abhiyan- empowerment through education
+                </h4>
+                <img src="assets/images/ekal.jpeg" alt="" style={{margin:"20px 0", display:"inline-block",borderRadius:"7px"}} />
+                <p>
+                  RAS Group's Contribution to Ekal Shiksha Abhiyan The RAS
+                  Group’s involvement with the Ekal Shiksha Abhiyan is an
+                  extension of its broader corporate social responsibility (CSR)
+                  initiatives. From building libraries to fostering green
+                  energy, the company has consistently shown a dedication to
+                  initiatives that promote sustainable growth and societal
+                  well-being. Their partnership with Ekal Shiksha Abhiyan is yet
+                  another step in their journey towards creating a more
+                  inclusive and empowered India, ensuring that education reaches
+                  even the most underserved areas.
+                </p>
+
+                <p>
+                  RAS Group, deeply committed to sustainability and societal
+                  betterment, actively participates in the{" "}
+                  <strong>Ekal Shiksha Abhiyan</strong>, an initiative
+                  transforming education in rural and tribal India. This
+                  partnership reflects the company’s core values of{" "}
+                  <strong>inclusivity, community development</strong>, and{" "}
+                  <strong>empowerment through education.</strong>
+                </p>
+                <p>
+                  Ekal Shiksha Abhiyan focuses on providing{" "}
+                  <strong>one-teacher schools (Ekal Vidyalayas)</strong> in
+                  remote areas, addressing the educational gap in underserved
+                  regions. RAS Group’s contributions—both{" "}
+                  <strong>financial and in-kind—ensure</strong> that children in
+                  these areas receive quality education, fostering{" "}
+                  <strong>self-reliance</strong> and creating{" "}
+                  <strong>better livelihood opportunities</strong>.
+                </p>
+                <p>
+                By supporting Ekal Shiksha Abhiyan, RAS Group reinforces its commitment to <strong>social responsibility</strong>, leveraging its resources for the <strong></strong>.
+                </p>
+              </div>
             </div>
 
             <div className="row row-gap-3 mt-5 bg-light p-4 rounded-4">
@@ -96,12 +148,20 @@ export default function page() {
                 </p>
               </div>
               <div className="col-lg-4 col-md-5 col-12">
-                <img src="/assets/images/little.png" alt="" style={{mixBlendMode:"multiply"}} />
+                <img
+                  src="/assets/images/little.png"
+                  alt=""
+                  style={{ mixBlendMode: "multiply" }}
+                />
               </div>
             </div>
             <div className="row row-gap-3 mt-5 bg-light p-4 rounded-4">
               <div className="col-12">
-                <img src="/assets/images/about/student.png" alt="" className="rounded-3"/>
+                <img
+                  src="/assets/images/about/student.png"
+                  alt=""
+                  className="rounded-3"
+                />
               </div>
               <div className="col-lg-12 col-md-7 col-12">
                 <h3>Empowering the education of underprivileged children</h3>
@@ -110,7 +170,15 @@ export default function page() {
                   "Empower a child through education, and you empower the
                   world."
                 </strong>
-                <p>Little Leaf is committed to supporting education for underprivileged communities by regularly donating study materials, writing supplies, and other necessary resources. Our mission also focuses on offering a variety of reusable products designed to protect trees. As the lungs of our planet, trees play a crucial role in ensuring a sustainable future, and their preservation is at the heart of our efforts.</p>
+                <p>
+                  Little Leaf is committed to supporting education for
+                  underprivileged communities by regularly donating study
+                  materials, writing supplies, and other necessary resources.
+                  Our mission also focuses on offering a variety of reusable
+                  products designed to protect trees. As the lungs of our
+                  planet, trees play a crucial role in ensuring a sustainable
+                  future, and their preservation is at the heart of our efforts.
+                </p>
               </div>
             </div>
             <div className="row row-gap-3 mt-5 bg-light p-4 rounded-4">
@@ -118,12 +186,23 @@ export default function page() {
                 <h3>Tree Planting Initiative Led by Little Leaf Volunteers</h3>
 
                 <strong>
-                "He who plants a tree, plants a hope." – Lucy Larcom
+                  "He who plants a tree, plants a hope." – Lucy Larcom
                 </strong>
-                <p>To raise awareness about the importance of preserving the environment and ecology, Little Leaf organized a tree plantation drive. As the first event hosted by Little Leaf, its primary goal was to educate students on how we can combat pollution and protect our climate. During the event, over 100 trees were planted.</p>
+                <p>
+                  To raise awareness about the importance of preserving the
+                  environment and ecology, Little Leaf organized a tree
+                  plantation drive. As the first event hosted by Little Leaf,
+                  its primary goal was to educate students on how we can combat
+                  pollution and protect our climate. During the event, over 100
+                  trees were planted.
+                </p>
               </div>
               <div className="col-lg-4 col-md-5 col-12">
-                <img src="/assets/images/about/csr-img.jpeg" alt="" className="rounded-2" />
+                <img
+                  src="/assets/images/about/csr-img.jpeg"
+                  alt=""
+                  className="rounded-2"
+                />
               </div>
             </div>
           </div>
