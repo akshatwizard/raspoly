@@ -54,14 +54,19 @@ export default function Header() {
                                   <Link href="">Our Mission</Link>
                                 </li>
                                 <li>
-                                  <Link href="product-policy">Our Policies</Link>
+                                  <Link href="product-policy">
+                                    Our Policies
+                                  </Link>
                                 </li>
                               </ul>
                             </li>
 
                             <li>
-                              <Link href="sustanibility" className="d-none d-lg-block">
-                              Sustainability
+                              <Link
+                                href="sustanibility"
+                                className="d-none d-lg-block"
+                              >
+                                Sustainability
                               </Link>
                             </li>
                             <li>
@@ -325,15 +330,18 @@ export default function Header() {
                     </li>
 
                     <li className="drop-holder">
-                      <Link href="#">Printing INK</Link>
+                      <Link href="#">INK/Masterbatch</Link>
                       <ul className="drop-menu">
                         <li>
                           <Link href="ink-reducers">Ink and reducers</Link>
                         </li>
+                        <li>
+                          <Link href="masterbatch">Masterbatch</Link>
+                        </li>
                       </ul>
                     </li>
                     <li>
-                      <Link href="masterbatch">Masterbatch</Link>
+                      <Link href="#"> <img src="assets/images/ioc.png" alt="" style={{width:"30px",marginRight:"4px"}} /> Polymer</Link>
                     </li>
                   </ul>
                 </nav>
