@@ -319,7 +319,10 @@ export default function Header() {
                       </ul>
                     </li>
                     <li>
-                      <Link href="recycle-bags">100% Recycled PP Bags</Link>
+                      <Link href="recycle-bags">
+                        <span style={{ textTransform: "lowercase" }}>r</span>PP
+                        Bags
+                      </Link>
                     </li>
                     <li>
                       <Link href="#">PP Fabrics</Link>
@@ -330,7 +333,7 @@ export default function Header() {
                     </li>
 
                     <li className="drop-holder">
-                      <Link href="#">INK/Masterbatch</Link>
+                      <Link href="#">INK/MB</Link>
                       <ul className="drop-menu">
                         <li>
                           <Link href="ink-reducers">Ink and reducers</Link>
@@ -341,7 +344,14 @@ export default function Header() {
                       </ul>
                     </li>
                     <li>
-                      <Link href="#"> <img src="assets/images/ioc.png" alt="" style={{width:"30px",marginRight:"4px"}} /> Polymer</Link>
+                      <Link href="#">
+                        {" "}
+                        <img
+                          src="assets/images/ioc.png"
+                          alt=""
+                          style={{ width: "48px" }}
+                        />
+                      </Link>
                     </li>
                   </ul>
                 </nav>
@@ -516,7 +526,10 @@ export default function Header() {
                         </ul>
                       </li>
                       <li>
-                        <Link href="recycle-bags">100% Recycled PP Bags</Link>
+                        <Link href="recycle-bags">
+                          <span style={{ textTransform: "lowercase" }}>r</span>
+                          PP Bags
+                        </Link>
                       </li>
 
                       <li>
@@ -528,15 +541,26 @@ export default function Header() {
                       </li>
 
                       <li className="drop-holder">
-                        <Link href="#">Printing INK</Link>
+                        <Link href="#">INK/MB</Link>
                         <ul className="drop-menu">
                           <li>
                             <Link href="ink-reducers">Ink and reducers</Link>
                           </li>
+                          <li>
+                            <Link href="masterbatch">Masterbatch</Link>
+                          </li>
                         </ul>
                       </li>
+
                       <li>
-                        <Link href="masterbatch">Masterbatch</Link>
+                        <Link href="#">
+                          {" "}
+                          <img
+                            src="assets/images/ioc.png"
+                            alt=""
+                            style={{ width: "48px" }}
+                          />
+                        </Link>
                       </li>
                     </ul>
                   </nav>
@@ -796,7 +820,10 @@ export default function Header() {
 
                   <li>
                     <Link href="recycle-bags">
-                      <span className="mm-text">100% Recycled PP Bags</span>
+                      <span className="mm-text">
+                        <span style={{ textTransform: "lowercase" }}>r</span>PP
+                        Bags
+                      </span>
                     </Link>
                   </li>
                   <li>
@@ -814,7 +841,7 @@ export default function Header() {
                   <li className="menu-item-has-children">
                     <Link href="#">
                       <span className="mm-text">
-                        Printing INK
+                        INK/MB
                         <i className="pe-7s-angle-down"></i>
                       </span>
                     </Link>
@@ -824,11 +851,21 @@ export default function Header() {
                           <span className="mm-text">Ink and reducers</span>
                         </Link>
                       </li>
+                      <li className="menu-item-has-children">
+                        <Link href="masterbatch">
+                          <span className="mm-text">Masterbatch</span>
+                        </Link>
+                      </li>
                     </ul>
                   </li>
                   <li>
-                    <Link href="masterbatch">
-                      <span className="mm-text">Masterbatch</span>
+                    <Link href="#">
+                      {" "}
+                      <img
+                        src="assets/images/ioc.png"
+                        alt=""
+                        style={{ width: "48px" }}
+                      />
                     </Link>
                   </li>
 
