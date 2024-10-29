@@ -50,7 +50,7 @@ export default function page() {
               </div>
             </div>
             <div className="row row-gap-3 mt-4">
-            <div className="col-lg-6 col-md-6 col-12">
+              <div className="col-lg-6 col-md-6 col-12">
                 <img
                   src="/assets/images/about/oxygen.jpg"
                   alt=""
@@ -58,12 +58,29 @@ export default function page() {
                 />
               </div>
               <div className="col-lg-6 col-md-6 col-12">
+                <strong>
+                  RAS Group's Oxygen Plant Installation at DDU Hospital: A
+                  Lifeline During the COVID-19 Crisis.
+                </strong>
                 <p>
-                  <strong>Oxygen Plant</strong> – During the first wave of
-                  Corona Virus pandemic, the severe oxygen crisis led to the
-                  dire need of it. A small contribution of an Oxygen Plant at a
-                  district hospital in Varanasi definitely proved to be life
-                  saving.
+                  In response to the severe challenges posed by the COVID-19
+                  pandemic, particularly during the devastating second wave, RAS
+                  Group took decisive action to support healthcare
+                  infrastructure by installing an oxygen plant at Deen Dayal
+                  Upadhyay (DDU) Hospital.
+                </p>
+                <p>
+                  This initiative underscores RAS Group’s commitment to social
+                  responsibility and community welfare. With a longstanding
+                  belief in supporting society in times of need, RAS Group
+                  stepped forward when it was needed most, demonstrating its
+                  core values of compassion and care.{" "}
+                  <strong>
+                    The oxygen plant installation at DDU Hospital stands as a
+                    testament to RAS Group’s dedication to public health and its
+                    role in contributing positively to society’s wellbeing,
+                    particularly in times of crisis.
+                  </strong>
                 </p>
                 {/* <ol>
                   <li>
@@ -75,18 +92,26 @@ export default function page() {
                   </li>
                 </ol> */}
               </div>
-              
+
               {/* <div className="col-12 d-flex align-items-center justify-content-center mt-5">
                 <Link href='/assets/CSR-POLICY-RAS.pdf' download={true} target="_blank"><button className="csr">Download CSR policy</button></Link>
               </div> */}
             </div>
 
             <div className="row row-gap-3 mt-5 bg-light p-4 rounded-4">
-              <div className="col-lg-12 col-md-7 col-12">
+              <div className="col-lg-12 col-md-12 col-12">
                 <h4 className="text-center">
                   Ekal Shiksha Abhiyan- empowerment through education
                 </h4>
-                <img src="assets/images/ekal.jpeg" alt="" style={{margin:"20px 0", display:"inline-block",borderRadius:"7px"}} />
+                <img
+                  src="assets/images/ekal.jpeg"
+                  alt=""
+                  style={{
+                    margin: "20px 0",
+                    display: "inline-block",
+                    borderRadius: "7px",
+                  }}
+                />
                 <p>
                   RAS Group's Contribution to Ekal Shiksha Abhiyan The RAS
                   Group’s involvement with the Ekal Shiksha Abhiyan is an
@@ -120,7 +145,59 @@ export default function page() {
                   <strong>better livelihood opportunities</strong>.
                 </p>
                 <p>
-                By supporting Ekal Shiksha Abhiyan, RAS Group reinforces its commitment to <strong>social responsibility</strong>, leveraging its resources for the <strong></strong>.
+                  By supporting Ekal Shiksha Abhiyan, RAS Group reinforces its
+                  commitment to <strong>social responsibility</strong>,
+                  leveraging its resources for the <strong></strong>.
+                </p>
+              </div>
+            </div>
+
+            <div className="row row-gap-3 mt-5 bg-light p-4 rounded-4">
+              <div className="col-lg-12 col-md-12 col-12">
+                <h4 className="text-center">
+                  RAS Group's CSR Initiative: A New Library at Nivedita Sikshan
+                  Sansthan
+                </h4>
+              </div>
+
+              <div className="col-lg-5 col-md-4 col-12">
+                <img
+                  src="assets/images/lib.jpeg"
+                  alt=""
+                  style={{
+                    margin: "20px 0",
+                    display: "inline-block",
+                    borderRadius: "7px",
+                  }}
+                />
+              </div>
+
+              <div className="col-lg-7 col-md-8 col-12">
+                <p>
+                  In alignment with its commitment to societal betterment, RAS
+                  Group has established a library at Nivedita Sikshan Sansthan
+                  as part of its Corporate Social Responsibility (CSR) efforts
+                </p>
+
+                <p>
+                  The library at Nivedita Sikshan Sansthan is designed to
+                  provide students with a rich collection of books and
+                  resources, catering to a diverse range of academic and
+                  personal interests. It is envisioned as a vibrant learning hub
+                  where students can access valuable materials, deepen their
+                  understanding of various subjects, and foster a lifelong love
+                  for reading. Through this project, RAS Group aims to bridge
+                  educational gaps by providing an accessible, resource-rich
+                  environment that can support students' academic journeys and
+                  spark curiosity beyond the classroom.
+                </p>
+                <p>
+                  <strong>
+                    This CSR initiative at Nivedita Sikshan Sansthan is a
+                    testament to RAS Group’s vision of creating positive change
+                    through education, empowering the next generation to achieve
+                    their fullest potential.
+                  </strong>
                 </p>
               </div>
             </div>
