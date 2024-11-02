@@ -346,11 +346,12 @@ export default function Header() {
                     <li>
                       <Link href="#">
                         {" "}
-                        <img
+                        {/* <img
                           src="assets/images/ioc.png"
                           alt=""
                           style={{ width: "48px" }}
-                        />
+                        /> */}
+                        Polymer
                       </Link>
                     </li>
                   </ul>
@@ -555,11 +556,12 @@ export default function Header() {
                       <li>
                         <Link href="#">
                           {" "}
-                          <img
+                          {/* <img
                             src="assets/images/ioc.png"
                             alt=""
                             style={{ width: "48px" }}
-                          />
+                          /> */}
+                          Polymer
                         </Link>
                       </li>
                     </ul>
@@ -861,11 +863,12 @@ export default function Header() {
                   <li>
                     <Link href="#">
                       {" "}
-                      <img
+                      {/* <img
                         src="assets/images/ioc.png"
                         alt=""
                         style={{ width: "48px" }}
-                      />
+                      /> */}
+                      Polymer
                     </Link>
                   </li>
 
