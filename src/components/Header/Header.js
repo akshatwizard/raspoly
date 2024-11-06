@@ -320,8 +320,7 @@ export default function Header() {
                     </li>
                     <li>
                       <Link href="recycle-bags">
-                        <span style={{ textTransform: "lowercase" }}>r</span>PP
-                        Bags
+                        Recycled PP Bags
                       </Link>
                     </li>
                     <li>
@@ -351,7 +350,7 @@ export default function Header() {
                           alt=""
                           style={{ width: "48px" }}
                         /> */}
-                        Polymer
+                        IOCL/DCA
                       </Link>
                     </li>
                   </ul>
@@ -528,8 +527,7 @@ export default function Header() {
                       </li>
                       <li>
                         <Link href="recycle-bags">
-                          <span style={{ textTransform: "lowercase" }}>r</span>
-                          PP Bags
+                          Recycled PP Bags
                         </Link>
                       </li>
 
@@ -561,7 +559,7 @@ export default function Header() {
                             alt=""
                             style={{ width: "48px" }}
                           /> */}
-                          Polymer
+                          IOCL/DCA
                         </Link>
                       </li>
                     </ul>
@@ -823,8 +821,7 @@ export default function Header() {
                   <li>
                     <Link href="recycle-bags">
                       <span className="mm-text">
-                        <span style={{ textTransform: "lowercase" }}>r</span>PP
-                        Bags
+                        Recycled PP Bags
                       </span>
                     </Link>
                   </li>
@@ -868,7 +865,7 @@ export default function Header() {
                         alt=""
                         style={{ width: "48px" }}
                       /> */}
-                      Polymer
+                      IOCL/DCH
                     </Link>
                   </li>
 
