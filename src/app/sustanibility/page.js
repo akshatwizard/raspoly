@@ -8,8 +8,12 @@ export default function page() {
           <h2 className="section-title mb-3">Sustainability</h2>
         </div>
         <div className="row row-gap-4 bg-light p-4 rounded-4">
-        <div className="col-lg-4 col-md-5 col-12">
-            <img src="/assets/images/about/sustanibility.jpeg" alt="" className="rounded-3" />
+          <div className="col-lg-4 col-md-5 col-12">
+            <img
+              src="/assets/images/about/sustanibility.jpeg"
+              alt=""
+              className="rounded-3"
+            />
           </div>
           <div className="col-lg-8 col-md-7 col-12">
             <span
@@ -32,7 +36,6 @@ export default function page() {
               recycled or renewable resources.
             </p>
           </div>
-
         </div>
 
         <div className="row mt-5 row-gap-3 bg-light p-4 rounded-4">
@@ -73,6 +76,7 @@ export default function page() {
             </p>
           </div>
         </div>
+
         <div className="row mt-5 row-gap-3  bg-light p-4 rounded-4">
           <div className="col-lg-8 col-md-6 col-12">
             <h3>Go Green – Our Vision</h3>
@@ -98,6 +102,59 @@ export default function page() {
               alt=""
               className="rounded"
             />
+          </div>
+        </div>
+
+        <div className="row mt-5 row-gap-3  bg-light p-4 rounded-4">
+          <div className="col-lg-12 col-md-12 col-12">
+            <h3 className="text-center">
+              Circular Economy – Round and Round We thrive.{" "}
+            </h3>
+            <p>
+              RAS Group that is committed to sustainability and environmentally
+              friendly practices. Since its early beginnings in 1983, RAS
+              Polytex has worked to build a production model that minimizes
+              waste, maximizes resource efficiency, and aligns with the
+              principles of a circular economy.
+            </p>
+
+            <h4>1. Recycling and Reuse of Polypropylene.</h4>
+            <p>
+              RAS Polytex has pioneered the recycling of polypropylene (PP)
+              within its operations, which allows for the production of bags and
+              flexible packaging solutions from up to 100% recycled materials.
+            </p>
+
+            <h4>2. Backward Integration and In-House Processing.</h4>
+            <p>
+              RAS Polytex has invested in state-of-the-art machinery and
+              technology, allowing for complete in-house production. The
+              facility is designed for backward integration, which ensures that
+              all steps of the production process are controlled and optimized
+              for minimal waste.
+            </p>
+            
+            <h4>3. Green Energy Utilization.</h4>
+            <p>
+              Another vital part of RAS Polytex’s circular economy model is its
+              use of green energy. The company’s production is powered by solar
+              energy, minimizing carbon emissions and dependency on fossil
+              fuels.
+            </p>
+
+            <h4>4. Commitment to a Circular Economy Mindset.</h4>
+            <p>
+              Beyond its recycling processes, RAS Polytex’s commitment to a
+              circular economy is evident in its broader corporate philosophy.
+            </p>
+
+            <h4>5. Eco-Conscious Product Development.</h4>
+            <p>
+              All products from RAS Polytex are designed with durability,
+              recyclability, and environmental impact in mind. By manufacturing
+              high-quality, long-lasting packaging solutions, RAS Polytex helps
+              reduce waste associated with disposable packaging.
+            </p>
           </div>
         </div>
       </div>
