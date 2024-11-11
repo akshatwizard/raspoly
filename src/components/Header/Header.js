@@ -318,10 +318,13 @@ export default function Header() {
                         </li>
                       </ul>
                     </li>
-                    <li>
-                      <Link href="recycle-bags">
-                        Recycled PP Bags
-                      </Link>
+                    <li className="drop-holder">
+                      <Link href="#">Recycled PP Bags</Link>
+                      <ul className="drop-menu">
+                        <li>
+                          <Link href="recycle-bags">100% Recycled PP Bags</Link>
+                        </li>
+                      </ul>
                     </li>
                     <li>
                       <Link href="#">PP Fabrics</Link>
@@ -360,6 +363,7 @@ export default function Header() {
           </div>
         </div>
       </div>
+
       <div className="header-sticky py-2 py-lg-0">
         <div className="container">
           <div className="header-nav position-relative">
@@ -525,10 +529,15 @@ export default function Header() {
                           </li>
                         </ul>
                       </li>
-                      <li>
-                        <Link href="recycle-bags">
-                          Recycled PP Bags
-                        </Link>
+                      <li className="drop-holder">
+                        <Link href="#">Recycled PP Bags</Link>
+                        <ul className="drop-menu">
+                          <li>
+                            <Link href="recycle-bags">
+                              100% Recycled PP Bags
+                            </Link>
+                          </li>
+                        </ul>
                       </li>
 
                       <li>
@@ -818,12 +827,20 @@ export default function Header() {
                     </ul>
                   </li>
 
-                  <li>
-                    <Link href="recycle-bags">
+                  <li className="menu-item-has-children">
+                    <Link href="#">
                       <span className="mm-text">
                         Recycled PP Bags
+                        <i className="pe-7s-angle-down"></i>
                       </span>
                     </Link>
+                    <ul className="sub-menu">
+                      <li className="menu-item-has-children">
+                        <Link href="recycle-bags">
+                          <span className="mm-text">100% Recycled PP Bags</span>
+                        </Link>
+                      </li>
+                    </ul>
                   </li>
                   <li>
                     <Link href="#">
@@ -886,6 +903,7 @@ export default function Header() {
           </div>
         </div>
       </div>
+
       <div
         className="modal fade"
         id="exampleModal"
