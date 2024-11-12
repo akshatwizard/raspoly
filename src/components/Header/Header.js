@@ -319,7 +319,7 @@ export default function Header() {
                       </ul>
                     </li>
                     <li className="drop-holder">
-                      <Link href="#">Recycled PP Bags</Link>
+                      <Link href="#"><span style={{textTransform:"lowercase"}}>r</span>PP Bags</Link>
                       <ul className="drop-menu">
                         <li>
                           <Link href="recycle-bags">100% Recycled PP Bags</Link>
@@ -335,7 +335,7 @@ export default function Header() {
                     </li>
 
                     <li className="drop-holder">
-                      <Link href="#">INK/MB</Link>
+                      <Link href="#">INK/Masterbatch</Link>
                       <ul className="drop-menu">
                         <li>
                           <Link href="ink-reducers">Ink and reducers</Link>
@@ -353,7 +353,7 @@ export default function Header() {
                           alt=""
                           style={{ width: "48px" }}
                         /> */}
-                        IOCL/DCA
+                        IOCL
                       </Link>
                     </li>
                   </ul>
@@ -530,7 +530,7 @@ export default function Header() {
                         </ul>
                       </li>
                       <li className="drop-holder">
-                        <Link href="#">Recycled PP Bags</Link>
+                        <Link href="#"><span style={{textTransform:"lowercase"}}>r</span>PP Bags</Link>
                         <ul className="drop-menu">
                           <li>
                             <Link href="recycle-bags">
@@ -549,7 +549,7 @@ export default function Header() {
                       </li>
 
                       <li className="drop-holder">
-                        <Link href="#">INK/MB</Link>
+                        <Link href="#">INK/Masterbatch</Link>
                         <ul className="drop-menu">
                           <li>
                             <Link href="ink-reducers">Ink and reducers</Link>
@@ -568,7 +568,7 @@ export default function Header() {
                             alt=""
                             style={{ width: "48px" }}
                           /> */}
-                          IOCL/DCA
+                          IOCL
                         </Link>
                       </li>
                     </ul>
@@ -837,7 +837,7 @@ export default function Header() {
                     <ul className="sub-menu">
                       <li className="menu-item-has-children">
                         <Link href="recycle-bags">
-                          <span className="mm-text">100% Recycled PP Bags</span>
+                          <span className="mm-text"><span style={{textTransform:"lowercase"}}>r</span>PP Bags</span>
                         </Link>
                       </li>
                     </ul>
@@ -857,7 +857,7 @@ export default function Header() {
                   <li className="menu-item-has-children">
                     <Link href="#">
                       <span className="mm-text">
-                        INK/MB
+                        INK/Masterbatch
                         <i className="pe-7s-angle-down"></i>
                       </span>
                     </Link>
@@ -882,7 +882,7 @@ export default function Header() {
                         alt=""
                         style={{ width: "48px" }}
                       /> */}
-                      IOCL/DCH
+                      IOCL
                     </Link>
                   </li>
 

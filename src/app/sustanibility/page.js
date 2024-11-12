@@ -110,6 +110,21 @@ export default function page() {
             <h3 className="text-center">
               Circular Economy – Round and Round We thrive.{" "}
             </h3>
+            <div
+              className="img-social"
+              style={{ height: "220px", float: "left", margin:"0 15px 15px 0" }}
+            >
+              <img
+                src="/assets/images/brand/social.jpeg"
+                style={{
+                  display: "block",
+                  objectFit: "cover",
+                  height: "100%",
+                  borderRadius: "15px",
+                }}
+              />
+            </div>
+
             <p>
               RAS Group that is committed to sustainability and environmentally
               friendly practices. Since its early beginnings in 1983, RAS
@@ -133,7 +148,7 @@ export default function page() {
               all steps of the production process are controlled and optimized
               for minimal waste.
             </p>
-            
+
             <h4>3. Green Energy Utilization.</h4>
             <p>
               Another vital part of RAS Polytex’s circular economy model is its
