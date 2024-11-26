@@ -1,7 +1,7 @@
 import Header from "@/components/Header/Header";
 import "./globals.css";
 import Footer from "@/components/Footer/Footer";
-import { GoogleAnalytics } from '@next/third-parties/google';
+import { GoogleAnalytics } from "@next/third-parties/google";
 
 export const metadata = {
   title: "RAS Polytex PVT LTD",
@@ -32,9 +32,11 @@ export default function RootLayout({ children }) {
         ></link>
       </head>
       <body>
-        <Header />
-        {children}
-        <Footer />
+        <div className="main-wrapper">
+          <Header />
+          {children}
+          <Footer />
+        </div>
         <GoogleAnalytics gaId="G-064ZQKMCLZ" />
         <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
         <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
