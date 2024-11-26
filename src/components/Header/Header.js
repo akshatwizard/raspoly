@@ -1,7 +1,27 @@
+"use client";
 import Link from "next/link";
 import React from "react";
 
 export default function Header() {
+  function handleClick(event) {
+    event.preventDefault();
+    const mobileMenuWrapper = document.querySelector(".mobile-menu_wrapper");
+    const mobileOverlay = document.querySelector(".global-overlay");
+    const mobileMenu = document.querySelectorAll(".menu-open");
+
+    if (mobileMenuWrapper && mobileMenuWrapper.classList.contains("open")) {
+      mobileMenuWrapper.classList.remove("open");
+    }
+    if (mobileOverlay && mobileOverlay.classList.contains("overlay-open")) {
+      mobileOverlay.classList.remove("overlay-open");
+    }
+    if (mobileMenu.length > 0) {
+      mobileMenu.forEach((menu) => {
+        menu.classList.remove("menu-open");
+      });
+    }
+  }
+
   return (
     <header className="main-header-area">
       <div className="header-middle py-3">
@@ -319,7 +339,10 @@ export default function Header() {
                       </ul>
                     </li>
                     <li className="drop-holder">
-                      <Link href="#"><span style={{textTransform:"lowercase"}}>r</span>PP Bags</Link>
+                      <Link href="#">
+                        <span style={{ textTransform: "lowercase" }}>r</span>PP
+                        Bags
+                      </Link>
                       <ul className="drop-menu">
                         <li>
                           <Link href="recycle-bags">100% Recycled PP Bags</Link>
@@ -530,7 +553,10 @@ export default function Header() {
                         </ul>
                       </li>
                       <li className="drop-holder">
-                        <Link href="#"><span style={{textTransform:"lowercase"}}>r</span>PP Bags</Link>
+                        <Link href="#">
+                          <span style={{ textTransform: "lowercase" }}>r</span>
+                          PP Bags
+                        </Link>
                         <ul className="drop-menu">
                           <li>
                             <Link href="recycle-bags">
@@ -605,7 +631,11 @@ export default function Header() {
               </a>
             </div>
             <div className="header-contact offcanvas-contact">
-              <Link href="/" className="header-logo">
+              <Link
+                href="/"
+                className="header-logo"
+                onClick={() => handleClick(event)}
+              >
                 <img
                   src="assets/images/logo/logo.png"
                   className="logoImage"
@@ -617,17 +647,17 @@ export default function Header() {
               <nav className="offcanvas-navigation">
                 <ul className="mobile-menu">
                   <li>
-                    <Link href="#">
+                    <Link href="/" onClick={() => handleClick(event)}>
                       <span className="mm-text">Home</span>
                     </Link>
                   </li>
                   <li>
-                    <Link href="about-us">
+                    <Link href="about-us" onClick={() => handleClick(event)}>
                       <span className="mm-text">About Us</span>
                     </Link>
                   </li>
                   <li>
-                    <Link href="contact">
+                    <Link href="contact" onClick={() => handleClick(event)}>
                       <span className="mm-text">Contact</span>
                     </Link>
                   </li>
@@ -640,69 +670,102 @@ export default function Header() {
                     </Link>
                     <ul className="sub-menu">
                       <li className="menu-item-has-children">
-                        <Link href="fibc">
+                        <Link href="fibc" onClick={() => handleClick(event)}>
                           <span className="mm-text">FIBC</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="u-panel-bags">
+                        <Link
+                          href="u-panel-bags"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">U Panel Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="four-panel-bags">
+                        <Link
+                          href="four-panel-bags"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Four Panel Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="circular-bags">
+                        <Link
+                          href="circular-bags"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Circular/Tubular Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="conical-bags">
+                        <Link
+                          href="conical-bags"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Conical Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="tunnel-bags">
+                        <Link
+                          href="tunnel-bags"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Tunnel Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="baffle-bags">
+                        <Link
+                          href="baffle-bags"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Baffle Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="ventilated-bags">
+                        <Link
+                          href="ventilated-bags"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Ventilated Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="loop-bags">
+                        <Link
+                          href="loop-bags"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">One/Two Loop Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="food-grade-bags">
+                        <Link
+                          href="food-grade-bags"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Food Grade Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="types-bags">
+                        <Link
+                          href="types-bags"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">
                             Types - B, C and D Bags
                           </span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="flexi-bags">
+                        <Link
+                          href="flexi-bags"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Flexi Tanks</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="un-bags">
+                        <Link href="un-bags" onClick={() => handleClick(event)}>
                           <span className="mm-text">UN Certified Bags</span>
                         </Link>
                       </li>
@@ -722,73 +785,96 @@ export default function Header() {
                         </Link>
                       </li> */}
                       <li className="menu-item-has-children">
-                        <Link href="ppws">
+                        <Link href="ppws" onClick={() => handleClick(event)}>
                           <span className="mm-text">PP Woven Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="adstar">
+                        <Link href="adstar" onClick={() => handleClick(event)}>
                           <span className="mm-text">Block Bottom Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="leno">
+                        <Link href="leno" onClick={() => handleClick(event)}>
                           <span className="mm-text">Leno Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="bopp">
+                        <Link href="bopp" onClick={() => handleClick(event)}>
                           <span className="mm-text">BOPP Printed Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="pinch">
+                        <Link href="pinch" onClick={() => handleClick(event)}>
                           <span className="mm-text">Pinch Bottom Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="dunnage-bags">
+                        <Link
+                          href="dunnage-bags"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Dunnage Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="laminated-unlaminated">
+                        <Link
+                          href="laminated-unlaminated"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Laminated Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="shopping-bags">
+                        <Link
+                          href="shopping-bags"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Shopping Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="cargo-bags">
+                        <Link
+                          href="cargo-bags"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Cargo Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="garden-bags">
+                        <Link
+                          href="garden-bags"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Garden Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="insect-bags">
+                        <Link
+                          href="insect-bags"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Insect Repellent Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="flame-bags">
+                        <Link
+                          href="flame-bags"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Flame Retardant Bags</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="asbestos-bags">
+                        <Link
+                          href="asbestos-bags"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Asbestos Bags</span>
                         </Link>
                       </li>
                     </ul>
                   </li>
-
                   <li className="menu-item-has-children">
                     <Link href="#">
                       <span className="mm-text">
@@ -798,29 +884,44 @@ export default function Header() {
                     </Link>
                     <ul className="sub-menu">
                       <li className="menu-item-has-children">
-                        <Link href="geotextiles">
+                        <Link
+                          href="geotextiles"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Geotextiles</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="pondlinear">
+                        <Link
+                          href="pondlinear"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Pond Liners</span>
                         </Link>
                       </li>
 
                       <li className="menu-item-has-children">
-                        <Link href="roof-underlayment">
+                        <Link
+                          href="roof-underlayment"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Roof Underlayment</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="lumber-wrap">
+                        <Link
+                          href="lumber-wrap"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Lumber Wrap</span>
                         </Link>
                       </li>
 
                       <li className="menu-item-has-children">
-                        <Link href="tarpauline">
+                        <Link
+                          href="tarpauline"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Tarpaulins</span>
                         </Link>
                       </li>
@@ -836,20 +937,34 @@ export default function Header() {
                     </Link>
                     <ul className="sub-menu">
                       <li className="menu-item-has-children">
-                        <Link href="recycle-bags">
-                          <span className="mm-text"><span style={{textTransform:"lowercase"}}>r</span>PP Bags</span>
+                        <Link
+                          href="recycle-bags"
+                          onClick={() => handleClick(event)}
+                        >
+                          <span
+                            className="mm-text"
+                            style={{ justifyContent: "start" }}
+                          >
+                            <span style={{ textTransform: "lowercase" }}>
+                              r
+                            </span>
+                            PP Bags
+                          </span>
                         </Link>
                       </li>
                     </ul>
                   </li>
                   <li>
-                    <Link href="#">
+                    <Link href="#" onClick={() => handleClick(event)}>
                       <span className="mm-text">PP Fabrics</span>
                     </Link>
                   </li>
 
-                  <li className="menu-item-has-children">
-                    <Link href="multifilament-yarn">
+                  <li>
+                    <Link
+                      href="multifilament-yarn"
+                      onClick={() => handleClick(event)}
+                    >
                       <span className="mm-text">MF Yarn</span>
                     </Link>
                   </li>
@@ -863,39 +978,50 @@ export default function Header() {
                     </Link>
                     <ul className="sub-menu">
                       <li className="menu-item-has-children">
-                        <Link href="ink-reducers">
+                        <Link
+                          href="ink-reducers"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Ink and reducers</span>
                         </Link>
                       </li>
                       <li className="menu-item-has-children">
-                        <Link href="masterbatch">
+                        <Link
+                          href="masterbatch"
+                          onClick={() => handleClick(event)}
+                        >
                           <span className="mm-text">Masterbatch</span>
                         </Link>
                       </li>
                     </ul>
                   </li>
+
                   <li>
-                    <Link href="#">
-                      {" "}
-                      {/* <img
-                        src="assets/images/ioc.png"
-                        alt=""
-                        style={{ width: "48px" }}
-                      /> */}
+                    <Link href="#" onClick={() => handleClick(event)}>
                       IOCL
                     </Link>
                   </li>
 
                   <li>
-                    <Link href="#">
+                    <Link
+                      href="sustanibility"
+                      onClick={() => handleClick(event)}
+                    >
                       <span className="mm-text">Sustainability</span>
                     </Link>
                   </li>
                   <li>
-                    <Link href="certification">Certification</Link>
+                    <Link
+                      href="certification"
+                      onClick={() => handleClick(event)}
+                    >
+                      Certification
+                    </Link>
                   </li>
                   <li>
-                    <Link href="csr">CSR</Link>
+                    <Link href="csr" onClick={() => handleClick(event)}>
+                      CSR
+                    </Link>
                   </li>
                 </ul>
               </nav>
@@ -954,7 +1080,7 @@ export default function Header() {
           </div>
         </div>
       </div>
-      {/* <div className="global-overlay"></div> */}
+      <div className="global-overlay"></div>
     </header>
   );
 }
