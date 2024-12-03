@@ -340,14 +340,26 @@ export default function Header() {
                     </li>
                     <li className="drop-holder">
                       <Link href="#">
-                        <span style={{ textTransform: "lowercase" }}>r</span>PP
-                        Bags
+                        {/* <span style={{ textTransform: "lowercase" }}>r</span>PP
+                        Bags */}
+                        Recycled PP Bags
                       </Link>
                       <ul className="drop-menu">
                         <li>
                           <Link href="recycle-bags">100% Recycled PP Bags</Link>
                         </li>
                       </ul>
+                    </li>
+                    <li>
+                      <Link href="#">
+                        {" "}
+                        {/* <img
+                          src="assets/images/ioc.png"
+                          alt=""
+                          style={{ width: "48px" }}
+                        /> */}
+                        Bio-Degradable Bags
+                      </Link>
                     </li>
                     <li>
                       <Link href="#">PP Fabrics</Link>
@@ -367,17 +379,6 @@ export default function Header() {
                           <Link href="masterbatch">Masterbatch</Link>
                         </li>
                       </ul>
-                    </li>
-                    <li>
-                      <Link href="#">
-                        {" "}
-                        {/* <img
-                          src="assets/images/ioc.png"
-                          alt=""
-                          style={{ width: "48px" }}
-                        /> */}
-                        IOCL
-                      </Link>
                     </li>
                   </ul>
                 </nav>
@@ -554,8 +555,9 @@ export default function Header() {
                       </li>
                       <li className="drop-holder">
                         <Link href="#">
-                          <span style={{ textTransform: "lowercase" }}>r</span>
-                          PP Bags
+                          {/* <span style={{ textTransform: "lowercase" }}>r</span>
+                          PP Bags */}
+                          Recycled PP Bags
                         </Link>
                         <ul className="drop-menu">
                           <li>
@@ -564,6 +566,18 @@ export default function Header() {
                             </Link>
                           </li>
                         </ul>
+                      </li>
+
+                      <li>
+                        <Link href="#">
+                          {" "}
+                          {/* <img
+                            src="assets/images/ioc.png"
+                            alt=""
+                            style={{ width: "48px" }}
+                          /> */}
+                          Bio Degradable Bags
+                        </Link>
                       </li>
 
                       <li>
@@ -584,18 +598,6 @@ export default function Header() {
                             <Link href="masterbatch">Masterbatch</Link>
                           </li>
                         </ul>
-                      </li>
-
-                      <li>
-                        <Link href="#">
-                          {" "}
-                          {/* <img
-                            src="assets/images/ioc.png"
-                            alt=""
-                            style={{ width: "48px" }}
-                          /> */}
-                          IOCL
-                        </Link>
                       </li>
                     </ul>
                   </nav>
@@ -941,19 +943,18 @@ export default function Header() {
                           href="recycle-bags"
                           onClick={() => handleClick(event)}
                         >
-                          <span
-                            className="mm-text"
-                            style={{ justifyContent: "start" }}
-                          >
-                            <span style={{ textTransform: "lowercase" }}>
-                              r
-                            </span>
-                            PP Bags
-                          </span>
+                          100% Recycled PP Bags
                         </Link>
                       </li>
                     </ul>
                   </li>
+
+                  <li>
+                    <Link href="#" onClick={() => handleClick(event)}>
+                      Bio Degradable Bags
+                    </Link>
+                  </li>
+
                   <li>
                     <Link href="#" onClick={() => handleClick(event)}>
                       <span className="mm-text">PP Fabrics</span>
@@ -994,12 +995,6 @@ export default function Header() {
                         </Link>
                       </li>
                     </ul>
-                  </li>
-
-                  <li>
-                    <Link href="#" onClick={() => handleClick(event)}>
-                      IOCL
-                    </Link>
                   </li>
 
                   <li>
