@@ -319,26 +319,6 @@ export default function Header() {
                     </li>
 
                     <li className="drop-holder">
-                      <Link href="#">Technical Textiles</Link>
-                      <ul className="drop-menu">
-                        <li>
-                          <Link href="geotextiles">Geotextiles</Link>
-                        </li>
-                        <li>
-                          <Link href="pondlinear">Pond Liners</Link>
-                        </li>
-                        <li>
-                          <Link href="roofunderlayment">Roof Underlayment</Link>
-                        </li>
-                        <li>
-                          <Link href="lumber-wrap">Lumber Wrap</Link>
-                        </li>
-                        <li>
-                          <Link href="tarpauline">Tarpaulins</Link>
-                        </li>
-                      </ul>
-                    </li>
-                    <li className="drop-holder">
                       <Link href="#">
                         {/* <span style={{ textTransform: "lowercase" }}>r</span>PP
                         Bags */}
@@ -363,6 +343,27 @@ export default function Header() {
                     </li>
                     <li>
                       <Link href="#">PP Fabrics</Link>
+                    </li>
+
+                    <li className="drop-holder">
+                      <Link href="#">Technical Textiles</Link>
+                      <ul className="drop-menu">
+                        <li>
+                          <Link href="geotextiles">Geotextiles</Link>
+                        </li>
+                        <li>
+                          <Link href="pondlinear">Pond Liners</Link>
+                        </li>
+                        <li>
+                          <Link href="roofunderlayment">Roof Underlayment</Link>
+                        </li>
+                        <li>
+                          <Link href="lumber-wrap">Lumber Wrap</Link>
+                        </li>
+                        <li>
+                          <Link href="tarpauline">Tarpaulins</Link>
+                        </li>
+                      </ul>
                     </li>
 
                     <li>
@@ -532,28 +533,6 @@ export default function Header() {
                       </li>
 
                       <li className="drop-holder">
-                        <Link href="">Technical Textiles</Link>
-                        <ul className="drop-menu">
-                          <li>
-                            <Link href="geotextiles">Geotextiles</Link>
-                          </li>
-                          <li>
-                            <Link href="pondlinear">Pond Liners</Link>
-                          </li>
-                          <li>
-                            <Link href="roofunderlayment">
-                              Roof Underlayment
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="lumber-wrap">Lamber Wrap</Link>
-                          </li>
-                          <li>
-                            <Link href="tarpauline">Tarpaulins</Link>
-                          </li>
-                        </ul>
-                      </li>
-                      <li className="drop-holder">
                         <Link href="#">
                           {/* <span style={{ textTransform: "lowercase" }}>r</span>
                           PP Bags */}
@@ -582,6 +561,29 @@ export default function Header() {
 
                       <li>
                         <Link href="#">PP Fabrics</Link>
+                      </li>
+
+                      <li className="drop-holder">
+                        <Link href="">Technical Textiles</Link>
+                        <ul className="drop-menu">
+                          <li>
+                            <Link href="geotextiles">Geotextiles</Link>
+                          </li>
+                          <li>
+                            <Link href="pondlinear">Pond Liners</Link>
+                          </li>
+                          <li>
+                            <Link href="roofunderlayment">
+                              Roof Underlayment
+                            </Link>
+                          </li>
+                          <li>
+                            <Link href="lumber-wrap">Lamber Wrap</Link>
+                          </li>
+                          <li>
+                            <Link href="tarpauline">Tarpaulins</Link>
+                          </li>
+                        </ul>
                       </li>
 
                       <li>
@@ -877,6 +879,38 @@ export default function Header() {
                       </li>
                     </ul>
                   </li>
+
+                  <li className="menu-item-has-children">
+                    <Link href="#">
+                      <span className="mm-text">
+                        Recycled PP Bags
+                        <i className="pe-7s-angle-down"></i>
+                      </span>
+                    </Link>
+                    <ul className="sub-menu">
+                      <li className="menu-item-has-children">
+                        <Link
+                          href="recycle-bags"
+                          onClick={() => handleClick(event)}
+                        >
+                          100% Recycled PP Bags
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li>
+                    <Link href="#" onClick={() => handleClick(event)}>
+                      Bio Degradable Bags
+                    </Link>
+                  </li>
+
+                  <li>
+                    <Link href="#" onClick={() => handleClick(event)}>
+                      <span className="mm-text">PP Fabrics</span>
+                    </Link>
+                  </li>
+
                   <li className="menu-item-has-children">
                     <Link href="#">
                       <span className="mm-text">
@@ -928,37 +962,6 @@ export default function Header() {
                         </Link>
                       </li>
                     </ul>
-                  </li>
-
-                  <li className="menu-item-has-children">
-                    <Link href="#">
-                      <span className="mm-text">
-                        Recycled PP Bags
-                        <i className="pe-7s-angle-down"></i>
-                      </span>
-                    </Link>
-                    <ul className="sub-menu">
-                      <li className="menu-item-has-children">
-                        <Link
-                          href="recycle-bags"
-                          onClick={() => handleClick(event)}
-                        >
-                          100% Recycled PP Bags
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-
-                  <li>
-                    <Link href="#" onClick={() => handleClick(event)}>
-                      Bio Degradable Bags
-                    </Link>
-                  </li>
-
-                  <li>
-                    <Link href="#" onClick={() => handleClick(event)}>
-                      <span className="mm-text">PP Fabrics</span>
-                    </Link>
                   </li>
 
                   <li>

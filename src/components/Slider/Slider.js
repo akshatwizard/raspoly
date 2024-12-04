@@ -10,6 +10,7 @@ export default function Slider() {
     '"One-stop solution for all your packaging needs."',
     "Promoting a circular economy and sustainability through creating systems that minimize waste and make the most of resources.",
     "Little leaf is our unique initiative which promotes recycling and invests 100% proceeds in education of children and tree plantation. Visit www.littleleaf.one to know more about this.",
+    "",
   ];
 
   const [expanded, setExpanded] = useState(Array(texts.length).fill(false));
@@ -34,7 +35,7 @@ export default function Slider() {
           <div
             id="carouselExampleAutoplaying"
             className="carousel slide"
-            // data-bs-ride="carousel"
+            data-bs-ride="carousel"
           >
             <div className="carousel-inner">
               {texts.map((text, index) => (
@@ -61,6 +62,7 @@ export default function Slider() {
                           {index === 4 && "Broad spectrum"}
                           {index === 5 && "Resilience"}
                           {index === 6 && "Giving back to Society"}
+                          {index === 7 && "DCA/DOPW of IOCL"}
                         </h2>
                         <h2 className="title show">
                           {index === 0 && "State of Art Techonology"}
@@ -77,6 +79,7 @@ export default function Slider() {
                           {index === 4 && "Broad spectrum"}
                           {index === 5 && "Resilience"}
                           {index === 6 && "Giving back to Society"}
+                          {index === 7 && "DCA/DOPW of IOCL"}
                         </h2>
                         <p className="short-desc">
                           {expanded[index] ? text : truncateText(text, 100)}
