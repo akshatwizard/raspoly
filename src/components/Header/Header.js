@@ -331,7 +331,7 @@ export default function Header() {
                       </ul>
                     </li>
                     <li>
-                      <Link href="#">
+                      <Link href="bio-degradable-bags">
                         {" "}
                         {/* <img
                           src="assets/images/ioc.png"
@@ -342,7 +342,7 @@ export default function Header() {
                       </Link>
                     </li>
                     <li>
-                      <Link href="#">PP Fabrics</Link>
+                      <Link href="pp-fabric">PP Fabrics</Link>
                     </li>
 
                     <li className="drop-holder">
@@ -548,7 +548,7 @@ export default function Header() {
                       </li>
 
                       <li>
-                        <Link href="#">
+                        <Link href="bio-degradable-bags">
                           {" "}
                           {/* <img
                             src="assets/images/ioc.png"
@@ -560,7 +560,7 @@ export default function Header() {
                       </li>
 
                       <li>
-                        <Link href="#">PP Fabrics</Link>
+                        <Link href="pp-fabric">PP Fabrics</Link>
                       </li>
 
                       <li className="drop-holder">
@@ -900,13 +900,13 @@ export default function Header() {
                   </li>
 
                   <li>
-                    <Link href="#" onClick={() => handleClick(event)}>
+                    <Link href="bio-degradable-bags" onClick={() => handleClick(event)}>
                       Bio Degradable Bags
                     </Link>
                   </li>
 
                   <li>
-                    <Link href="#" onClick={() => handleClick(event)}>
+                    <Link href="pp-fabric" onClick={() => handleClick(event)}>
                       <span className="mm-text">PP Fabrics</span>
                     </Link>
                   </li>
