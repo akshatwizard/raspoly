@@ -194,7 +194,7 @@ export default function Footer() {
               <div class="col-lg-12">
                 <div class="copyright">
                   <span class="copyright-text">
-                    © 2024 RAS Polytex PVT LTD Made with &nbsp;
+                    © {new Date().getFullYear()} RAS Polytex PVT LTD Made with &nbsp;
                     <i class="fa fa-heart text-danger"></i> &nbsp; by  &nbsp;
                     <a
                       href=" https://www.wizards.co.in"
