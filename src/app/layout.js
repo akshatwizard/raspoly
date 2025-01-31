@@ -2,6 +2,8 @@ import Header from "@/components/Header/Header";
 import "./globals.css";
 import Footer from "@/components/Footer/Footer";
 import { GoogleAnalytics } from "@next/third-parties/google";
+import Providers from "@/components/Nprogress";
+import { ReactLenis } from "lenis/react";
 
 export const metadata = {
   title: "RAS Polytex PVT LTD",
@@ -32,11 +34,15 @@ export default function RootLayout({ children }) {
         ></link>
       </head>
       <body>
-        <div className="main-wrapper">
-          <Header />
-          {children}
-          <Footer />
-        </div>
+        <ReactLenis root>
+          <div className="main-wrapper">
+            <Providers>
+              <Header />
+              {children}
+              <Footer />
+            </Providers>
+          </div>
+        </ReactLenis>
         <GoogleAnalytics gaId="G-064ZQKMCLZ" />
         <script src="assets/js/vendor/bootstrap.bundle.min.js"></script>
         <script src="assets/js/vendor/jquery-3.6.0.min.js"></script>
