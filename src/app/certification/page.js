@@ -61,6 +61,7 @@ export default function page() {
               <p className="w-100 text-center mt-3 fs-5">AEO Certificate</p>
             </div>
           </div>
+                {/*
           <div className="col-lg-4 col-md-6 col-12 ">
             <div className="border rounded p-3 asd">
               <img
@@ -73,6 +74,7 @@ export default function page() {
               </p>
             </div>
           </div>
+          */}
           <div className="col-lg-4 col-md-6 col-12 ">
             <div className="border rounded p-3 asd">
               <img
