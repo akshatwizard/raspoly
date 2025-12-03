@@ -13,13 +13,13 @@ export default function Certificate() {
             <img src="/assets/images/certificate/raspoly-aenor.jpeg" alt="" />
           </div>
           */}
-          <div className="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div className="col-lg-4 col-md-4 col-sm-6 col-6">
             <img src="/assets/images/certificate/raspoly-iso9001.jpg" alt="" />
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div className="col-lg-4 col-md-4 col-sm-6 col-6">
             <img src="/assets/images/certificate/new-1.png" alt="" />
           </div>
-          <div className="col-lg-3 col-md-4 col-sm-6 col-6">
+          <div className="col-lg-4 col-md-4 col-sm-6 col-6">
             <img src="/assets/images/certificate/new-2.png" alt="" />
           </div>
         </div>
