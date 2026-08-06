@@ -1,7 +1,8 @@
 import Link from "next/link";
 import React from "react";
+import { DEFAULT_BRAND } from "@/config/brands";
 
-export default function Footer() {
+export default function Footer({ brand = DEFAULT_BRAND }) {
   return (
     <section className="" style={{ backgroundColor: "#D8E9D6" }}>
       <div class="footer-area">
@@ -121,7 +122,7 @@ export default function Footer() {
             <div className="cpl-lg-12 d-flex justify-content-center">
               <Link href="/" className="header-logo justify-content-center">
                 <img
-                  src="assets/images/logo/logo.png"
+                  src={brand.logo}
                   className="logoImage"
                   alt="Header Logo"
                 />
@@ -194,7 +195,7 @@ export default function Footer() {
               <div class="col-lg-12">
                 <div class="copyright">
                   <span class="copyright-text">
-                    © {new Date().getFullYear()} RAS Polytex PVT LTD Made with &nbsp;
+                    © {new Date().getFullYear()} {brand.legalName} Made with &nbsp;
                     <i class="fa fa-heart text-danger"></i> &nbsp; by  &nbsp;
                     <a
                       href=" https://www.wizards.co.in"
