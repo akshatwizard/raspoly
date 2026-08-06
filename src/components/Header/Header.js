@@ -1,8 +1,9 @@
 "use client";
 import Link from "next/link";
 import React from "react";
+import { DEFAULT_BRAND } from "@/config/brands";
 
-export default function Header() {
+export default function Header({ brand = DEFAULT_BRAND }) {
   function handleClick(event) {
     event.preventDefault();
     const mobileMenuWrapper = document.querySelector(".mobile-menu_wrapper");
@@ -31,17 +32,17 @@ export default function Header() {
               <div className="header-middle-wrap position-relative">
                 <Link href="/" className="header-logo">
                   <img
-                    src="assets/images/logo/logo.png"
+                    src={brand.logo}
                     className="logoImage"
-                    alt="Header Logo"
+                    alt={`${brand.name} logo`}
                   />
                   <p className="logoName">
-                    RAS Polytex Pvt. Ltd.
+                    {brand.name}
                     <br />
                     <span className="line"></span>
-                    <span>An ISO 9001, 14001, 22000 Company</span>
+                    <span>{brand.tagline}</span>
                     <br />
-                    <span>SINCE 1983</span>
+                    <span>{brand.since}</span>
                   </p>
                 </Link>
 
@@ -396,18 +397,18 @@ export default function Header() {
               <div className="col-lg-1 col-6">
                 <Link href="/" className="header-logo">
                   <img
-                    src="assets/images/logo/logo.png"
+                    src={brand.logo}
                     className="stickylogoImage"
-                    alt="Header Logo"
+                    alt={`${brand.name} logo`}
                   />
                   <div className="company-name">
                     <p className="logoName">
-                      RAS Polytex Pvt. Ltd.
+                      {brand.name}
                       <br />
                       <span className="line"></span>
-                      <span>An ISO 9001, 14001, 22000 Company</span>
+                      <span>{brand.tagline}</span>
                       <br />
-                      <span>SINCE 1983</span>
+                      <span>{brand.since}</span>
                     </p>
                   </div>
                 </Link>
@@ -641,9 +642,9 @@ export default function Header() {
                 onClick={() => handleClick(event)}
               >
                 <img
-                  src="assets/images/logo/logo.png"
+                  src={brand.logo}
                   className="logoImage"
-                  alt="Header Logo"
+                  alt={`${brand.name} logo`}
                 />
               </Link>
             </div>
