@@ -4,19 +4,26 @@ import Footer from "@/components/Footer/Footer";
 import { GoogleAnalytics } from "@next/third-parties/google";
 import Providers from "@/components/Nprogress";
 import { ReactLenis } from "lenis/react";
+import { getBrand } from "@/config/getBrand";
 
-export const metadata = {
-  title: "RAS Polytex PVT LTD",
-  description: "RAS Polytex PVT LTD",
-};
+export function generateMetadata() {
+  const brand = getBrand();
+  return {
+    title: brand.legalName,
+    description: brand.legalName,
+    alternates: { canonical: brand.domain },
+  };
+}
 
 export default function RootLayout({ children }) {
+  const brand = getBrand();
+
   return (
     <html lang="en">
       <head>
         <link
           rel="shortcut icon"
-          href="/assets/images/logo/logo.png"
+          href={brand.logo}
           type="image/x-icon"
         />
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
@@ -37,9 +44,9 @@ export default function RootLayout({ children }) {
         <ReactLenis root>
           <div className="main-wrapper">
             <Providers>
-              <Header />
+              <Header brand={brand} />
               {children}
-              <Footer />
+              <Footer brand={brand} />
             </Providers>
           </div>
         </ReactLenis>
