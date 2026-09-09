@@ -21,11 +21,13 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <link
-          rel="shortcut icon"
-          href={brand.logo}
-          type="image/x-icon"
-        />
+        {brand.favicon && (
+          <link
+            rel="shortcut icon"
+            href={brand.favicon}
+            type="image/x-icon"
+          />
+        )}
         <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
         <link rel="stylesheet" href="assets/css/font-awesome.min.css" />
         <link rel="stylesheet" href="assets/css/Pe-icon-7-stroke.css" />
