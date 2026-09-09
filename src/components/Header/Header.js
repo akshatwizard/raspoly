@@ -31,11 +31,13 @@ export default function Header({ brand = DEFAULT_BRAND }) {
             <div className="col-lg-12">
               <div className="header-middle-wrap position-relative">
                 <Link href="/" className="header-logo">
-                  <img
-                    src={brand.logo}
-                    className="logoImage"
-                    alt={`${brand.name} logo`}
-                  />
+                  {brand.logo && (
+                    <img
+                      src={brand.logo}
+                      className="logoImage"
+                      alt={`${brand.name} logo`}
+                    />
+                  )}
                   <p className="logoName">
                     {brand.name}
                     <br />
@@ -396,11 +398,13 @@ export default function Header({ brand = DEFAULT_BRAND }) {
             <div className="row align-items-center">
               <div className="col-lg-1 col-6">
                 <Link href="/" className="header-logo">
-                  <img
-                    src={brand.logo}
-                    className="stickylogoImage"
-                    alt={`${brand.name} logo`}
-                  />
+                  {brand.logo && (
+                    <img
+                      src={brand.logo}
+                      className="stickylogoImage"
+                      alt={`${brand.name} logo`}
+                    />
+                  )}
                   <div className="company-name">
                     <p className="logoName">
                       {brand.name}
@@ -641,11 +645,14 @@ export default function Header({ brand = DEFAULT_BRAND }) {
                 className="header-logo"
                 onClick={() => handleClick(event)}
               >
-                <img
-                  src={brand.logo}
-                  className="logoImage"
-                  alt={`${brand.name} logo`}
-                />
+                {brand.logo && (
+                  <img
+                    src={brand.logo}
+                    className="logoImage"
+                    alt={`${brand.name} logo`}
+                  />
+                )}
+                <span className="offcanvas-brand-name">{brand.shortName}</span>
               </Link>
             </div>
             <div className="offcanvas-menu_area">
