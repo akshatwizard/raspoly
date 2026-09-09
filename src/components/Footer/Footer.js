@@ -121,11 +121,13 @@ export default function Footer({ brand = DEFAULT_BRAND }) {
           <div className="row">
             <div className="cpl-lg-12 d-flex justify-content-center">
               <Link href="/" className="header-logo justify-content-center">
-                <img
-                  src={brand.logo}
-                  className="logoImage"
-                  alt="Header Logo"
-                />
+                {brand.logo && (
+                  <img
+                    src={brand.logo}
+                    className="logoImage"
+                    alt={`${brand.name} logo`}
+                  />
+                )}
               </Link>
             </div>
             <div className="col-lg-12 py-4 d-flex justify-content-center">
