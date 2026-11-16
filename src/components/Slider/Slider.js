@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 export default function Slider() {
   const texts = [
-    "We are a four-decade-old company that employs the latest techonology machines to ensure the best quality at the best price.",
+    "We are a four-decade-old company that employs the latest technology machines to ensure the best quality at the best price.",
     "Bag making needs human hands and we take care of our people so that our customers get flawless stitched bags.",
     "We have expertise and required certifications for making up to 100% recycled PP bags, with minimum impact on the strength as compared to virgin bags. We have improved the processes and technology with our focus in this area since the last 15 years. Replast is our trademark and motto.",
     "Whatever colour it looks, our bags are always green as they are made by taking care of the environment. We harness the energy of the sun to generate electricity, process water is recycled, rainwater is harvested, and waste is minimised and recycled.",
