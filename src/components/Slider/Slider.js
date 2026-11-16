@@ -48,7 +48,7 @@ export default function Slider() {
                     <div className="slide-inner style-2">
                       <div className="slide-content text-black">
                         <h2 className="title hide">
-                          {index === 0 && "State of Art Technology"}
+                          {index === 0 && "State of Art Technology "}
                           {index === 1 && "Art of Stitching"}
                           {index === 2 && (
                             <img
