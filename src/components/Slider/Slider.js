@@ -65,7 +65,7 @@ export default function Slider() {
                           {index === 7 && "DCA/DOPW of IOCL"}
                         </h2>
                         <h2 className="title show">
-                          {index === 0 && "State of Art Techonology"}
+                          {index === 0 && "State of Art Technology"}
                           {index === 1 && "Art of Stitching"}
                           {index === 2 && (
                             <img
